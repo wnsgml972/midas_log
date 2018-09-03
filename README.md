@@ -17,4 +17,4 @@
 
 
 :heavy_check_mark:
-* &nbsp; [2018년 / 09월](/contents/2018.09/09main.md)
+* &nbsp; [2018년 09월](/contents/2018.09/09main.md)
