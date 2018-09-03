@@ -1,7 +1,7 @@
 # MIDAS LOG
 
 
-## 2018.09.03
+## 2018.09
 :memo:
 * [첫째 주] 적응, C++ 공부, MFC 공부
   * 목표 : 미완
@@ -16,5 +16,5 @@
   * 목표 : 미완
 
 
-:heavy_check_mark:
+## :heavy_check_mark:
 * &nbsp; [2018년 09월](/contents/2018.09/09.md)
