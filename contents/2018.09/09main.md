@@ -1,1 +1,0 @@
-# MIDAS LOG
