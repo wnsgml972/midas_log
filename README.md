@@ -1,6 +1,6 @@
 # MIDAS LOG
 
-## 팀 규칙
+# 팀 규칙
 
 1. __티타임__ : (매주 한 번씩 오전 9시 전에)
 
@@ -13,6 +13,10 @@
 5. __마라톤__ : 연습도 하는 듯?, 갈아 입을 옷, 운동화 챙기기
 
 6. __연구소장 간담회__ : 파트원+파트장+연구소장+팀장 회의 반기에 2번씩, 예정
+
+--
+
+# 월 별 기록
 
 ## 2018.09
 :memo:
@@ -31,3 +35,34 @@
 
 ## :heavy_check_mark:
 * &nbsp; [2018년 09월](/contents/2018.09/09.md)
+
+--
+
+
+<br/><br/>
+
+## 맛집
+
+### 분당 맛집
+
+* [분당 맛집 모음](https://github.com/JeaSungLEE/bundang)
+
+### 맛집 블로그
+
+* [사랑이 밥먹여준다](https://blog.naver.com/zephyr122059)
+
+* [팻투바하](http://blog.naver.com/pat2bach)
+
+* [녹두장군](http://hsong.egloos.com/)
+
+* [레드피쉬](http://redfish.egloos.com/)
+
+* [최사장](https://blog.naver.com/mpasdf)
+
+* [비밀이야](https://blog.naver.com/mardukas)
+
+* [류크](https://blog.naver.com/luke_suh)
+
+* [레이니](https://blog.naver.com/paperchan)
+
+* [스시홀릭](https://blog.naver.com/blue85888)
