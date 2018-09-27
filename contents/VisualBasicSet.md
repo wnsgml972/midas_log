@@ -21,7 +21,7 @@ __VS실행 -> [도구] -> [확장 및 업데이트] -> [온라인] -> [Visual St
   * 텍스트의 인덴트를 일치하게 만들어줌
 * StructureVisualizer (c++ only)
   * 구문, 즉 괄호에 조금 더 잘 알아볼 수 있게 하이라이팅 해줌
-  * + 기능으로 영역 안에서 ctrl 누르고 있으면 하이라이팅 찐하게 됨
+  * 기능으로 영역 안에서 ctrl 누르고 있으면 하이라이팅 찐하게 됨
 * Viasfora
   * Text Editor에 다양한 색깔 추가
 * Visual Assist X
@@ -46,7 +46,7 @@ __VS실행 -> [도구] -> [확장 및 업데이트] -> [온라인] -> [Visual St
  * 뒤로가기 (ctrl + - ) -> __( ```ctrl + 화살표 왼쪽``` )__
  * 뒤로가기 (ctrl + shift + - ) -> __( ```ctrl + 화살표 오른쪽``` )__
  * VAssistX.RefactorAddInclude __( ```alt + I``` )__
- * VAssistX.OpenCorrespondingFile (alt + O) ->  __( ```ctrl + ```` )__
+ * VAssistX.OpenCorrespondingFile (alt + O) ->  __( ```ctrl + ` ``` )__
  * 정렬 (ctrl + shift + F, 원래꺼 지우기) ->  __( ```ctrl + shift + F``` )__
 
 
