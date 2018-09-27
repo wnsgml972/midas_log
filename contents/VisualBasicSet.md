@@ -73,6 +73,12 @@ __VS실행 -> [도구] -> [확장 및 업데이트] -> [온라인] -> [Visual St
 * ``Shift + Alt + F``
    * Reference 찾기
 
+
+### CustomDocWell
+
+ * 다음탭,이전탭 __( ```Ctrl + Alt + Page up, down``` )__
+
+
 ### Basic Visual
 
 * 주석, 풀기  __( ```드래그 + /``` )__
