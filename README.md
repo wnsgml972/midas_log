@@ -46,6 +46,10 @@
 
 [Visual Basic Set](/contents/VisualBasicSet.md)
 
+## Basic Education
+
+[Basic Education](/contents/VisualBasicSet.md)
+
 ## 맛집
 
 ### 분당 맛집

@@ -1,6 +1,7 @@
 
-# Visual Basic Setting
+## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
+# Visual Basic Setting
 
 ## Font
 
