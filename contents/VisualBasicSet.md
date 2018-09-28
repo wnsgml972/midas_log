@@ -78,22 +78,14 @@ __VS실행 -> [도구] -> [확장 및 업데이트] -> [온라인] -> [Visual St
 
 ### Visual Assist
 
-* ``Alt + O``  ->  ```Ctrl + ` ``` 단축기 추가 해줘야 함
-   * Header file과 Source file같은 전환~같은 전환
-* ```Alt + I```  -> 마찬가지로 단축기 추가 해줘야 함
-   * Add Include
-* ``Alt + G``
-   * 함수의 선언과 구현부를 왔다갔다 함
-* ``Ctrl + G``
-   * 원하는 줄로 이동함
-* ``Alt + Shift + S``
-   * 심볼 찾기
-* `` Alt + Shift + O``
-   * 파일 찾기
-* ``Alt + M``
-   * 현재 파일의 함수 찾기
-* ``Shift + Alt + F``
-   * Reference 찾기
+* Header file과 Source file 전환 __( ```Ctrl + ` ``` )__
+* Add Include __( ```Alt + I``` )__
+* 함수의 선언과 구현부 전환 __( ```Alt + G``` )__
+* 원하는 줄로 이동  __( ```Ctrl + G``` )__
+* 심볼 찾기 __( ```Alt + Shift + S``` )__
+* 파일 찾기 __( ``` Alt + Shift + O``` )__
+* 현재 파일의 함수 찾기 __( ```Alt + M``` )__
+* Reference 찾기 __( ```Shift + Alt + F``` )__
 
 ### CustomDocWell
 

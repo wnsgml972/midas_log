@@ -48,7 +48,7 @@
 
 ## Basic Education
 
-[Basic Education](/contents/VisualBasicSet.md)
+[Basic Education](/contents/BasicEducation/README.md)
 
 ## 맛집
 
