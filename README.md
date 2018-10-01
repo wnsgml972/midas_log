@@ -14,9 +14,19 @@
 
 6. __연구소장 간담회__ : 파트원+파트장+연구소장+팀장 회의 반기에 2번씩, 예정
 
-7. __주간업무공유__ : 에버노트로 한 주의 목표, 특이사항, 공유사항, 진행사항 등을 적어 팀원들과 공유, 월요일에 목표를 작성하고 금요일에 점검하는 방식으로 사용
+7. __주간업무공유__ : 에버노트로 한 주의 목표, 특이사항, 공ㅡ유사항, 진행사항 등을 적어 팀원들과 공유, 월요일에 목표를 작성하고 금요일에 점검하는 방식으로 사용
 
 ---
+
+## Visual Basic Setting
+
+[Visual Basic Set](/contents/VisualBasicSet.md)
+
+## Basic Education
+
+[Basic Education](/contents/BasicEducation/README.md)
+
+<br/>
 
 # 월 별 기록
 
@@ -38,17 +48,28 @@
 ## :heavy_check_mark:
 * &nbsp; [2018년 09월](/contents/2018.09/09.md)
 
+
+## 2018.10
+:memo:
+* [첫째 주] CIM 업무 공부
+  * 목표 : 기능 하나 구현해보기
+
+* [둘째 주]
+  * 목표 :
+
+* [셋째 주]
+  * 목표 :
+
+* [넷째 주]
+  * 목표 :
+
+
+## :heavy_check_mark:
+* &nbsp; [2018년 10월](/contents/2018.10/10.md)
+
 ---
 
 <br/><br/>
-
-## Visual Basic Setting
-
-[Visual Basic Set](/contents/VisualBasicSet.md)
-
-## Basic Education
-
-[Basic Education](/contents/BasicEducation/README.md)
 
 ## 맛집
 
