@@ -28,7 +28,7 @@
  * 디버깅
 
 ### 디자인 패턴
- * [C++ 디자인 패턴](https://github.com/wnsgml972/Cpp-Design-Pattern-Study)
+ * [디자인 패턴](https://github.com/wnsgml972/Java-Design-Pattern)
  * 인터페이스에 맞춘 프로그래밍을 한다.
  * 상속보다는 구성을
 
@@ -43,13 +43,13 @@
  * [빌드 속도 개선](./Build.md)
 
 ### 버젼 컨트롤
- * Git
+ * Git (나는 소스트리 사용)
 
 ### Parasolid
- * 3D 캐드 엔진
+ * 다른 회사 3D 캐드 엔진
 
 ### Phase
- *
+ * MIDAS UI FrameWork
 
 ### MIDAS DB
  *
