@@ -7,6 +7,9 @@
 
 __[도구] -> [옵션] -> [환경] -> [글꼴 및 색] (08서울남산체 M), 크기 10__
 
+* 폰트의 경우 Coding Font의 맞게 코딩시 영문자와 숫자, 한글간의 모호성이 있는 기호가 변별력이 있는 폰트를 선택하였습니다.
+* [Naver D2 Coding Font](https://github.com/naver/d2codingfont)
+
 <br/>
 
 ## Visaul Add In
