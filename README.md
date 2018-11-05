@@ -72,7 +72,7 @@
 
 ## 2018.11
 :memo:
-* [첫째 주] IFC Geometry Converter
+* [첫째 주] IFC Geometry Converter, C++ 17 문법 공부
   * 목표 : 자료 정리 완료
 
 * [둘째 주]
