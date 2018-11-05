@@ -86,7 +86,7 @@
 
 
 ## :heavy_check_mark:
-* &nbsp; [2018년 10월](/contents/2018.10/11.md)
+* &nbsp; [2018년 11월](/contents/2018.11/11.md)
 
 ---
 
