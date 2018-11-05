@@ -1,12 +1,12 @@
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
+<br/><br/><hr/>
 
-<br/><br/>
+## 그 외 공부하면서 알아야 할 것
 
+### gtest
 
-## gtest
-
-### 특징
+#### 특징
 
 * Google에서 개발된 C++ 테스트 프레임 워크
 * Git에서 다운받아서 헤더파일 추가해서 사용
@@ -17,25 +17,25 @@
 * 테스트 코드를 다 통과하더라도 버그가 없는 건 아니다.
 * 사실 상 및에 참고 자료 정독하면 다 이해 됨
 
-### 참고
+#### 참고
 
 * [gtest 1 (c++ 17 문법은 아님!)](https://www.slideshare.net/jinhwason/ss-69528881)
 * [gtest 2 (c++ 17 문법은 아님!)](https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1)
 
 <br/>
 
-## C++ Style Casting
+### C++ Style Casting
 
 
 
 
-<br/>
+<br/><hr/>
 
-# C++ 17 문법 공부
+## C++ 17 문법 공부
 
-## If-Init
+### If-Init
 
-## 익명 함수 문법(Lambda)
+### 익명 함수 문법(Lambda)
 
 <pre>
   auto bar = []() -> float { return 3.14f; }; // arrow function을 이용하면 타입 명시 가능
@@ -46,6 +46,6 @@
   [] 아무것도 캡처하지 않음.  
 </pre>
 
-## 참고
+### 참고
 
 * [C++ 17](https://medium.com/@snghojeong/c-17-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5%EB%93%A4-558f323c27d1)
