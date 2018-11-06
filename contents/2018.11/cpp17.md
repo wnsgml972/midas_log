@@ -71,7 +71,15 @@
 2개 이상의 값을 반환하거나 전달할 때 사용하면 유용하다.  
 __참고로 C++ 14 문법은 요소 하나 조회가 복잡함! C++ 17이니까 개 쉬움..__
 
-~~~
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -91,7 +99,10 @@ int main()
 
 	return 0;
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
 
 <br/><hr/>
 
@@ -282,7 +293,7 @@ int main()
 
 ### Fold Expressions
 
-다음과 같이 sum(a,b,c,etc...) 같은 형태를 밑과 같이 표현할 수 있다.
+다음과 같이 sum(a,b,c,etc...) 같은 형태를 다음과 같이 표현할 수 있다.
 
 ~~~
 template <typename... Args>
