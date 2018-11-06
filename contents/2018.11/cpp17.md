@@ -436,30 +436,10 @@ struct Foo {
 
 
 
-<br/>
-
-### std::optional<T>
-
-
-
 
 <br/>
 
 ### namespace std::filesystem
-
-
-
-
-<br/>
-
-### Parallel STL
-
-
-
-
-<br/>
-
-### Technical Specifications (TS)
 
 
 
