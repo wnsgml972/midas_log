@@ -213,11 +213,11 @@ int main()
 
 #### 예시 3
 
-#include <iostream>
-
 배열에도 다음과 같이 사용할 수 있다.
 
 ~~~
+#include <iostream>
+
 int main()
 {
 	int arr[4] = { 1, 2, 3, 4 };
@@ -259,7 +259,7 @@ int main()
 
 <br/>
 
-### template<auto>
+### <pre lang="cpp"> template<auto></pre>
 
 다음과 같이 Type을 auto로 지정할 수 있다.
 
