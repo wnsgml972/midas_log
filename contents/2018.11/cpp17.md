@@ -19,8 +19,8 @@
 
 #### 참고
 
-* [gtest 1 (c++ 17 문법은 아님!)](https://www.slideshare.net/jinhwason/ss-69528881)
-* [gtest 2 (c++ 17 문법은 아님!)](https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1)
+* <https://www.slideshare.net/jinhwason/ss-69528881>
+* <https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1>
 
 <br/>
 
@@ -60,6 +60,38 @@
 
 
 #### 거의 static_cast를 위주로 사용하는 것이 좋다
+
+
+
+<br/>
+
+### 익명 함수 문법(Lambda)
+
+~~~
+  auto bar = []() -> float { return 3.14f; }; // arrow function을 이용하면 타입 명시 가능
+
+  [a,&b] a를 복사로 캡처, b를 참조로 캡처.
+  [this] 현재 객체를 참조로 캡처.
+  [&] 몸통에서 쓰이는 모든 변수나 상수를 참조로 캡처하고 현재 객체를 참조로 캡처.
+  [=] 몸통에서 쓰이는 모든 변수나 상수를 복사로 캡처하고 현재 객체를 참조로 캡처.
+  [] 아무것도 캡처하지 않음.  
+~~~
+
+~~~
+Connect(type, [&](Param*) -> void
+{
+  auto cv = GetInsertParameter();
+  if (cv.IsString())
+  {
+    auto pr_str = cv.GetString();
+    if (pr_str == L"apply")
+    {
+      Apply(nullptr);
+    }
+  }
+});
+~~~
+
 
 
 
@@ -397,21 +429,6 @@ struct Foo {
 </td>
 </tr>
 </table>
-
-
-
-<br/>
-
-### 익명 함수 문법(Lambda)
-
-~~~
-  auto bar = []() -> float { return 3.14f; }; // arrow function을 이용하면 타입 명시 가능
-  [a,&b] a를 복사로 캡처, b를 참조로 캡처.
-  [this] 현재 객체를 참조로 캡처.
-  [&] 몸통에서 쓰이는 모든 변수나 상수를 참조로 캡처하고 현재 객체를 참조로 캡처.
-  [=] 몸통에서 쓰이는 모든 변수나 상수를 복사로 캡처하고 현재 객체를 참조로 캡처.
-  [] 아무것도 캡처하지 않음.  
-~~~
 
 
 
