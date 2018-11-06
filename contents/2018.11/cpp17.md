@@ -400,19 +400,6 @@ struct Foo {
 
 
 
-
-<br/>
-
-### Guaranteed Copy Elision
-
-
-
-
-<br/>
-
-### some new [[attributes]]
-
-
 <br/>
 
 ### 익명 함수 문법(Lambda)
@@ -425,6 +412,64 @@ struct Foo {
   [=] 몸통에서 쓰이는 모든 변수나 상수를 복사로 캡처하고 현재 객체를 참조로 캡처.
   [] 아무것도 캡처하지 않음.  
 ~~~
+
+
+
+<br/>
+
+### std::string_view
+
+
+
+
+<br/>
+
+### std::optional<T>
+
+
+
+
+<br/>
+
+### std::variant<A,B,C,...>
+
+
+
+
+<br/>
+
+### std::optional<T>
+
+
+
+
+<br/>
+
+### namespace std::filesystem
+
+
+
+
+<br/>
+
+### Parallel STL
+
+
+
+
+<br/>
+
+### Technical Specifications (TS)
+
+
+
+
+<br/>
+
+### Parallel STL
+
+
+
 
 
 <br/>
