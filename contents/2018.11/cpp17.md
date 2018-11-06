@@ -259,7 +259,7 @@ int main()
 
 <br/>
 
-### <pre lang="cpp"> template<auto></pre>
+### ```template<auto>```
 
 다음과 같이 Type을 auto로 지정할 수 있다.
 
