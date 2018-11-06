@@ -26,14 +26,89 @@
 
 ### C++ Style Casting
 
+#### ```static_cast<>()```
+
+* __기본적으로 c 타입의 캐스팅과 비슷함__
+* 기본 데이터 타입간의 변환
+* 상속 관계의 클래스 계층 간의 변환
+* 다형성 없어도 가능
+* void 포인터를 다른 포인터로 변환
 
 
+#### ```const_cast<>()```
+
+* __포인터의 상수성을 제거 할 때 사용 (const를 제거함)__
+
+
+#### ```dynamic_cast<>()```
+
+* 상속 관계 안에서만 사용 가능
+* 하나 이상의 가상함수를 가지고 있어야 함
+* 컴파일러의 RTTI 설정이 켜져 있어야 함
+* 캐스팅에 실패할 경우 포인터면 nullptr을 return, 참조자면 bad_cast 예외를 던짐
+* 안전한 캐스팅
+* __매우 느림!  (사실 캐스팅에 자신있다면 잘 안쓰고 거의 static_cast를 사용)__
+
+
+
+#### ```reinterpret_cast<>()```
+
+* __C 스타일 캐스팅과 거의 완전 같음__
+* 걍 다됨
+* 하지만! const_cast는 안 됨
+* 다 되기 때문에 위험함, 얘도 안 쓰는게 좋음
+
+
+#### 거의 static_cast를 위주로 사용하는 것이 좋다
+
+
+
+<br/>
+
+### tuple
+
+원래는 boost 문법인데 C++11이후로부터 표준으로 채택되었다.<br/>
+2개 이상의 값을 반환하거나 전달할 때 사용하면 유용하다.
+
+<pre>
+#include <tuple>
+#include <string>
+#include <iostream>
+
+int main()
+{
+    // make tuple variable.
+    typedef std::tuple<int, std::string, bool> OddOrEven;
+    OddOrEven myNumber = std::make_tuple(10, std::string("Even"), true);
+
+    // get tuple size
+    std::cout << "size : " << std::tuple_size<decltype(myNumber)>::value << std::endl;
+
+    // get each value and get type using std::tuple_element, auto keyword.
+    std::tuple_element<0, decltype(myNumber)>::type nNum = std::get<0>(myNumber);
+    auto szVal = std::get<1>(myNumber);
+    bool bEven = std::get<2>(myNumber);
+
+    std::cout << nNum << ", " << szVal << ", " << std::boolalpha << bEven << std::endl;
+
+    return 0;
+}
+</pre>
 
 <br/><hr/>
 
 ## C++ 17 문법 공부
 
+### 사용 법
+
+__Visual Studio 2017 기준에서 C++17 컴파일러를 이용하려면 <br/> C/C++ > 언어 > C++ 언어 표준에서 다음과 같이 선택하면 된다.__
+
+![c++17](/media/cpp17.png)
+
 ### If-Init
+
+
+
 
 ### 익명 함수 문법(Lambda)
 
