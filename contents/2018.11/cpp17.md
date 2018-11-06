@@ -298,7 +298,15 @@ int main()
 이것으로 인해 지금까지 템플릿에서 타입을 명시해서 생성해줘야 했던 것들이 아래와 같이 사용 가능하다.(컴파일러가 Type을 추정 함)  
 막 귀찮게 make_tuple 이런 거 안해도 됨
 
-~~~
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -308,11 +316,14 @@ int main()
 int main()
 {
 	std::tuple<int, std::string> is1 = std::tuple(17, "hello");
-	auto is2 = std::tuple(17, "hello"); // !! pair<int, char const *>
+	auto is2 = std::tuple(17, "hello"); // !! pair<int, char const * >
 	auto is3 = std::tuple(17, std::string("hello"));
 	auto is4 = std::tuple(17, "hello");
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -320,7 +331,14 @@ int main()
 
 다음과 같이 Type을 auto로 지정할 수 있다.
 
-~~~
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 template <auto v>
 struct integral_constant
 {
@@ -332,7 +350,10 @@ int main()
 	integral_constant<'a'>::value;
 
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
 
 
 <br/>
@@ -341,7 +362,14 @@ int main()
 
 다음과 같이 sum(a,b,c,etc...) 같은 형태를 다음과 같이 표현할 수 있다.
 
-~~~
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 template <typename... Args>
 auto sum(Args&&... args) {
 	return (args + ... + 0);
@@ -352,8 +380,11 @@ int main()
 {
 	sum(4, 5, 6, 7);
 }
-~~~
 
+</pre>
+</td>
+</tr>
+</table>
 
 
 <br/>
@@ -362,12 +393,23 @@ int main()
 
 중복 namespace를 다음과 같이 표현할 수 있다.
 
-~~~
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 namespace A::B::C {
    struct Foo { };
    //...
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
 
 
 
@@ -377,10 +419,19 @@ namespace A::B::C {
 
 static_assert를 하나의 인자로 사용할 수 있다.
 
-~~~
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 static_assert(sizeof(short) == 2)
-~~~
-
+</pre>
+</td>
+</tr>
+</table>
 
 
 <br/>
@@ -456,12 +507,25 @@ struct Foo {
 </table>
 
 
-
-
 <br/>
 
 ### Guaranteed Copy Elision
 
+
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
+static_assert(sizeof(short) == 2)
+</pre>
+</td>
+</tr>
+</table>
 
 
 
