@@ -70,7 +70,7 @@
 원래는 boost 문법인데 C++11이후로부터 표준으로 채택되었다.<br/>
 2개 이상의 값을 반환하거나 전달할 때 사용하면 유용하다.
 
-<pre>
+~~~
 #include <tuple>
 #include <string>
 #include <iostream>
@@ -93,7 +93,7 @@ int main()
 
     return 0;
 }
-</pre>
+~~~
 
 <br/><hr/>
 
