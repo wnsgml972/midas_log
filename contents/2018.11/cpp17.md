@@ -71,7 +71,6 @@
 2개 이상의 값을 반환하거나 전달할 때 사용하면 유용하다.  
 __참고로 C++ 14 문법은 요소 하나 조회가 복잡함! C++ 17이니까 개 쉬움..__
 
-
 <table>
 <tr>
 <th>
@@ -121,13 +120,21 @@ __Visual Studio 2017 기준에서 C++17 컴파일러를 이용하려면 <br/> C/
 
 if 문 하나에서 초기화 작업과 검증 과정을 동시에 할 수가 있음!
 
-~~~
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 #include <iostream>
 #include <vector>
 
 int main()
 {
-	std::vector<int> *v;
+	std::vector<int> * v;
 
 //	if(initializing; Validation) 한번에 가능
 	if (v = nullptr; v->size() == 0)
@@ -135,7 +142,11 @@ int main()
 		// Using v
 	}
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
+
 
 
 <br/>
@@ -151,7 +162,14 @@ int main()
 struct 변수를 직접 ```auto [i, s]```를 통해 변수를 받고 변경하면, 결과값은 바뀐 결과값으로 출력된다.  
 i와 s가 값이 바뀌는 것은 참조와 관련이 있기 때문이다. (& 는 없지만), 허나 참조와 완전히 같지는 않고 비슷한 방식으로 동작한다고 한다.
 
-~~~
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 struct Foo
 {
 	int x = 0;
@@ -170,7 +188,11 @@ int main()
 	// 결과로 hello world가 아닌
 	// hello structured bindings  출력
 }
-~~~
+</pre>
+</td>
+</tr>
+</table>
+
 
 #### 예시 2
 
@@ -181,7 +203,14 @@ case 1과 case 2를 보면 된다. x를 참조가 아닌 값으로 __객체를 �
 case 3은 const와 관련이 있다.  
 case 4는 참조를 통해 새로 생성된 형태의 객체를 받을 수 없다.
 
-~~~
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 #include <iostream>
 
 int main()
@@ -220,13 +249,25 @@ int main()
 	auto const &[f] = X(); // Build Warning!  i가 const가 아니기 때문에
 	//f++;  Compile Error
 }
-~~~
+
+</pre>
+</td>
+</tr>
+</table>
 
 #### 예시 3
 
 배열에도 다음과 같이 사용할 수 있다.
 
-~~~
+
+<table>
+<tr>
+<th>
+C++17
+</th>
+<tr>
+<td  valign="top">
+<pre lang="cpp">
 #include <iostream>
 
 int main()
@@ -242,7 +283,12 @@ int main()
 		std::cout << p;
 	}
 }
-~~~
+
+
+</pre>
+</td>
+</tr>
+</table>
 
 
 <br/>
