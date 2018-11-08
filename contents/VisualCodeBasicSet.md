@@ -76,14 +76,6 @@ __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 
 <br/>
 
-### [Markdown TOC((table of contents)](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc#review-details)
-  
-* 작성된 글의 ```#```을 기준으로 목차를 생성해줍니다.
-
-![toc](https://github.com/AlanWalk/Markdown-TOC/raw/master/img/insert-toc.gif)
-
-<br/>
-
 ### [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter#review-details)
 
 * 테이블을 정렬해줍니다.
