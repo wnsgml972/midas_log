@@ -32,7 +32,7 @@
 
 <br/><br/>
 
-## Visaul Code Add In
+## VS Code Add In
 
 __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 
@@ -117,6 +117,8 @@ __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 2. ```shift + alt + D```를 입력합니다.
 3. 이어서 나오는 창에 복사해 둔 `Github Token`과 `Github Gist`를 순서대로 입력합니다.
 4. 이어서 나오는 확인창에 yes를 클릭하면 성공입니다.
+
+> 한번 설정 이후에는 Github에 올리고 내리는 단축기만 입력하면 쉽게 설정을 동기화할 수 있습니다.
 
 <br/><br/>
 
