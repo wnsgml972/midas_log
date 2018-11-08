@@ -67,6 +67,19 @@
 
 ### 익명 함수 문법(Lambda)
 
+#### 기본 구조
+
+![lamda](/media/lamda.png)
+
+<pre lang="cpp">
+[] (int a, int b) mutable throw() -> void {
+     int sum = a + b;
+     std::cout << sum << std::endl; // Output 7
+}(3, 4);
+</pre>
+
+#### 문법 설명
+
 ~~~
   auto bar = []() -> float { return 3.14f; }; // arrow function을 이용하면 타입 명시 가능
 
@@ -76,6 +89,8 @@
   [=] 몸통에서 쓰이는 모든 변수나 상수를 복사로 캡처하고 현재 객체를 참조로 캡처.
   [] 아무것도 캡처하지 않음.  
 ~~~
+
+#### 예제
 
 ~~~
 Connect(type, [&](Param*) -> void
