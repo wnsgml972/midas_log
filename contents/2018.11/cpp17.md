@@ -68,9 +68,9 @@
 
 #### 기본 구조
 
-![lambda](/media/lambda.png)
+__3번의 mutable 위치에는 default로 constexpr가 들어간다. (캡쳐할 때 상수로 캡쳐할 것인지 아닌지를 결정)__
 
-__3번의 mutable 위치에는 default로 constexpr가 들어간다.__
+![lambda](/media/lambda.png)
 
 <pre lang="cpp">
 [] (int a, int b) mutable throw() -> void {
@@ -110,10 +110,7 @@ func2();
 
 ##### lambda 함수를 Parameter로 사용
 
-~~~
-#include <iostream>
-#include <functional>
-
+<pre lang="cpp">
 template<typename T>
 void templateFunc(T func) {
     func();
@@ -127,17 +124,12 @@ int main() {
 
     return 0;
 }
-~~~
+</pre>
 
 
 ##### lambda를 STL container에 저장
 
-~~~
-#include <iostream>
-#include <algorithm>
-#include <functional>
-#include <vector>
-
+<pre lang="cpp">
 int main() {
     std::vector<std::function<void (void)>> funcs;
 
@@ -148,7 +140,8 @@ int main() {
         func();
     }
 }
-~~~
+</pre>
+
 
 <br/>
 
@@ -222,9 +215,6 @@ int main() {
 재귀 방식을 이용할 경우 ```auto```를 이용해 람다의 함수를 받을 수 없다.
 
 ~~~
-#include <iostream>
-#include <functional>
-
 int main() {
 
     std::function<int (int)> factorial = [&factorial](int x) -> int {
@@ -253,7 +243,7 @@ int main() {
 
 원래는 boost 문법인데 C++11이후로부터 표준으로 채택되었다.  
 2개 이상의 값을 반환하거나 전달할 때 사용하면 유용하다.  
-__참고로 C++ 14 문법은 요소 하나 조회가 복잡함! C++ 17이니까 개 쉬움..__
+__참고로 C++ 14 문법은 요소 하나 조회가 복잡하다. C++ 17이니까 쉽다.__
 
 ~~~
 #include <iostream>
@@ -269,7 +259,7 @@ int main()
 	// get tuple size.
 	std::cout << "size : " << std::tuple_size<decltype(myNumber)>::value << std::endl;
 
-	// C++ 17 진짜 쉬워졌음...
+	// C++ 17 조회가 쉬워졌다.
 	auto[i, s, b] = myNumber;
 	std::cout << i << ", " << s << ", " << b << std::endl;
 
@@ -581,44 +571,6 @@ struct Foo {
 </td>
 </tr>
 </table>
-
-
-
-<br/>
-
-### std::string_view
-
-
-
-
-<br/>
-
-### std::optional<T>
-
-
-
-
-<br/>
-
-### std::variant<A,B,C,...>
-
-
-
-
-
-<br/>
-
-### namespace std::filesystem
-
-
-
-
-<br/>
-
-### Parallel STL
-
-
-
 
 
 <br/>
