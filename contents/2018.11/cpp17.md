@@ -214,7 +214,7 @@ int main() {
 
 재귀 방식을 이용할 경우 ```auto```를 이용해 람다의 함수를 받을 수 없다.
 
-~~~
+<pre lang="cpp">
 int main() {
 
     std::function<int (int)> factorial = [&factorial](int x) -> int {
@@ -223,7 +223,7 @@ int main() {
 
     std::cout << "factorial(5): " << factorial(5) << std::endl;
 }
-~~~
+</pre>
 
 <br/>
 

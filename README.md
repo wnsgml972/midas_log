@@ -22,6 +22,10 @@
 
 [Visual Basic Set](/contents/VisualBasicSet.md)
 
+## Visual Code Basic Setting
+
+[Visual Basic Set](/contents/VisualCodeBasicSet.md)
+
 ## Basic Education
 
 [Basic Education](/contents/BasicEducation/README.md)
