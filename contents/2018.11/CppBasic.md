@@ -1,8 +1,8 @@
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
-<br/><br/><hr/>
+<br/><hr/>
 
-## 그 외 공부하면서 알아야 할 것
+## C++ Basic
 
 ### gtest
 

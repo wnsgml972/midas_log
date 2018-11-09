@@ -19,6 +19,8 @@
 
 2. ```$ sudo dpkg -i code_1.23.1-1525968403_amd64.deb```를 입력합니다.
 
+3. ```$ code``` 명령어로 VS Code를 실행합니다.
+
 #### 방법 2
 
 1. <https://code.visualstudio.com>에서 ```Linux.deb```를 설치합니다.
@@ -82,7 +84,7 @@ __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 
 ![formatter](https://raw.githubusercontent.com/shuGH/vscode-table-formatter/master/res/complex_demo.gif)
 
-<br/>
+<br/><br/>
 
 ## 설정 동기화
 
@@ -100,6 +102,8 @@ __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 3. 생성된 토큰을 복사합니다.
 ![SettingSync](/media/vscode/3.png)
 
+<br/>
+
 ### VScode Settings Sync
 
 1. ```ctrl + shift + X```를 입력하여 `Settings Sync`를 다운받습니다.
@@ -110,6 +114,7 @@ __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 
 ![SettingSync](/media/vscode/4.png)
 
+<br/>
 
 ### 다른 pc에서 동기화하기
 
