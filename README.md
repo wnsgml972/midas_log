@@ -32,11 +32,11 @@
 
 ## C++ Basic
 
-[C++ Basic](/contents/2018.11/CppBasic.md)
+[C++ Basic](/contents/CppBasic.md)
 
 ## C++ 17
 
-[C++ 17](/contents/2018.11/cpp17.md)
+[C++ 17](/contents/cpp17.md)
 
 ---
 
@@ -89,8 +89,8 @@
 * [첫째 주] IFC Geometry Converter, C++ 17 문법 공부
   * 목표 : 자료 정리 완료
 
-* [둘째 주]
-  * 목표 :
+* [둘째 주] IFC Geometry Converter, Smart Pointer, Install Shield
+  * 목표 : 기능 조금 완료, 스마트 포인터 완료
 
 * [셋째 주]
   * 목표 :
