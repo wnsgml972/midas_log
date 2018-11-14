@@ -4,6 +4,31 @@
 
 ## C++ Basic
 
+###  C++11/14 변경 사항
+
+#### C++11/14 문법적 변경 사항
+
+1. 초기화 리스트 및 초기화 방법의 통합
+2. 새로운 타입의 추가 : long long형 정수
+3. 새로운 스마트 포인터 추가 : 
+4. 널 포인터 상수 추가 : nullptr
+5. 열거체의 범위 지정
+6. 자동 타입 변환 : auto
+7. 타입 변환 연산자 추가 : explicit
+8. 범위 기반 for 문 추가
+9. 람다 함수와 람다 표현식 추가
+
+#### C++11/14 표준 라이브러리 변경 사항
+
+1. 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
+2. 튜플 템플릿의 추가: tuple 헤더 파일
+3. 정규 표현식의 추가 : regex 헤더 파일
+4. 다중 프로그래밍을 위한 스레드의 지원 : thread_local 키워드, automic 헤더 파일
+5. 임베디드 프로그래밍을 위한 저수준 프로그래밍 지원
+
+
+<br/><br/>
+
 ### gtest
 
 #### 특징
@@ -273,3 +298,312 @@ int main()
 
 ### smart pointer
 
+#### 사용 이유
+
+기존 C++ 프로그램에서 new 키워드를 사용하여 동적으로 할당받은 메모리는, 반드시 delete 키워드를 사용하여 해제해야 했습니다. 때문에 언제든 메모리 누수의 위험이 있었습니다.
+이런 문제를 줄여주고자 **C++에서는 메모리 누수(memory leak)로부터 프로그램의 안전성을 보장하기 위해 스마트 포인터를 제공하고 있습니다.**
+
+> 스마트 포인터(smart pointer)란 포인터처럼 동작하는 클래스 템플릿으로, 사용이 끝난 메모리를 자동으로 해제해 줍니다.
+
+<br/>
+
+#### 동작 원리
+
+스마트 포인터를 이해하기 위해서는 스마트 포인터는 새로운 포인터가 아니라, 기본 포인터를 소유한 포인터라고 이해하셔야 합니다.
+  
+기본 동작은 new 키워드를 사용해 기본 포인터(raw pointer)가 실제 메모리를 가리키도록 초기화한 후에 스마트 포인터가 기본 포인터를 소유합니다. 이렇게 정의된 스마트 포인터의 수명이 다하면, 소멸자는 delete 키워드를 사용하여 할당된 메모리를 자동으로 해제합니다.
+  
+따라서 new 키워드가 반환하는 주소값을 스마트 포인터가 소유하면, 따로 메모리를 해제할 필요가 없어집니다.
+
+
+> 예제입니다. 
+
+~~~
+void UseSmartPointer()
+{
+    // Declare a smart pointer on stack and pass it the raw pointer.
+    unique_ptr<Song> song2(new Song(L"Nothing on You", L"Bruno Mars"));
+
+    // Use song2...
+    wstring s = song2->duration_;
+    //...
+
+} // song2 is deleted automatically here.
+~~~
+
+예제에서와 같이 스마트 포인터는 스택에 선언되고, 힙 할당 객체를 가리키는 기본 포인터를 스마트 포인터가 소유합니다.
+
+<br/>
+
+#### 종류
+
+1. unique_ptr
+2. shared_ptr
+3. weak_ptr
+
+스마트 포인터는 `<memory>` 헤더 파일의 std 네임스페이스에 정의됩니다.
+
+#### unique_ptr
+
+**unique_ptr은 하나의 스마트 포인터만이 특정 객체를 소유할 수 있도록 구성된 스마트 포인터입니다.**
+
+> 예제입니다.
+
+~~~
+#include <iostream>
+#include <memory>
+#include <string>
+
+using namespace std;
+
+class Person
+{
+private:
+	string name_;
+	int age_;
+public:
+	Person(const string& name, int age); // 기초 클래스 생성자의 선언
+	~Person() { cout << "소멸자가 호출되었습니다." << endl; }
+	void ShowPersonInfo();
+};
+
+Person::Person(const string& name, int age) // 기초 클래스 생성자의 정의
+{
+	name_ = name;
+	age_ = age;
+	cout << "생성자가 호출되었습니다." << endl;
+}
+
+void Person::ShowPersonInfo() 
+{
+	cout << name_ << "의 나이는 " << age_ << "살입니다." << endl;
+}
+
+
+void SmartPointerTest()
+{
+	unique_ptr<Person> hong = make_unique<Person>("길동", 29);
+	//	unique_ptr<Person> hong2 = hong; Compile Error
+	unique_ptr<Person> hong2 = move(hong);
+
+	//	hong->ShowPersonInfo();		Runtime Error! 소유권을 옮겼기 때문, 치명적임... 이미 아무것도 없는데 사용하려 해서 그런 듯
+	hong2->ShowPersonInfo();
+
+	// hong.reset();  . 을 이용한 접근 연산자로 접근,  -> 는 소유 객체에 대한 접근
+
+	// 소멸자를 호출하지 않았지만, 스마트 포인터로 인하여 소멸자가 자동으로 호출 됨! (자동 해제)
+	// Stack에 선언 된 unique_ptr가 함수가 끝나 해제되면서, 안에 선언 된 객체를 해제함!	
+}
+
+int main(void)
+{
+	SmartPointerTest();
+	cout << "과연 해제 시점은?" << endl; 
+	// 소멸자 출력이 이 아웃풋 보다 위인 것으로 인해 unique_ptr는 Stack영역 단위로 포인터를 해제하는 것을 알 수 있다.
+
+	return 0;
+}
+~~~
+
+##### 특징
+
+* 기본 포인터에 대한 하나의 소유자만 존재하는 포인터
+* 때문에 소유자를 추가하는 대입 연산이나 복사 생성자는 컴파일러 에러
+* 소유권을 옮길 때는 `move` 사용합니다.
+* 미리 해제하는 `reset` 함수도 있습니다.
+* 스마트 포인터의 접근은 `.` 을 이용한 접근 연산자로 접근,  `->` 는 소유 객체에 대한 접근
+* `make_unique()`는 c++14 이후에 만들어진 함수, 인스턴스를 안전하게 생성할 수 있습니다.
+* 보통 대부분의 포인터는 `make_unique()`를 이용한 `unique_ptr`입니다.
+
+<br/>
+
+#### shared_ptr
+
+**shared_ptr은 하나의 특정 객체를 참조하는 스마트 포인터가 총 몇 개인지를 참조하는 스마트 포인터입니다.**  
+이렇게 참조하고 있는 스마트 포인터의 개수를 참조 횟수(reference count)라고 합니다. 참조 횟수는 특정 객체에 새로운 shared_ptr이 추가될 때마다 1씩 증가하며, 수명이 다할 때마다 1씩 감소합니다. 따라서 마지막 shared_ptr의 수명이 다하여, 참조 횟수가 0이 되면 delete 키워드를 사용하여 메모리를 자동으로 해제합니다.
+
+> 예제입니다.
+
+~~~
+#include "pch.h"
+
+#include <vector>
+#include <iostream>
+#include <memory>
+#include <string>
+
+using namespace std;
+
+class Person
+{
+private:
+	string name_;
+	int age_;
+public:
+	Person(const string& name, int age); // 기초 클래스 생성자의 선언
+	~Person() { cout << "소멸자가 호출되었습니다." << endl; }
+	void ShowPersonInfo();
+};
+
+Person::Person(const string& name, int age) // 기초 클래스 생성자의 정의
+{
+	name_ = name;
+	age_ = age;
+	cout << "생성자가 호출되었습니다." << endl;
+}
+
+void Person::ShowPersonInfo() 
+{
+	cout << name_ << "의 나이는 " << age_ << "살입니다." << endl;
+}
+
+vector<shared_ptr<Person>> people; //전역 변수 Vector
+
+void SmartPointerTest()
+{
+	shared_ptr<Person> ptr01 = make_shared<Person>("길동", 29); // int형 shared_ptr인 ptr01을 선언하고 초기화함.
+
+	cout << ptr01.use_count() << endl; // 1
+	auto ptr02(ptr01);                 // 복사 생성자를 이용한 초기화
+	cout << ptr01.use_count() << endl; // 2
+	auto ptr03 = ptr01;                // 대입을 통한 초기화
+	cout << ptr01.use_count() << endl; // 3  
+
+
+	//////////////////////////////////////////////////////////////////////////
+	// 만약 이 부분이 없다면, 마찬가지로 현 함수를 끝나면 Stack 영역에서 shared_ptr가 초기화 되기 때문에, 소멸자가 불림
+	people.push_back(ptr03);		   // 다 같은 것을 가리키기 때문에 어떤 것을 담아도 상관 없음
+	cout << ptr03.use_count() << endl; // 4
+	// 하지만 이렇게 벡터에 shared_ptr<person>를 담아 둔다면 
+}
+
+int main(void)
+{
+	SmartPointerTest();
+	// 소멸자 출력이 이 아웃풋 보다 위인 것으로 인해 unique_ptr는 Stack영역 단위로 포인터를 해제하는 것을 알 수 있다.
+
+	cout << people[0].use_count() << endl; // 1
+	// Vector에 아직 하나가 남아있으므로 힙 영역에 할당된 메모리가 해제되지 않는다.
+
+	while (1);
+}
+~~~
+
+
+##### 특징
+
+* 스마트 포인터 자체에 접근하여 `.`(을 통한 접근) `use_count()` 함수를 이용하면 참조 하고 있는 레퍼런스 카운트를 알 수 있습니다.
+* 레퍼런스 카운트가 0이되면 힙영역에 할당된 메모리를 해제합니다.
+* 복사 생성자를 통한 초기화가 가능합니다. (레퍼런스 카운트 + 1)
+* 대입 연산자를 통한 초기화가 가능합니다.. (레퍼런스 카운트 + 1)
+* 마찬가지로 해제는 스마트 포인터 자체에 접근하여 `.`(을 통한 접근) `reset()` 함수를 이용하거나, 해당 Stack 영역에 할당된 스마트 포인터가 스택에서 빠지면서 해제됩니다.  <br/>**그것은 레퍼런스 카운트가 -1이 됨을 의미합니다.**
+
+
+
+<br/>
+
+#### weak_ptr
+
+`weak_ptr`은 하나 이상의 `shared_ptr` 인스턴스가 소유하는 객체에 대한 접근을 제공하지만, 소유자의 수에는 포함되지 않는 스마트 포인터입니다.
+  
+> 왜 이런것을 만들었을까?
+
+**접근은 가능!, 소유자는 하나(레퍼런스 카운트가 증가하지 않음)** <br/>
+`shared_ptr`은 참조 횟수(reference count)를 기반으로 동작하는 스마트 포인터입니다. 만약 서로가 상대방을 가리키는 `shared_ptr`를 가지고 있다면, 참조 횟수는 절대 0이 되지 않으므로 메모리는 영원히 해제되지 않습니다. 이렇게 서로가 상대방을 참조하고 있는 상황을 순환 참조(circular reference)라고 합니다. 이러한 순환 참조로 인해 스마트 포인터가 소유한 메모리가 해제되지 않는 것을 방지하는 용도로 사용합니다. <br/><br/>
+
+**즉! 상호 참조, 순환 참조를 제거하는 용도로 사용!**
+
+
+> 예제입니다.
+
+~~~
+#include "pch.h"
+
+#include <vector>
+#include <iostream>
+#include <memory>
+#include <string>
+
+using namespace std;
+
+class Money;
+
+class Person
+{
+private:
+
+public:
+	Person(); // 기초 클래스 생성자의 선언
+	~Person() { cout << "Person 소멸자가 호출되었습니다." << endl; }
+	shared_ptr<Money> pMoney;
+};
+
+Person::Person() // 기초 클래스 생성자의 정의
+{
+	cout << "Person 생성자가 호출되었습니다." << endl;
+}
+
+class Money
+{
+private:
+
+public:
+	Money(); // 기초 클래스 생성자의 선언
+	~Money() { cout << "Money 소멸자가 호출되었습니다." << endl; }
+
+	weak_ptr<Person> pPerson;
+};
+
+Money::Money() // 기초 클래스 생성자의 정의
+{
+	cout << "Money 생성자가 호출되었습니다." << endl;
+}
+
+
+int main(void)
+{
+	shared_ptr<Person> pPerson = make_shared<Person>();
+	shared_ptr<Money> pMoney= make_shared<Money>();
+
+	// 상호 참조!
+	pPerson->pMoney = pMoney;
+	pMoney->pPerson = pPerson;
+
+	// Money의 pPerson은 weak_ptr 이기 때문에 정상적으로 메모리 해제가 일어나
+	// 양쪽의 소멸자가 모두 호출된다.
+}
+~~~
+
+
+##### 특징
+
+* 순환 참조, 상호 참조시에 레퍼런스 카운트가 0이 되지 않는 경우를 방지하기 위해 사용
+* 나머지 경우는 잘 모르겠음..
+
+<br/>
+
+#### 참고
+
+* <https://msdn.microsoft.com/ko-kr/library/hh279674.aspx>
+* <http://tcpschool.com/cpp/cpp_template_smartPointer>
+
+
+
+
+<br/><br/>
+
+### 확장할 수 있는 Random 헤더 파일
+
+
+
+
+<br/><br/>
+
+### 정규 표현식, Regex 헤더 파일
+
+
+<br/><br/>
+
+### 다중 프로그래밍을 위한 std 스레드
+
+thread_local 키워드, automic 헤더 파일
