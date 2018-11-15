@@ -4,6 +4,22 @@
 
 ## C++ Basic
 
+## 목차
+
+* C++11/14 변경 사항
+* gtest
+* C++ Casting
+* C++ Getter, Setter
+* 익명 함수 문법(Lambda)
+* tuple
+* smart pointer
+* 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
+* 정규 표현식의 추가 : regex 헤더 파일
+* 다중 프로그래밍을 위한 스레드의 지원
+
+
+<br/><br/>
+
 ###  C++11/14 변경 사항
 
 #### C++11/14 문법적 변경 사항
@@ -49,7 +65,7 @@
 
 <br/><br/>
 
-### C++ Style Casting
+### C++ Casting
 
 #### ```static_cast<>()```
 
@@ -629,13 +645,45 @@ int main(void)
 
 ### 확장할 수 있는 Random 헤더 파일
 
+쉽다.
 
+> 예제입니다.
+
+~~~
+#include <random>  
+#include <iostream>  
+
+using namespace std;
+
+int main()
+{
+	/* 1. 기본 난수 */
+	random_device rd;  
+	mt19937 gen(rd());  // to seed mersenne twister.
+	for (int i = 0; i < 5; ++i) {
+		cout << gen() << " ";
+	}
+	cout << endl;
+
+	/* 2. 범위 난수 */
+	//random_device rd;  // 위에 것 사용
+	//mt19937 gen(rd()); // 위에 것 사용
+	uniform_int_distribution<> dist(1, 6); // distribute results between 1 and 6 inclusive.  
+	for (int i = 0; i < 5; ++i) {
+		cout << dist(gen) << " ";
+	}
+	cout << endl;
+}
+~~~
 
 
 <br/><br/>
 
 ### 정규 표현식, Regex 헤더 파일
 
+> 사용 방법이 너무 방대하다.
+
+<https://msdn.microsoft.com/ko-kr/library/bb982382.aspx>
 
 <br/><br/>
 
