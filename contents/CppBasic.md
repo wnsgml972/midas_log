@@ -89,6 +89,41 @@
 
 <br/><br/>
 
+### C++ Getter, Setter
+
+왜인지는 잘 모르겠는데 자바 만큼 모든 것을 캡슐화하지는 않음
+
+> 예제
+
+~~~
+#include <iostream>
+
+class Foo
+{
+private:
+	int x_ = 3;
+
+public:
+	// 전행 반환 방식
+	// int&       x() { return x_; }
+	// const int& x() const { return x_; }
+
+	// 후행 반환 방식
+	auto x()       -> int& { return x_; }	    //Getter
+	auto x() const -> const int { return x_; }  //Setter
+};
+
+int main(void)
+{
+	Foo f;
+
+	int a = f.x();  // Getter
+	f.x() = 5;		// Setter
+}
+~~~
+
+<br/><br/>
+
 ### 익명 함수 문법(Lambda)
 
 #### 기본 구조
