@@ -312,3 +312,12 @@ struct Foo {
 
 * <https://medium.com/@snghojeong/c-17-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5%EB%93%A4-558f323c27d1>
 * <https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md>
+
+
+
+
+<br/>
+
+### td::variant<A,B,C,...>
+
+작성중...
