@@ -92,8 +92,8 @@
 * [둘째 주] IFC Geometry Converter, Smart Pointer, Install Shield
   * 목표 : 기능 조금 완료, 스마트 포인터 완료
 
-* [셋째 주]
-  * 목표 :
+* [셋째 주] IFC Geometry Converter, Install Shield
+  * 목표 : 기본 기능 완료, 지금까지 완성한 기능 테스트코드 작성 완료
 
 * [넷째 주]
   * 목표 :
