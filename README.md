@@ -24,7 +24,7 @@
 
 ## Visual Code Basic Setting
 
-[Visual Basic Set](/contents/VisualCodeBasicSet.md)
+[Visual Code Basic Set](/contents/VisualCodeBasicSet.md)
 
 ## Basic Education
 
@@ -37,6 +37,10 @@
 ## C++ 17
 
 [C++ 17](/contents/cpp17.md)
+
+## Commit Message Rule
+
+[Commit Message Rule](/contents/commit.md)
 
 ---
 
