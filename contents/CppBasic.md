@@ -6,44 +6,18 @@
 
 ## 목차
 
-* C++11/14 변경 사항
 * gtest
 * C++ Casting
 * C++ Getter, Setter
+* C++11/14 변경 사항
 * 익명 함수 문법(Lambda)
-* tuple
+* tuple (pair의 발전형)
 * smart pointer
 * 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
-* 정규 표현식의 추가 : regex 헤더 파일
-* 다중 프로그래밍을 위한 스레드의 지원
-
+* Thread, async future
 
 <br/><br/>
-
-###  C++11/14 변경 사항
-
-#### C++11/14 문법적 변경 사항
-
-1. 초기화 리스트 및 초기화 방법의 통합
-2. 새로운 타입의 추가 : long long형 정수
-3. 새로운 스마트 포인터 추가 : 
-4. 널 포인터 상수 추가 : nullptr
-5. 열거체의 범위 지정
-6. 자동 타입 변환 : auto
-7. 타입 변환 연산자 추가 : explicit
-8. 범위 기반 for 문 추가
-9. 람다 함수와 람다 표현식 추가
-
-#### C++11/14 표준 라이브러리 변경 사항
-
-1. 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
-2. 튜플 템플릿의 추가: tuple 헤더 파일
-3. 정규 표현식의 추가 : regex 헤더 파일
-4. 다중 프로그래밍을 위한 스레드의 지원 : thread_local 키워드, automic 헤더 파일
-5. 임베디드 프로그래밍을 위한 저수준 프로그래밍 지원
-
-
-<br/><br/>
+<hr/>
 
 ### gtest
 
@@ -63,7 +37,9 @@
 * <https://www.slideshare.net/jinhwason/ss-69528881>
 * <https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1>
 
+
 <br/><br/>
+<hr/>
 
 ### C++ Casting
 
@@ -103,7 +79,7 @@
 #### 거의 static_cast를 위주로 사용하는 것이 좋다
 
 
-<br/><br/>
+<br/>
 
 ### C++ Getter, Setter
 
@@ -139,6 +115,33 @@ int main(void)
 ~~~
 
 <br/><br/>
+<hr/>
+
+###  C++11/14 변경 사항
+
+#### C++11/14 문법적 변경 사항
+
+1. 초기화 리스트 및 초기화 방법의 통합
+2. 새로운 타입의 추가 : long long형 정수
+3. 새로운 스마트 포인터 추가 : 
+4. 널 포인터 상수 추가 : nullptr
+5. 열거체의 범위 지정
+6. 자동 타입 변환 : auto
+7. 타입 변환 연산자 추가 : explicit
+8. 범위 기반 for 문 추가
+9. 람다 함수와 람다 표현식 추가
+
+#### C++11/14 표준 라이브러리 변경 사항
+
+1. 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
+2. 튜플 템플릿의 추가: tuple 헤더 파일
+3. 정규 표현식의 추가 : regex 헤더 파일
+4. 다중 프로그래밍을 위한 스레드의 지원 : thread_local 키워드, automic 헤더 파일
+5. 비동기식 프로그래밍 async future 지원
+6. 임베디드 프로그래밍을 위한 저수준 프로그래밍 지원
+
+
+<br/>
 
 ### 익명 함수 문법(Lambda)
 
@@ -677,17 +680,20 @@ int main()
 ~~~
 
 
-<br/><br/>
-
-### 정규 표현식, Regex 헤더 파일
-
-> 사용 방법이 너무 방대하다.
-
-<https://msdn.microsoft.com/ko-kr/library/bb982382.aspx>
 
 <br/><br/>
 
-### 다중 프로그래밍을 위한 std 스레드
+### Thread
 
-thread_local 키워드, automic 헤더 파일
+너무 많이 해야해...
+
+
+
+
+<br/><br/>
+
+### async future
+
+일단 기달...
+
 
