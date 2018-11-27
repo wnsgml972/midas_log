@@ -18,29 +18,29 @@
 
 ---
 
-## Visual Basic Setting
-
-[Visual Basic Set](/contents/VisualBasicSet.md)
-
-## Visual Code Basic Setting
-
-[Visual Code Basic Set](/contents/VisualCodeBasicSet.md)
-
 ## Basic Education
 
 [Basic Education](/contents/BasicEducation/README.md)
 
+## Visual Basic Setting
+
+[Visual Basic Set](/contents/BasicEducation/VisualBasicSet.md)
+
+## Visual Code Basic Setting
+
+[Visual Code Basic Set](/contents/BasicEducation/VisualCodeBasicSet.md)
+
 ## C++ Basic
 
-[C++ Basic](/contents/CppBasic.md)
+[C++ Basic](/contents/BasicEducation/CppBasic.md)
 
 ## C++ 17
 
-[C++ 17](/contents/cpp17.md)
+[C++ 17](/contents/BasicEducation/cpp17.md)
 
 ## Commit Message Rule
 
-[Commit Message Rule](/contents/commit.md)
+[Commit Message Rule](/contents/BasicEducation/commit.md)
 
 ---
 

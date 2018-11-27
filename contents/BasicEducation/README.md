@@ -42,10 +42,38 @@
  * MIDAS UI FrameWork
 
 ### MIDAS DB
- * 정리 함
+ * MIDAS Docs 참고 (내가 정리)
 
 ### 빌드 속도 개선
  * [빌드 속도 개선](./Build.md)
+
+### 단위테스트 및 TDD 방법론
+ * 구글의 gtest 사용, 자동화 방법을 계속해서 더 생각해야 함 (추후 정리 필요)
+ * 코드 리뷰도 필요한가?
+
+### Visual Basic Setting
+
+* [Visual Basic Set](./VisualBasicSet.md)
+
+### Visual Code Basic Setting
+
+* [Visual Code Basic Set](./VisualCodeBasicSet.md)
+
+### C++ Basic
+
+* [C++ Basic](./CppBasic.md)
+
+### C++ 17
+
+* [C++ 17](./cpp17.md)
+
+### Commit Message Rule
+
+* [Commit Message Rule](./commit.md)
+
+<br/>
+
+## 아직~~
 
 ### 성능 코딩
  * s
@@ -61,6 +89,3 @@
 
 ### 병렬 컴퓨팅
  * s
-
-### 단위테스트 및 TDD 방법론
- * 구글의 gtest 사용, 자동화 방법을 계속해서 더 생각해야 함
