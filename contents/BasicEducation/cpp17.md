@@ -8,7 +8,7 @@
 
 __Visual Studio 2017 기준에서 C++17 컴파일러를 이용하려면 <br/> C/C++ > 언어 > C++ 언어 표준에서 다음과 같이 선택하면 된다.__
 
-![c++17](/media/BasicEducation/cpp17.png)
+![c++17](/media/cpp17.png)
 
 
 
