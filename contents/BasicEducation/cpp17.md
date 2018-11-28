@@ -12,13 +12,12 @@ __Visual Studio 2017 기준에서 C++17 컴파일러를 이용하려면 <br/> C/
 
 
 
-<br/>
 
 ### if-Init
 
 if 문 하나에서 초기화 작업과 검증 과정을 동시에 할 수가 있음!
 
-~~~
+~~~cpp
 #include <iostream>
 #include <vector>
 
@@ -39,7 +38,7 @@ int main()
 
 ### Structured Bindings
 
-위 tuple에서 데이터를 얻은 방법으로서 ```[]``` 를 이용한 문법이다.
+Cpp Basic tuple에서 데이터를 얻은 방법으로서 ```[]``` 를 이용한 문법이다.
 
 
 #### 예시 1
@@ -48,7 +47,7 @@ int main()
 struct 변수를 직접 ```auto [i, s]```를 통해 변수를 받고 변경하면, 결과값은 바뀐 결과값으로 출력된다.  
 i와 s가 값이 바뀌는 것은 참조와 관련이 있기 때문이다. (& 는 없지만), 허나 참조와 완전히 같지는 않고 비슷한 방식으로 동작한다고 한다.
 
-~~~
+~~~cpp
 struct Foo
 {
 	int x = 0;
@@ -78,7 +77,7 @@ case 1과 case 2를 보면 된다. x를 참조가 아닌 값으로 __객체를 �
 case 3은 const와 관련이 있다.  
 case 4는 참조를 통해 새로 생성된 형태의 객체를 받을 수 없다.
 
-~~~
+~~~cpp
 #include <iostream>
 
 int main()
@@ -123,7 +122,7 @@ int main()
 
 배열에도 다음과 같이 사용할 수 있다.
 
-~~~
+~~~cpp
 #include <iostream>
 
 int main()
@@ -149,7 +148,7 @@ int main()
 이것으로 인해 지금까지 템플릿에서 타입을 명시해서 생성해줘야 했던 것들이 아래와 같이 사용 가능하다.(컴파일러가 Type을 추정 함)  
 막 귀찮게 make_tuple 이런 거 안해도 됨
 
-~~~
+~~~cpp
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -171,7 +170,7 @@ int main()
 
 다음과 같이 Type을 auto로 지정할 수 있다.
 
-~~~
+~~~cpp
 template <auto v>
 struct integral_constant
 {
@@ -192,7 +191,7 @@ int main()
 
 다음과 같이 sum(a,b,c,etc...) 같은 형태를 다음과 같이 표현할 수 있다.
 
-~~~
+~~~cpp
 template <typename... Args>
 auto sum(Args&&... args) {
 	return (args + ... + 0);
@@ -213,7 +212,7 @@ int main()
 
 중복 namespace를 다음과 같이 표현할 수 있다.
 
-~~~
+~~~cpp
 namespace A::B::C {
    struct Foo { };
    //...
@@ -228,7 +227,7 @@ namespace A::B::C {
 
 static_assert를 하나의 인자로 사용할 수 있다.
 
-~~~
+~~~cpp
 static_assert(sizeof(short) == 2)
 ~~~
 
@@ -307,15 +306,6 @@ struct Foo {
 </table>
 
 
-<br/>
-
-### 참고
-
-* <https://medium.com/@snghojeong/c-17-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5%EB%93%A4-558f323c27d1>
-* <https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md>
-
-
-
 
 <br/>
 
@@ -323,7 +313,7 @@ struct Foo {
 
 **결과와 반환 값을 한번에 컨트롤 할 수 있게 해준다.**
 
-~~~
+~~~cpp
 #include <string>
 #include <iostream>
 #include <optional>
@@ -384,7 +374,7 @@ int main()
 
 * 밑의 그림과 같이 컴파일 시점에 틀린 부분을 점검해주기 때문에 형식에 안전한 공용체라 불린다.
 
-~~~
+~~~cpp
 void f()
 {
     variant<int, double, string> v = 123;
@@ -410,7 +400,7 @@ void f()
 
 * 진짜 핵 어려움..
 
-~~~
+~~~cpp
 #include <iomanip>
 #include <iostream>
 #include <string>
@@ -477,7 +467,7 @@ int main() {
 * optional과 같이 빈 객체를 생성하는 기본 생성자가 있다. 즉 `has_value() false, true 가능하다`
 
 
-~~~
+~~~cpp
 #include <any>
 #include <iostream>
 
@@ -533,7 +523,7 @@ int main()
 
 그에 대한 대체제로 `std::string_view`가 나왔다. 이제 우리는 `const string_view& val`을 통해 값을 전달하면 된다.
 
-~~~
+~~~cpp
 void println(const string_view& str)
 {
     cout << str << endl;
@@ -566,7 +556,22 @@ void println(const string_view& str)
 **그 외에 C++17 표준 라이브러리의 변경 사항을 정리하자면 다음과 같다.**
 
 * map과 unordered_map에 try_emplace와 insert_or_assign이라는 새로운 멤버 함수가 추가되었다. 이들은 주어진 키가 컨테이너에 없는 경우에만 새 요소를 생성 또는 삽입한다.
+
 * 컨테이너 멤버 함수 size, empty, data의 비멤버 함수 버전인 std::size, std::empty, std::data가 추가되었다(<iterator> 헤더).
+
 * 메모리를 구성하는 바이트byte의 개념을 좀 더 명시적으로 표현하기 위해 std::byte라는 형식이 추가되었다. 내부적으로 std::byte는 하나의 열거형 클래스(enum class)인데, 바탕 자료 형식은 unsigned char이다. unsigned char와는 달리 std::byte는 문자 형식으로도, 수치(산술) 형식으로도 간주되지 않는다. 개념적으로 std::byte는 단지 비트들의 집합일 뿐이며, 산술 연산자들은 지원하지 않고 비트별 논리 연산자들과 자리이동(shift) 연산자들만 지원한다. 임의의 정수 n을 std::byte 객체로 변환하려면 std::byte{n} 형태의 표현식을 사용하고(C++17부터는 이런 식으로 열거형 객체를 생성할 수 있게 되었다), 그 반대의 변환은 std::to_integer 함수(역시 C++17에서 추가되었다)를 사용하면 된다.
+
 * 컴파일 시점에서 형식 특질들의 논리합, 논리곱, 부정을 산출하는 메타 함수 conjunction, disjunction, negation이 추가되었으며, is_aggregate, is_invocable, is_swappable 등 다양한 컴파일 시점 형식 판정 함수가 추가되었다(`<type_traits>` 헤더).
+
 * 최대공약수와 최소공배수를 돌려주는 수학 함수 gcd와 lcm이 추가되었으며(`<numeric>` 헤더), 타원적분, 베셀 함수, 르장드르 함수, 노이만 함수, 리만 제타 함수 등 다양한 특수 함수가 추가되었다(<cmath> 헤더). 표 A.4에 특수 함수들이 나열되어 있다.
+
+
+
+<br/>
+
+### 참고
+
+* <https://medium.com/@snghojeong/c-17-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5%EB%93%A4-558f323c27d1>
+* <https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md>
+
+

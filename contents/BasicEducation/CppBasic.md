@@ -87,7 +87,7 @@
 
 > 예제
 
-~~~
+~~~cpp
 #include <iostream>
 
 class Foo
@@ -189,7 +189,7 @@ func2();
 
 ##### lambda 함수를 Parameter로 사용
 
-<pre lang="cpp">
+~~~cpp
 template<typename T>
 void templateFunc(T func) {
     func();
@@ -203,12 +203,12 @@ int main() {
 
     return 0;
 }
-</pre>
+~~~
 
 
 ##### lambda를 STL container에 저장
 
-<pre lang="cpp">
+~~~cpp
 int main() {
     std::vector<std::function<void (void)>> funcs;
 
@@ -219,7 +219,7 @@ int main() {
         func();
     }
 }
-</pre>
+~~~
 
 
 <br/>
@@ -325,7 +325,7 @@ int main() {
 __참고로 C++ 14 문법은 요소 하나 조회가 복잡하다. C++ 17이니까 쉽다.__  
 cpp17 설정은 `cpp17.md` 참고
 
-~~~
+~~~cpp
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -372,7 +372,7 @@ int main()
 
 > 예제입니다. 
 
-~~~
+~~~cpp
 void UseSmartPointer()
 {
     // Declare a smart pointer on stack and pass it the raw pointer.
@@ -403,7 +403,7 @@ void UseSmartPointer()
 
 > 예제입니다.
 
-~~~
+~~~cpp
 #include <iostream>
 #include <memory>
 #include <string>
@@ -478,7 +478,7 @@ int main(void)
 
 > 예제입니다.
 
-~~~
+~~~cpp
 #include "pch.h"
 
 #include <vector>
@@ -570,7 +570,7 @@ int main(void)
 
 > 예제입니다.
 
-~~~
+~~~cpp
 #include "pch.h"
 
 #include <vector>
@@ -652,7 +652,7 @@ int main(void)
 
 > 예제입니다.
 
-~~~
+~~~cpp
 #include <random>  
 #include <iostream>  
 
