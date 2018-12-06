@@ -83,9 +83,60 @@
 
 ### C++의 다양한 초기화 방법
 
+#### 복사 초기화
 
+```cpp
+int iValue = 5; //copy initialization 
+```
+
+
+#### 직접 초기화
+
+* 이니셜라이져처럼 동작, 복사 초기화보다 성능이 뛰어남
+* 이니셜라이징과 대입을 구분할 수 있는 좋은 방법
+
+```cpp
+int iValue(5); //copy initialization 
+```
+
+> 그러나 위의 두 방식은 모든 변수에 대해서 초기화하지는 않음 <br/>
+모든 타입이나 변수를 초기화 할 수 있는 매커니즘이 필요.
 
 <br/>
+
+
+#### C++ 11의 유니폼 초기화
+
+* 형 변환을 허용하지 않아 안전함.
+* 숫자 변수는 0(또는 0.0 또는 0.0000000000 등)으로 초기화됩니다.
+* Char 변수는 ‘\0’으로 초기화됩니다.
+* 포인터는 nullptr로 초기화됩니다.
+* 배열, POD 클래스, 구조체 및 공용 구조체는 멤버 값을 0으로 초기화합니다.
+
+```cpp
+int iValue{}; // default initialization to 0
+int iValue{5};
+int iValue{4.5}; //error : an integer variable can not hold a non-integer value
+                 // -> 형 변환을 허용하지 않으며 컴파일러에서 경고 또는 오류가 발생한다.
+
+BaseClass bc{};     // class is initialized  
+double b{};  // value of b is 0.00000000000000000  
+int* ptr{};     // initialized to nullptr 
+```
+
+#### static  (tip)
+
+정적 변수는 암시적으로 0으로 초기화 됨
+
+~~~cpp
+static int int1;       // 0  
+static char char1;     // '\0'  
+static bool bool1;   // false  
+static MyClass mc1;     // {0, '\0'}  
+~~~
+
+
+<br/><br/>
 
 ### C++ Getter, Setter
 
