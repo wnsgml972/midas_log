@@ -7,7 +7,10 @@
 ## 목차
 
 * gtest
+* modern c+ framework 분석
+* default, delete 키워드
 * C++ Casting
+* C++11 다양한 초기화 방식
 * C++ Getter, Setter
 * C++11/14 변경 사항
 * 익명 함수 문법(Lambda)
@@ -37,6 +40,11 @@
 * <https://www.slideshare.net/jinhwason/ss-69528881>
 * <https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1>
 
+<br/><br/>
+
+### modern c+ framework 분석
+
+* [framework](/contents/BasicEducation/framework.md)
 
 <br/><br/>
 <hr/>
@@ -105,7 +113,7 @@ int iValue(5); //copy initialization
 <br/>
 
 
-#### C++ 11의 유니폼 초기화
+#### C++11 다양한 초기화 방식
 
 * 형 변환을 허용하지 않아 안전함.
 * 숫자 변수는 0(또는 0.0 또는 0.0000000000 등)으로 초기화됩니다.
@@ -135,6 +143,14 @@ static bool bool1;   // false
 static MyClass mc1;     // {0, '\0'}  
 ~~~
 
+#### Code In 초기화
+
+![uniform](/media/uniformInit.png)
+
+* 심플한 초기화는 복사 초기화를 이용한다.
+* 생성자의 경우, 특별한 로직이나 가독성을 봤을 때 심플하지 않을 때, 직접 초기화를 이용한다.
+* 일반 NULL 초기화의 경우 유니폼 초기화를 이용한다.
+* 유니폼 초기화의 경우 auto와 같이 쓰지 않을 것을 유의한다.
 
 <br/><br/>
 
@@ -150,24 +166,31 @@ static MyClass mc1;     // {0, '\0'}
 class Foo
 {
 private:
-	int x_ = 3;0
+	int x_ = 3;
 
 public:
 	// 전행 반환 방식
-	// int&       x() { return x_; }
-	// const int& x() const { return x_; }
+ 	int&       x() { return x_; }
+ 	const int& x() const { return x_; }
 
 	// 후행 반환 방식
-	auto x()       -> int& { return x_; }	    //Getter
-	auto x() const -> const int { return x_; }  //Setter
+ 	auto x()       -> int& { return x_; }	    //Getter
+ 	auto x() const -> const int { return x_; }  //Setter
+
+	// C++14 이후 auto 반환  decltype(auto)는 같은 이름 오버로딩 안 됨!
+	decltype(auto) setX() { return (x_); } //decltype(x) 는 int 이므로 f1은 int 를 반환
+	decltype(auto) getX() { return x_; } //decltype((x)) 는 int& 이므로 f2는 int& 를 반환
 };
 
 int main(void)
 {
-	Foo f;
+	Foo f; //C++14 이후 auto 반환 이용
 
-	int a = f.x();  // Getter
-	f.x() = 5;		// Setter
+	int a = f.getX();  // Getter
+	std::cout << f.getX() << std::endl;
+
+	f.setX() = 5;		// Setter
+	std::cout << f.getX() << std::endl;
 }
 ~~~
 
