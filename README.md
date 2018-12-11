@@ -22,14 +22,6 @@
 
 [Basic Education](/contents/BasicEducation/README.md)
 
-## Visual Basic Setting
-
-[Visual Basic Set](/contents/BasicEducation/VisualBasicSet.md)
-
-## Visual Code Basic Setting
-
-[Visual Code Basic Set](/contents/BasicEducation/VisualCodeBasicSet.md)
-
 ## C++ Basic
 
 [C++ Basic](/contents/BasicEducation/CppBasic.md)
@@ -38,9 +30,13 @@
 
 [C++ 17](/contents/BasicEducation/cpp17.md)
 
-## Modern C++ Framework 분석
+## Modern C++ Framework 구현 분석
 
-[Modern C++ Framework 분석](/contents/BasicEducation/framework.md)
+[Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
+
+## Naming
+
+[Naming](/contents/BasicEducation/Naming.md)
 
 ## Commit Message Rule
 
