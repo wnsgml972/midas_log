@@ -347,8 +347,7 @@ XXX로 변환을 시도|
 fromXXX|
 ------ | 
 XXX로 부터 변환 |
-
-**메서드명은 동사가 원칙이나 to나 from은 예외**
+메서드명은 동사가 원칙이나 to나 from은 예외 | 
 
 
 
@@ -361,24 +360,21 @@ clear | delete
 create | make | generate
 ------ | ------ | ------ 
 창조하는 것이 create|무언가를 보고 만들어 내는 것이 make|무언가를 변환하여 생성하는 것이 generate
-
-**인스턴스를 생성할 때에는 create가 일반적**
+인스턴스를 생성할 때에는 create가 일반적 ||
 
 
 
 parameter | argument
 ------ | ------ 
 메서드에 정의되어 있는 것이 parameter | 메서드에 전달된 값이 argument
-
-**인수, 매개변수라고도 한다**
+인수, 매개변수라고도 한다|
 
 
 
 property | attribute
 ------ | ------ 
 객체 지향의 클래스의 성질을 나타내는 것이 property | HTML의 태그의 속성은 attribute
-
-**둘 다 속성이란 뜻, 단, 분야나 제품에 따라 사용이 나눠지기도 함**
+둘 다 속성이란 뜻, 단, 분야나 제품에 따라 사용이 나눠지기도 함|
 
 
 
@@ -386,8 +382,7 @@ property | attribute
 number | numeric
 ------ | ------ 
 숫자| 번호를 나타내는 것이 number | 숫자 중 10진수를 numeric
-
-**numeric이 좀 더 수학적인 느낌**
+|numeric이 좀 더 수학적인 느낌
 
 
 
@@ -444,8 +439,7 @@ issue | problem
 individual | personal | private
 ------ | ------ | ------ 
 많은 사람들에 대해 개인일 경우 individual. 개별. | 사람 수에 관계없이| 다른 누구도 아닌| 개인을 나타낼 때 personal. 개인적인. | public(공적)에 반대인 private(사적).
-
-**종업원 한명한명을 가리키는 개인은 individual을 사용하면 됨**
+종업원 한명한명을 가리키는 개인은 individual을 사용하면 됨||
 
 
 
@@ -484,8 +478,7 @@ flush|
 validate | verify
 ------ | ------ 
 요구를 만족하는가| 올바른가 확인하는 것이 validate|공정의 일부로 포함 된 체크가 verify
-
-**CD/DVD를 굽고 나면 verify를 함.**
+|CD/DVD를 굽고 나면 verify를 함.
 
 
 
