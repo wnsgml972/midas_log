@@ -23,33 +23,33 @@
 ## 업무 전문 지식
 
 ### 기초
- * C++, MFC 교육
- * 코딩 규칙
- * 디버깅
+* C++, MFC 교육
+* 코딩 규칙
+* 디버깅
 
 ### 디자인 패턴
- * [디자인 패턴](./DesignPattern.md)
- * 인터페이스에 맞춘 프로그래밍을 한다.
- * 상속보다는 구성을
+* [디자인 패턴](./DesignPattern.md)
+* 인터페이스에 맞춘 프로그래밍을 한다.
+* 상속보다는 구성을
 
 ### 버젼 컨트롤
- * Git (나는 소스트리 사용)
+* Git (나는 소스트리 사용)
 
 ### Parasolid
- * 다른 회사 3D 캐드 엔진
+* 다른 회사 3D 캐드 엔진
 
 ### Phase
- * MIDAS UI FrameWork
+* MIDAS UI FrameWork
 
 ### MIDAS DB
- * MIDAS Docs 참고 (내가 정리)
+* MIDAS Docs 참고 (내가 정리)
 
 ### 빌드 속도 개선
- * [빌드 속도 개선](./Build.md)
+* [빌드 속도 개선](./Build.md)
 
 ### 단위테스트 및 TDD 방법론
- * 구글의 gtest 사용, 자동화 방법을 계속해서 더 생각해야 함 (추후 정리 필요)
- * 코드 리뷰도 필요한가?
+* 구글의 gtest 사용, 자동화 방법을 계속해서 더 생각해야 함 (추후 정리 필요)
+* 코드 리뷰도 필요한가?
 
 ### Visual Basic Setting
 
@@ -79,21 +79,5 @@
 
 * [Naming](/contents/BasicEducation/Naming.md)
 
-<br/>
-
-## 아직~~
-
-### 성능 코딩
- * s
-
-### 품질
-  * Mesh Quality
-
-### 기하 알고리즘
- * s
-
-### 부재결합
- * s
-
-### 병렬 컴퓨팅
- * s
+### 코드 품질
+ * [CodeQuality](/contents/BasicEducation/CodeQuality.md)
