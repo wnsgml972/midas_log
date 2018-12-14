@@ -29,8 +29,15 @@
 
 ### 디자인 패턴
 * [디자인 패턴](./DesignPattern.md)
-* 인터페이스에 맞춘 프로그래밍을 한다.
-* 상속보다는 구성을
+* [Clean Code](/contents/BasicEducation/CleanCode.md)
+
+### Commit Message Rule
+
+* [Commit Message Rule](./commit.md)
+
+### Naming
+
+* [Naming](/contents/BasicEducation/Naming.md)
 
 ### 버젼 컨트롤
 * Git (나는 소스트리 사용)
@@ -48,8 +55,7 @@
 * [빌드 속도 개선](./Build.md)
 
 ### 단위테스트 및 TDD 방법론
-* 구글의 gtest 사용, 자동화 방법을 계속해서 더 생각해야 함 (추후 정리 필요)
-* 코드 리뷰도 필요한가?
+* 구글의 gtest 사용, **자동화가 되어있는지는 잘 모르겠음 추 후 공부**
 
 ### Visual Basic Setting
 
@@ -67,17 +73,12 @@
 
 * [C++ 17](./cpp17.md)
 
-## Modern C++ Framework 구현 분석
+### Modern C++ Framework 구현 분석
 
 * [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
 
-### Commit Message Rule
-
-* [Commit Message Rule](./commit.md)
-
-### Naming
-
-* [Naming](/contents/BasicEducation/Naming.md)
-
 ### 코드 품질
- * [CodeQuality](/contents/BasicEducation/CodeQuality.md)
+* [CodeQuality](/contents/BasicEducation/CodeQuality.md)
+
+### 코드 리뷰
+* [Code Review](/contents/BasicEducation/CodeReview.md)
