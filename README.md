@@ -90,16 +90,16 @@
 
 ## 2018.11
 :memo:
-* [첫째 주] IFC Geometry Converter 기반 기술 확보, C++ 17 문법 공부
+* [첫째 주] IFC Import 기반 기술 확보, C++ 17 문법 공부
   * 목표 : 자료 정리 완료
 
-* [둘째 주] IFC Geometry Converter 기반 기술 확보, Smart Pointer, Install Shield
+* [둘째 주] IFC Import 기반 기술 확보, Smart Pointer, Install Shield
   * 목표 : 기능 조금 완료, 스마트 포인터 완료
 
-* [셋째 주] IFC Geometry Converter 기반 기술 확보, Install Shield
+* [셋째 주] IFC Import 1D, Install Shield
   * 목표 : 기본 기능 완료, 지금까지 완성한 기능 테스트코드 작성 완료
 
-* [넷째 주] IFC Import 1D, Install Shield
+* [넷째 주] IFC Import 1D and 2D, Install Shield
   * 목표 : 제품 출시까지 기능 확인, 리팩토링
 
 
@@ -110,14 +110,14 @@
 
 ## 2018.12
 :memo:
-* [첫째 주] IFC Import 2D, Rebar
+* [첫째 주] IFC Import 2D and Rebar
   * 목표 : 구현 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] IFC Import 2D and Rebar
+  * 목표 : 기존 코드 리팩토링, 구현 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] IFC Export 기반 기술 확보
+  * 목표 : 기존 코드 리팩토링, 기반 기술 확보
 
 * [넷째 주] 
   * 목표 : 
