@@ -14,16 +14,16 @@
 
 #### CI 시스템 구축을 위한 핵심 구성요소
 
-CI Server<br/>
+**CI Server**<br/>
 빌드 프로세스를 관리하는 서버로 Jenkins가 여기에 속한다.<br/>
 ex) Jenkins, Travis CI,  etc<br/><br/>
-SCM(Source Code Management)<br/>
+**SCM(Source Code Management)**<br/>
 소스코드 형상 관리 시스템으로 Git이 여기에 속한다. 소스코드의 개정과 백업 절차를 자동화하여 오류 수정 과정을 돕는다. 팀 프로젝트의 경우 각자 수정한 부분을 전체가 자동으로 동기화 할 수 있는 시스템이다.<br/>
 ex) subversion, Git etc<br/><br/>
-Build Tool<br/>
+**Build Tool**<br/>
 컴파일, 테스트, 정적 분석 등을 실시해 동작가능한 소프트웨어를 생성하는 도구로 Maven이 여기에 속한다. 빌드는 형상 관리 시스템에 있는 소스코드를 가져와 컴파일하여 실행 가능한 파일로 만드는 일련 과정을 일컫는 말이다.<br/>
 ex) Maven, Gradle, Ant, make etc<br/><br/>
-Test Tool<br/>
+**Test Tool**<br/>
 작성된 테스트 코드에 따라 자동으로 테스트를 수행해주는 도구로 빌드 툴의 스크립트에서 실행되며 JUnit이 여기에 해당한다.<br/>
 ex) JUnit, Mocha etc<br/><br/>
 
@@ -94,7 +94,7 @@ ex) JUnit, Mocha etc<br/><br/>
 
 <br/><br/>
 
-## 유료 정적 코드 분석기
+## 여러 정적 코드 분석기
 
 ### CPP Check
 
@@ -112,7 +112,6 @@ ex) JUnit, Mocha etc<br/><br/>
 
 ### 결과
 
-* 큰 프로젝트에서는 유료를 쓰는 게 무조건 낫다.
 * 혼자 개발하는 조그마한 개인 프로젝트에만 한번씩 위에있는 VS 정적 코드 분석기를 돌리면 될 것 같다.
 
 
