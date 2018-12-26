@@ -398,7 +398,7 @@ if (employees == null)
 * 출력 인수를 되도록 사용하지 말자.
 * 부수 효과를 일으키지 마라.  (함수의 이름이 행하는 일만 해라.)
 * 때에 따른 구분도 좋은 방법이다. begin, end 등등
-* isValid, is, get, set, convert, begin, end
+* valid, is, get, set, convert, begin, end
 
 ### 클래스 (클래스 쪼개기)
 

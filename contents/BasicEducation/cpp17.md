@@ -225,7 +225,9 @@ namespace A::B::C {
 
 ### Single Param static_assert
 
-static_assert를 하나의 인자로 사용할 수 있다.
+**static_assert은 컴파일 타임에 assert를 검사해준다. 런타임 상수가 아닐 경우, static_assert를 이용하여 컴파일 타임에 검사를 진행하도록 하자.**
+
+* static_assert를 하나의 인자로 사용할 수 있다.
 
 ~~~cpp
 static_assert(sizeof(short) == 2)
@@ -307,9 +309,45 @@ struct Foo {
 
 
 
+
 <br/>
 
-### std::optional<A>
+### constexpr 선언
+
+**사실 C++ 에는 두 가지 다른 종류의 상수가 있다.** <br/><br/>
+**런타임 상수(runtime constant)는 초깃값을 런타임에서만 확인할 수 있는 상수다.** 아래 예제에서 `age`는 컴파일러가 컴파일 시 값을 결정할 수 없으므로 런타임 상수다. `age`는 런타임 때 사용자의 입력에 의해 달라질 수 있어 컴파일 타임에는 값을 결정할 수 없다.<br/><br/>
+**컴파일 시간 상수(compile-time constant)는 컴파일 시간에 초깃값을 확인할 수 있는 상수다.**
+
+#### const 선언은 런타임 시간 상수도 허용을 하는 상수 선언 법이다.
+
+#### define을 이용하여 심볼릭 상수를 이용하는 것은, 디버거에 나타나지 않으므로 좋지 않다. const나 constexpr을 이용하여 상수 선언을 하도록 하자.
+
+~~~cpp
+#include <iostream>
+
+int main() {
+	// compile 시에는 실행하기 전 값이 확실히 초기화 되어 있어야 함
+	constexpr double gravity(9.8); // ok, the value of 9.8 can be resolved at compile-time 
+	constexpr int sum = 4 + 5; // ok, the value of 4 + 5 can be resolved at compile-time 
+	std::cout << "Enter your age: "; 
+	int age;
+	std::cin >> age;
+	constexpr int myAge = age; // not okay, age can not be resolved at compile-time
+
+	// run-time 시에는 값이 정해져 있다면 다 됨!
+	const double gravity1(9.8);
+	const int sum1 = 4 + 5;
+	std::cout << "Enter your age: ";
+	int age1;
+	std::cin >> age1;
+	const int myAge1 = age1;
+}
+~~~
+
+
+<br/>
+
+### `std::optional<A>`
 
 **결과와 반환 값을 한번에 컨트롤 할 수 있게 해준다.**
 
