@@ -26,24 +26,24 @@
 * C++, MFC 교육
 * 코딩 규칙
 * 디버깅
+* [읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
 ### 디자인 패턴
 * [디자인 패턴](./DesignPattern.md)
 * [Clean Code](/contents/BasicEducation/CleanCode.md)
 
 ### Commit Message Rule
-
 * [Commit Message Rule](./commit.md)
 
 ### Naming
-
 * [Naming](/contents/BasicEducation/Naming.md)
 
 ### 버젼 컨트롤
-* Git (나는 소스트리 사용)
+* [Git Branch 전략과 여러 Merge 방법](/contents/BasicEducation/Git.md)
 
 ### Parasolid
-* 다른 회사 3D 캐드 엔진
+* 다른 회사 3D CAD 엔진
+* [CAD 용어 정리](/contents/BasicEducation/cad.md)
 
 ### Phase
 * MIDAS UI FrameWork
@@ -58,27 +58,22 @@
 * 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
 
 ### Visual Basic Setting
-
 * [Visual Basic Set](./VisualBasicSet.md)
 
 ### Visual Code Basic Setting
-
 * [Visual Code Basic Set](./VisualCodeBasicSet.md)
 
 ### C++ Basic
-
 * [C++ Basic](./CppBasic.md)
 
 ### C++ 17
-
 * [C++ 17](./cpp17.md)
 
 ### Modern C++ Framework 구현 분석
-
 * [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
 
 ### 코드 품질
-* [CodeQuality](/contents/BasicEducation/CodeQuality.md)
+* [Code Quality](/contents/BasicEducation/CodeQuality.md)
 
 ### 코드 리뷰
 * [Code Review](/contents/BasicEducation/CodeReview.md)
