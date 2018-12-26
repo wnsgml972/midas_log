@@ -117,7 +117,7 @@ void do_something() {
          //do some maths
      }
      else {
-       static_assert(false, "Must be arithmetic"); //invalid for all specializations
+       static_assert(false); //invalid for all specializations
      }
 }
 ~~~

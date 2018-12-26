@@ -234,7 +234,6 @@ static_assert(sizeof(short) == 2)
 ~~~
 
 
-
 <br/>
 
 ### Inline Variables
