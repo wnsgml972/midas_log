@@ -4,6 +4,7 @@
 ## 목차
 
 * *.hpp, *.c, *.h 파일
+* R-Value, L-Value
 * noexcept 선언
 * explicit 선언
 * template 시 사용할 constexpr, static_assert
@@ -23,6 +24,82 @@
 
 정해진 것은 없다. C의 헤더 파일과 C++의 헤더 파일을 구분하기 위해 *.hpp라는 것이 있다고 한다. 실제 적용 모습을 보니, __헤더 파일에 선언부와 구현부를 모두 넣은 파일을 *.hpp 파일로 지정한다.__
 
+
+
+<br/>
+
+### R-Value, L-Value
+
+#### R-Value
+
+* 일반적으로 할당될 수 없는 값을 의미한다. 
+* 식이 끝나면 사라지는 일시적인 값이며, 주소를 가지지 않는다.
+* 당장의 생명 유지를 할 수 있는 방법? 이라 생각하면 된다.
+* 쓸모 없어 보이지만, `move semantics`에 사용된다.
+
+#### L-Value
+
+* 일반적으로 할당될 수 있는 값을 의미한다. 
+* 해당 식이 끝나고 나서도 계속 남는 값이며, 주소를 가진다.
+
+#### 참조
+
+* lvalue는 lvalue만 참조가 가능하며 rvalue는 안 된다. 단 const는 예외이다.
+* 3은 대입 될 수 없는 값, 즉 식이 끝나면 사라지는 rvalue이다.
+
+~~~cpp
+int a = 3;
+int& b = a; // a는 lvalue이므로 적법한 문장
+int& c = 3; // 3은 rvalue이므로 compile error가 발생한다.
+const int& d = 3; //d는 const lvalue reference이므로 rvalue도 참조할 수 있다.
+~~~
+
+* c++ 11 이후에서는 rvalue도 값을 받을 수 있는 문법인 `&&`가 나왔다.
+
+~~~cpp
+int sum(int a, int b)
+{
+    return a + b;
+}
+
+sum(3,4); //이 함수의 리턴값 자체는 rvalue이므로 이 식이 끝나는 순간 사라진다.
+int&& val = sum(3,4);
+
+//식이 끝난 다음에도 해당 값을 유지하여 참조할 수 있게 된다. 
+std::cout << val << std::endl;
+~~~
+
+#### move semantics
+
+* 이동은 복사와 달리 말 그대로 객체가 이동하는 것을 의미한다.
+* 내용을 복사하는 것이 아니기 때문에 속도면에서 우수하다.
+* 다음의 rvalue 문법을 통해 생명을 연장시켜 객체를 이동시키는데 사용될 수 있다.
+* `std::move`를 이용하면 lvalue를 rvalue로 바꿀 수 있다.
+
+~~~cpp
+#include <iostream>
+#include <xutility>
+
+
+class ABC
+{
+public:
+	ABC() = default;
+	ABC(const ABC&) = default; //복사 생성자
+	ABC(ABC&&) = default; //이동 생성자
+	ABC& operator =(const ABC&) = default; // 대입 연산자
+	ABC& operator =(ABC&&) = default; // 이동 대입 연산자
+};
+
+int main()
+{
+	ABC a; // a 생성
+	ABC b(a); // a를 이용해서 b 생성
+	ABC c(std::move(b)); //b를 이동해서 c 생성. b는 이제 의미 없음.
+	ABC d; // d 생성
+	d = std::move(c); //c를 d로 이동. 이제 c는 의미없음.
+}
+~~~
 
 
 <br/>
@@ -129,18 +206,19 @@ void do_something() {
 **const 선언 바로 뒤의 값을 상수화한다.**<br/>
 크게 2가지로 나누어서 볼 수 있다.
 
+#### **변수에서의 const**
 
-#### const int * pointer
+* `const int * pointer`
 
 `int` 즉 변수 값을 상수화한다.<br/>
 pointer의 주솟 값 자체는 변경이 가능하지만 pointer가 가리키는 값은 상수화 되어 있다.
 
-#### int const * pointer
+* `int * const pointer`
 
-`*` 즉 포인터를 상수화한다.<br/>
+`pointer` 즉 포인터를 상수화한다.<br/>
 pointer의 주솟 값 자체를 상수화하여 주솟 값 변경이 불가능하게 만든다.
 
-#### const int const * pointer
+* `const int const * pointer`
 
 변수 값과, 주솟 값 모두 상수화 한다.<br/>
 둘다 컴파일 오류가 난다.
@@ -151,6 +229,24 @@ int value = 42;
 const int* const p = &value;
 p = &value;    //Error
 *p = 10;       //Error
+~~~
+
+
+#### **함수에서의 const**
+
+* 함수 앞의 const
+
+위의 설명대로 그냥 해당 const 된 변수를 return 하는 것을 의미한다.
+
+
+* 함수 뒤의 const
+
+const 멤버 함수 내에서는 **객체의 멤버변수를 변경할 수 없는 읽기 전용 함수가 된다.**
+
+~~~cpp
+int GetX() const {
+    return x_;  //x_의 값 변경 불가
+}
 ~~~
 
 
