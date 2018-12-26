@@ -47,9 +47,18 @@
 ### Make Solid (Profile, Surface)
 * Surface : 표면, Solid 하기 위해 기본으로 알아야 할 것
 * Profile : Surface를 만들기 위한 기본 곡선, (단면:aProfileFaces)
+<br/>또는 그냥 이거 자체를 단면으로 부름
 * Revolve(회전) : 어떤 Profile을 회전시켜 Solid
 * Loft(로프트) : 여러 개의 Profile을 이용하여 연결하여 Solid
 * Sweep(스윕) : Profile을 일정 **경로**를 따라 밀어서 Solid
 * Extrude(돌출) : Profile을 **직선** 방향으로 밀어서 Solid
 
 
+
+
+<br/>
+
+### 그 외...
+
+#### manifold
+* 모양이 막 이상한 애들, 얘는 뭐다! 이렇게 정의내릴 수 없는 애들
