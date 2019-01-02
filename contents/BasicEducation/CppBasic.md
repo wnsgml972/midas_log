@@ -714,6 +714,25 @@ int main(void)
 * 순환 참조, 상호 참조시에 레퍼런스 카운트가 0이 되지 않는 경우를 방지하기 위해 사용
 * 나머지 경우는 잘 모르겠음..
 
+
+<br/>
+
+#### Smart Pointer to Nomal Pointer
+
+1. `std::shared<int> intPointer; int *ipVal;`
+
+~~~cpp
+std::shared<int> intPointer;
+int *ipVal = intPointer.get();
+~~~
+
+2. `std::shared<int> intPointer; int intVal;`
+
+~~~cpp
+std::shared<int> intPointer;
+int ipVal = *intPointer;
+~~~
+
 <br/>
 
 #### 참고

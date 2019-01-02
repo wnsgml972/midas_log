@@ -64,6 +64,9 @@
 ### Visual Code Basic Setting
 * [Visual Code Basic Set](./VisualCodeBasicSet.md)
 
+### Etc Setting
+* [Etc Set](./EtcSet.md)
+
 ### C++ Basic
 * [C++ Basic](./CppBasic.md)
 
