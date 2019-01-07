@@ -10,6 +10,7 @@
 * modern c+ framework 분석
 * default, delete 키워드
 * C++ Casting
+* enum class
 * C++11 다양한 초기화 방식
 * C++ Getter, Setter
 * C++11/14 변경 사항
@@ -85,6 +86,28 @@
 
 
 #### 거의 static_cast를 위주로 사용하는 것이 좋다
+
+
+<br/>
+
+
+### Enum Class
+
+* Enum의 범위를 제한하기 위해 Enum Class를 사용한다.
+* FeatureSolid 참조할 것
+
+~~~cpp
+class ABC
+{
+public:
+    enum class FileState { WRITE, READ };
+};
+
+int main()
+{
+    ABC::FileState file1 = ABC::FileState::WRITE;
+}
+~~~
 
 
 <br/>
