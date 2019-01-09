@@ -30,17 +30,17 @@
 * [읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
 ### 디자인 패턴
-* [디자인 패턴](./DesignPattern.md)
+* [디자인 패턴](/contents/BasicEducation/DesignPattern.md)
 * [Clean Code](/contents/BasicEducation/CleanCode.md)
 
+### Version Control
+* [Git](/contents/BasicEducation/Git.md)
+
 ### Commit Message Rule
-* [Commit Message Rule](./commit.md)
+* [Commit Message Rule](/contents/BasicEducation/commit.md)
 
 ### Naming
 * [Naming](/contents/BasicEducation/Naming.md)
-
-### 버젼 컨트롤
-* [Git Branch 전략](/contents/BasicEducation/Git.md)
 
 ### Parasolid
 * 다른 회사 3D CAD 엔진
@@ -53,25 +53,25 @@
 * MIDAS Docs 참고 (내가 정리)
 
 ### 빌드 속도 개선
-* [빌드 속도 개선](./Build.md)
+* [빌드 속도 개선](/contents/BasicEducation/Build.md)
 
 ### 단위테스트 및 TDD 방법론
 * 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
 
 ### Visual Basic Setting
-* [Visual Basic Set](./VisualBasicSet.md)
+* [Visual Basic Set](/contents/BasicEducation/VisualBasicSet.md)
 
 ### Visual Code Basic Setting
-* [Visual Code Basic Set](./VisualCodeBasicSet.md)
+* [Visual Code Basic Set](/contents/BasicEducation/VisualCodeBasicSet.md)
 
 ### Etc Setting
-* [Etc Set](./EtcSet.md)
+* [Etc Set](/contents/BasicEducation/EtcSet.md)
 
 ### C++ Basic
-* [C++ Basic](./CppBasic.md)
+* [C++ Basic](/contents/BasicEducation/CppBasic.md)
 
 ### C++ 17
-* [C++ 17](./cpp17.md)
+* [C++ 17](/contents/BasicEducation/cpp17.md)
 
 ### Modern C++ Framework 구현 분석
 * [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
