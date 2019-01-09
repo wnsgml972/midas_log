@@ -4,7 +4,7 @@
 
 ### Ovewview
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hKJ7TBd7G9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Label](http://img.youtube.com/vi/hKJ7TBd7G9E/0.jpg)](https://www.youtube.com/watch?v=hKJ7TBd7G9E)
 
 ### Git Flow 응용
 

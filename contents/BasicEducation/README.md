@@ -40,7 +40,7 @@
 * [Naming](/contents/BasicEducation/Naming.md)
 
 ### 버젼 컨트롤
-* [Git Branch 전략과 여러 Merge 방법](/contents/BasicEducation/Git.md)
+* [Git Branch 전략](/contents/BasicEducation/Git.md)
 
 ### Parasolid
 * 다른 회사 3D CAD 엔진
