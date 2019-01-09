@@ -21,17 +21,28 @@
 
 <br/><hr/>
 
-## 업무 전문 지식
+# 업무 전문 지식
 
-### 기초
+## Basic knowledge
+
+### Basic
 * C++, MFC 교육
 * 코딩 규칙
 * 디버깅
 * [읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
-### 디자인 패턴
+### Design Pattern
 * [디자인 패턴](/contents/BasicEducation/DesignPattern.md)
 * [Clean Code](/contents/BasicEducation/CleanCode.md)
+
+### Naming
+* [Naming](/contents/BasicEducation/Naming.md)
+
+
+
+<br/>
+
+## Cooperation
 
 ### Version Control
 * [Git](/contents/BasicEducation/Git.md)
@@ -39,8 +50,45 @@
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
-### Naming
-* [Naming](/contents/BasicEducation/Naming.md)
+### DevOps & Code Quality
+* [Code Quality](/contents/BasicEducation/CodeQuality.md)
+
+### Code Review
+* [Code Review](/contents/BasicEducation/CodeReview.md)
+
+
+<br/>
+
+## Setting
+
+### Visual Basic Setting
+* [Visual Basic Set](/contents/BasicEducation/VisualBasicSet.md)
+
+### Visual Code Basic Setting
+* [Visual Code Basic Set](/contents/BasicEducation/VisualCodeBasicSet.md)
+
+### Etc Setting
+* [Etc Set](/contents/BasicEducation/EtcSet.md)
+
+
+<br/>
+
+## Modern C++
+
+### C++ Basic
+* [C++ Basic](/contents/BasicEducation/CppBasic.md)
+
+### C++ 17
+* [C++ 17](/contents/BasicEducation/cpp17.md)
+
+### Modern C++ Framework 구현 분석
+* [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
+
+
+
+<br/>
+
+## MIDAS
 
 ### Parasolid
 * 다른 회사 3D CAD 엔진
@@ -52,32 +100,10 @@
 ### MIDAS DB
 * MIDAS Docs 참고 (내가 정리)
 
-### 빌드 속도 개선
+### Build Speed Improvements
 * [빌드 속도 개선](/contents/BasicEducation/Build.md)
 
-### 단위테스트 및 TDD 방법론
+### Test
 * 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
 
-### Visual Basic Setting
-* [Visual Basic Set](/contents/BasicEducation/VisualBasicSet.md)
 
-### Visual Code Basic Setting
-* [Visual Code Basic Set](/contents/BasicEducation/VisualCodeBasicSet.md)
-
-### Etc Setting
-* [Etc Set](/contents/BasicEducation/EtcSet.md)
-
-### C++ Basic
-* [C++ Basic](/contents/BasicEducation/CppBasic.md)
-
-### C++ 17
-* [C++ 17](/contents/BasicEducation/cpp17.md)
-
-### Modern C++ Framework 구현 분석
-* [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
-
-### 코드 품질
-* [Code Quality](/contents/BasicEducation/CodeQuality.md)
-
-### 코드 리뷰
-* [Code Review](/contents/BasicEducation/CodeReview.md)
