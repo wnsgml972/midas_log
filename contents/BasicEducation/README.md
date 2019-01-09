@@ -26,10 +26,9 @@
 ## Basic knowledge
 
 ### Basic
-* C++, MFC 교육
-* 코딩 규칙
+* C++, MFC 개인 프로젝트 진행
 * 디버깅
-* [읽고 공부한 책들](/contents/BasicEducation/Book.md)
+* [입사 후, 읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
 ### Design Pattern
 * [디자인 패턴](/contents/BasicEducation/DesignPattern.md)
@@ -49,6 +48,10 @@
 
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
+
+### Atlassian
+* [Jira](/contents/BasicEducation/Jira.md)
+* [Confluence](/contents/BasicEducation/Confluence.md)
 
 ### DevOps & Code Quality
 * [DevOps & Code Quality](/contents/BasicEducation/CodeQuality.md)
@@ -105,5 +108,6 @@
 
 ### Test
 * 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
-
+* Unit Test도 끊임없는 리팩토링이 필요!
+* **Test Code는 실제 코드만큼 중요하다.**
 
