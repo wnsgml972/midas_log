@@ -51,7 +51,7 @@
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
 ### DevOps & Code Quality
-* [Code Quality](/contents/BasicEducation/CodeQuality.md)
+* [DevOps & Code Quality](/contents/BasicEducation/CodeQuality.md)
 
 ### Code Review
 * [Code Review](/contents/BasicEducation/CodeReview.md)
@@ -88,7 +88,7 @@
 
 <br/>
 
-## MIDAS
+## MIDAS : 기반 개발 및 응용
 
 ### Parasolid
 * 다른 회사 3D CAD 엔진

@@ -20,31 +20,12 @@
 
 ## Basic Education
 
-[Basic Education](/contents/BasicEducation/README.md)
-
-## C++ Basic
-
-[C++ Basic](/contents/BasicEducation/CppBasic.md)
-
-## C++ 17
-
-[C++ 17](/contents/BasicEducation/cpp17.md)
-
-## Modern C++ Framework 구현 분석
-
-[Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
-
-## Naming
-
-[Naming](/contents/BasicEducation/Naming.md)
-
-## Commit Message Rule
-
-[Commit Message Rule](/contents/BasicEducation/commit.md)
+* [Basic Education](/contents/BasicEducation/README.md)
+* 주로 공부한 것중 정리가 필요한 부분과 분석이 필요한 부분을 올림
 
 ---
 
-<br/>
+<br/><br/>
 
 # 월 별 기록
 
@@ -130,11 +111,11 @@
 
 ## 2019.01
 :memo:
-* [첫째 주] Phase 프레임 워크 분석
+* [첫째 주] Phase 프레임 워크 분석 및 문서화
   * 목표 : 하나 씩 문서화
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] 협업 전략 수립
+  * 목표 : 문서화 및 공부
 
 * [셋째 주] 
   * 목표 : 
