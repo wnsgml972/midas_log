@@ -21,7 +21,7 @@
 ## Basic Education
 
 * [Basic Education](/contents/BasicEducation/README.md)
-* 주로 공부한 것중 정리가 필요한 부분과 분석이 필요한 부분을 올림
+* 공부한 것을 정리 및 분석하여 올림
 
 ---
 
