@@ -44,14 +44,22 @@ Merge pull request #123 from user/branch
 
 ### Issue 자동 종료 시키기
 
-* Close는 일반 계열 Issue
-* Fix는 hotfix Issue
-* Resolve는 문의나 요청 사항에 대한 Issue
+* close는 일반 계열 Issue
+* fix는 hotfix Issue
+* resolve는 문의나 요청 사항에 대한 Issue
 
 ~~~
-Close #1336
-Fix #1336
-Resolve #1336
+close #1336
+fix #1336
+resolve #1336
+~~~
+
+### 기획자에게 참고 날리기
+
+* ref를 걸어 Issue에 알림을 넣을 수 있다.
+
+~~~
+ref #1476
 ~~~
 
 ### 전체 예제
@@ -71,6 +79,6 @@ Resolve #1336
 ~~~
 
 ~~~
-Close #1336
+[Close #1336]
 - abc
 ~~~
