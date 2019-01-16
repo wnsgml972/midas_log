@@ -59,6 +59,8 @@
 ### Code Review
 * [Code Review](/contents/BasicEducation/CodeReview.md)
 
+### Design
+* [Design](/contents/BasicEducation/Design.md)
 
 <br/>
 
