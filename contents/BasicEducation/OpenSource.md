@@ -8,11 +8,10 @@
 
 <br/>
 
-### Open Source Maintainers
+### Contributor
 
-#### MPSec (MultiPath Security)
-
-* [MultiPath Security](https://github.com/MPSec)
+* [developers-retrospective](https://github.com/oaksong/developers-retrospective/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Awnsgml972+) 회고록 추가
+* [awesome-devblog](https://github.com/sarojaba/awesome-devblog/pulls?q=is%3Apr+is%3Aclosed+author%3Awnsgml972) 블로그 추가
 
 
 
@@ -20,7 +19,8 @@
 
 <br/>
 
-### Contributor
+### Open Source Maintainers
 
-* [developers-retrospective](https://github.com/oaksong/developers-retrospective/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Awnsgml972+) 회고록 추가
-* [awesome-devblog](https://github.com/sarojaba/awesome-devblog/pulls?q=is%3Apr+is%3Aclosed+author%3Awnsgml972) 블로그 추가
+#### MPSec (MultiPath Security)
+
+* [MultiPath Security](https://github.com/MPSec)
