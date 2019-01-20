@@ -21,11 +21,11 @@
 
 ### Open Source Maintainers
 
-#### HILIGHT (Mosquitto Extention)
+#### HILIGHT
 
-* [HILIGHT](https://github.com/MQTT-HILIGHT)
+* [Mosquitto Extention](https://github.com/MQTT-HILIGHT)
 
 
-#### MPSec (MultiPath Security)
+#### MPSec
 
 * [MultiPath Security](https://github.com/MPSec)
