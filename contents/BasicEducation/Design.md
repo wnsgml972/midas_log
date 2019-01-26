@@ -1,6 +1,72 @@
 
-
-## 기획법
+# 기획
 
 > 신입 사원 연수를 받으며 깨달은 점을 업무와 연관시켜 정리해보았다.
 
+<br/>
+
+## 기획시 끊임없이 나에게 해야할 질문
+
+* 자신이 변하는데 관행적으로 하고 있는 것은 없는가?
+* 꼭 이 일을 해야 하는가?
+* 이 일을 하지 않는다면 어떤 일이 발생할 것인가?
+* 지금 하고 있는 일을 또 한다면, 똑같이 할 것인가?
+* 이 업무의 성과는 무엇인가?
+* 이대로 하면 목표를 달성할 수 있는가?
+* 이 단계를 몇 단계로 줄일 수 없을까?
+* 이 방법 말고 다른 방법은 없는가?
+* 고객이 원하는 것은 무엇인가?, 고객이 만족할 것인가?
+
+### Stay Hungry, Stay Follish
+
+<br/>
+
+---
+
+## 전략적 사고
+
+> 제일 중요한 것은 `끊임없는 왜?`를 통해 본질에 다가가 정확한 목적과 목표를 도출하는 것이다.
+
+### 2W1H
+
+* **목적 및 목표 도출의 수단**
+* 예시 : 효과적인 회의록 공유 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9T7cyQUK7ZeXLD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+
+
+<br/>
+
+### OASIS
+
+* **기획 시 전체 프로세스의 한 방법**
+* ![OASIS](/media/oasis.png)
+* 예시 : 전사 구성원의 아침식사 기획 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GVVgbqna21xoY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+
+
+
+
+<br/>
+
+### 현황 파악 시 도움이 되는 툴
+
+1. 브레인스토밍
+2. 브레인라이팅
+3. 도트 보팅
+4. 139 보팅
+5. 최종적으로 ERRC
+    * **Eliminate**
+    * Reduce
+    * Raise
+    * Create
+    * 예시 : 출퇴근 버스를 포함한 현재 MIT의 출퇴근 문화 확인 후 개선 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9bXnlkiFMKOezC" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+
+
+
+<br/>
+
+### 실무 과제 : 자인 씨앗 육성하기
