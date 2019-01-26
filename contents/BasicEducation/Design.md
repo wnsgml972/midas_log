@@ -35,7 +35,7 @@
 ### 2W1H
 
 * **목적 및 목표 도출의 수단**
-* 예시 : 효과적인 회의록 공유 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9T7cyQUK7ZeXLD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+* [예시 : 효과적인 회의록 공유](https://www.slideshare.net/JUNHEEKIM27/2w1h)
 
 
 
@@ -46,7 +46,7 @@
 
 * **기획 시 전체 프로세스의 한 방법**
 * ![OASIS](/media/oasis.png)
-* 예시 : 전사 구성원의 아침식사 기획 <iframe src="//www.slideshare.net/slideshow/embed_code/key/GVVgbqna21xoY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+* [예시 : 전사 구성원의 아침식사 기획](https://www.slideshare.net/JUNHEEKIM27/oasis-129315736)
 
 
 
@@ -66,7 +66,7 @@
     * Reduce
     * Raise
     * Create
-    * 예시 : 출퇴근 버스를 포함한 현재 MIT의 출퇴근 문화 확인 후 개선 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9bXnlkiFMKOezC" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    * [예시 : 출퇴근 버스를 포함한 현재 MIT의 출퇴근 문화 확인 후 개선](https://www.slideshare.net/JUNHEEKIM27/errc)
 
 
 
