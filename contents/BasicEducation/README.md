@@ -29,11 +29,15 @@
 * C++, MFC 개인 프로젝트 진행
 * 디버깅
 * [입사 후, 읽고 공부한 책들](/contents/BasicEducation/Book.md)
+
+
+### Design
+
 * [Design](/contents/BasicEducation/Design.md)
 
 
 ### Design Pattern
-* [디자인 패턴](/contents/BasicEducation/DesignPattern.md)
+* [Design Pattern](/contents/BasicEducation/DesignPattern.md)
 * [Clean Code](/contents/BasicEducation/CleanCode.md)
 
 ### Naming
