@@ -14,7 +14,7 @@
 - NotePad++
 - 반디집
 - 팟플레이어
-- ScreenToGIF
+- gif캠
 - 알씨
 - 팀뷰어
 - Adobe Reader
