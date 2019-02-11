@@ -52,25 +52,19 @@
 ### DevOps Overview
 * [DevOps Overview](/contents/BasicEducation/DevOps.md)
 
-### Cooperation Tool
-Work | Name 
----------|----------
- CI/CD | GitLab
- Issue Tracking | [Jira](/contents/BasicEducation/Jira.md)
- Docs | [Confluence](/contents/BasicEducation/Confluence.md)
-
-### Version Control
-* [Git](/contents/BasicEducation/Git.md)
-
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
-### Code Quality
-* [Code Quality](/contents/BasicEducation/CodeQuality.md)
-
-### Code Review
-* [Code Review](/contents/BasicEducation/CodeReview.md)
-
+### Cooperation Tool
+Work | Name 
+---------|----------
+ Version Control | [Git](/contents/BasicEducation/Git.md)
+ CI/CD | GitLab
+ Issue Tracking | [Jira](/contents/BasicEducation/Jira.md)
+ Docs | [Confluence](/contents/BasicEducation/Confluence.md)
+ Static Analysis | Sonar Qube, Cpp Check, [Overview](/contents/BasicEducation/CodeQuality.md)
+ Unit Test | Google Test
+ Code Review | Gerrit, [Overview](/contents/BasicEducation/CodeReview.md)
 
 
 <br/>
