@@ -47,7 +47,17 @@
 
 <br/>
 
-## Cooperation
+## DevOps
+
+### DevOps Overview
+* [DevOps Overview](/contents/BasicEducation/DevOps.md)
+
+### Cooperation Tool
+Work | Name 
+---------|----------
+ CI/CD | GitLab
+ Issue Tracking | [Jira](/contents/BasicEducation/Jira.md)
+ Docs | [Confluence](/contents/BasicEducation/Confluence.md)
 
 ### Version Control
 * [Git](/contents/BasicEducation/Git.md)
@@ -55,12 +65,8 @@
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
-### Atlassian
-* [Jira](/contents/BasicEducation/Jira.md)
-* [Confluence](/contents/BasicEducation/Confluence.md)
-
-### DevOps & Code Quality
-* [DevOps & Code Quality](/contents/BasicEducation/CodeQuality.md)
+### Code Quality
+* [Code Quality](/contents/BasicEducation/CodeQuality.md)
 
 ### Code Review
 * [Code Review](/contents/BasicEducation/CodeReview.md)
@@ -105,10 +111,11 @@
 * [CAD 용어 정리](/contents/BasicEducation/cad.md)
 
 ### Phase
+* Confluence 참고 (내가 정리)
 * MIDAS UI FrameWork
 
 ### MIDAS DB
-* MIDAS Docs 참고 (내가 정리)
+* Confluence 참고 (내가 정리)
 
 ### Build Speed Improvements
 * [빌드 속도 개선](/contents/BasicEducation/Build.md)
