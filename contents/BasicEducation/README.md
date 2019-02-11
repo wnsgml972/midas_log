@@ -30,11 +30,9 @@
 * 디버깅
 * [입사 후, 읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
-
 ### Design
 
 * [Design](/contents/BasicEducation/Design.md)
-
 
 ### Design Pattern
 * [Design Pattern](/contents/BasicEducation/DesignPattern.md)
@@ -43,6 +41,8 @@
 ### Naming
 * [Naming](/contents/BasicEducation/Naming.md)
 
+### Commit Message Rule
+* [Commit Message Rule](/contents/BasicEducation/commit.md)
 
 
 <br/>
@@ -52,9 +52,6 @@
 ### DevOps Overview
 * [DevOps Overview](/contents/BasicEducation/DevOps.md)
 
-### Commit Message Rule
-* [Commit Message Rule](/contents/BasicEducation/commit.md)
-
 ### Cooperation Tool
 Work | Name 
 ---------|----------
@@ -62,9 +59,10 @@ Work | Name
  CI/CD | GitLab
  Issue Tracking | [Jira](/contents/BasicEducation/Jira.md)
  Docs | [Confluence](/contents/BasicEducation/Confluence.md)
- Static Analysis | Sonar Qube, Cpp Check, [Overview](/contents/BasicEducation/CodeQuality.md)
+ Static Analysis | Sonar Qube, Cpp Check, [Log](/contents/BasicEducation/CodeQuality.md)
  Unit Test | Google Test
- Code Review | Gerrit, [Overview](/contents/BasicEducation/CodeReview.md)
+ Code Review | Gerrit, [Log](/contents/BasicEducation/CodeReview.md)
+
 
 
 <br/>
@@ -79,6 +77,7 @@ Work | Name
 
 ### Etc Setting
 * [Etc Set](/contents/BasicEducation/EtcSet.md)
+
 
 
 <br/>
