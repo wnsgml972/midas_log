@@ -57,8 +57,8 @@ Work | Name
 ---------|----------
  Version Control | [Git](/contents/BasicEducation/Git.md)
  CI/CD | GitLab
- Issue Tracking | [Jira](/contents/BasicEducation/Jira.md)
- Docs | [Confluence](/contents/BasicEducation/Confluence.md)
+ Issue Tracking, Planning | [Jira](/contents/BasicEducation/Jira.md)
+ Docs Cooperation | [Confluence](/contents/BasicEducation/Confluence.md)
  Static Analysis | Sonar Qube, Cpp Check, [Log](/contents/BasicEducation/CodeQuality.md)
  Unit Test | [Google Test](https://github.com/google/googletest)
  Code Review | Gerrit, [Log](/contents/BasicEducation/CodeReview.md)

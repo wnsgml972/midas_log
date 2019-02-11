@@ -1,5 +1,9 @@
 # DevOps
 
+## Atlassian
+
+![Atlassian](/media/atlassian.png)
+
 ## CI vs CD
 
 CI는 지속적 통합 (`Continuous Integration`), CD는 지속적 배포 (`Continuous Delivery`)
