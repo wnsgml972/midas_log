@@ -2,6 +2,7 @@
 
 ## Git Flow 그림
 
+![workflow](/media/cim_workflow.png)
 
 
 <br/>
@@ -23,6 +24,8 @@
 ## 각 Branch 설명
 
 ### 상위 branch
+
+> 전체 프로젝트가 하나의 Git Repository로 관리 될 때, CI의 연동을 통해 dev branch에 merge한 내용은 모든 코드가 Git에 올라가며, release branch에 merge한 내용은 따로 자동 Build 후, 실행 파일만 올라간다.
 
 #### master
 
