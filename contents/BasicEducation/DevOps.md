@@ -1,6 +1,6 @@
 # DevOps
 
-## Atlassian
+## Atlassian products
 
 ![Atlassian](/media/atlassian.png)
 
