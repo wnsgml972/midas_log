@@ -29,8 +29,8 @@
 
 ## Add In
 
-플러그인을 통해 알맞은 테마를 고르고 전사가 사용하기 쉽게 만들 수 있다!
-
+* 플러그인을 통해 알맞은 테마를 고르고 전사가 사용하기 쉽게 만들 수 있다!
+* 유료다...
 * [Refined Wiki](https://www.refinedwiki.com/)
 
 
@@ -59,4 +59,4 @@
 
 ## Reference
 * [소프트웨어 팀을 위한 컨플루언스 가이드](http://woowabros.github.io/files/2016-09-13/Software_Teams_Guide_to_Confluence_KOR.pdf)
-* [우아한 형제들 : Confluence 도입기](http://woowabros.github.io/woowabros/2016/06/30/woowabros_cto.html)
+* [우아한 형제들 : Confluence 도입기](http://woowabros.github.io/woowabros/2016/09/13/confluence_guide.html)
