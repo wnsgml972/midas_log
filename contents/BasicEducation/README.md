@@ -50,7 +50,8 @@
 ## DevOps
 
 ### DevOps Overview
-* [DevOps Overview](/contents/BasicEducation/DevOps.md)
+* [DevOps Overview](https://wnsgml972.github.io/devops/devops.html)
+* [DevOps Log](/contents/BasicEducation/DevOps.md)
 
 ### Cooperation Tool
 Work | Name 
