@@ -28,6 +28,7 @@
 ### Basic
 * C++, MFC 개인 프로젝트 진행
 * 디버깅
+* [Note (VS, OS, C, etc..)](/contents/BasicEducation/Note.md)
 * [입사 후, 읽고 공부한 책들](/contents/BasicEducation/Book.md)
 
 ### Design
