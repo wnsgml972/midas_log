@@ -101,9 +101,9 @@ Work | Name
 
 ## MIDAS : 기반 개발 및 응용
 
-### Parasolid
-* 다른 회사 3D CAD 엔진
-* [CAD 용어 정리](/contents/BasicEducation/cad.md)
+### CAD
+* [CAD Note](/contents/BasicEducation/cad.md)
+* `Parasolid` : 다른 회사 3D CAD 엔진
 
 ### Phase
 * Confluence 참고 (내가 정리)
