@@ -58,6 +58,7 @@
 Work | Name 
 ---------|----------
  Version Control | [Git](/contents/BasicEducation/Git.md)
+ Communication Tool | [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) : Linked GitLab, Github 
  CI/CD | GitLab
  Issue Tracking, Planning | [Jira](/contents/BasicEducation/Jira.md)
  Docs Cooperation | [Confluence](/contents/BasicEducation/Confluence.md)

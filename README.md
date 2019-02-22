@@ -141,11 +141,11 @@
 * [둘째 주] Solid, IFC Import 기능 개선, DevOps 정리
   * 목표 : 개선 완료, DevOps 정리 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] Analysis Line
+  * 목표 : 프로토타입 구현
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] Analysis Line
+  * 목표 : 프로토타입 구현 
 
 
 ## :heavy_check_mark:
