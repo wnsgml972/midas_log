@@ -1,7 +1,6 @@
 
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
-## Remind always
 
 ### [Stop thinking, Just Do](https://www.youtube.com/watch?v=4P2XeCSHSeA&vl=ko)
 
