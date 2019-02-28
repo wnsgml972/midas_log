@@ -1,6 +1,20 @@
 
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
+## Remind always
+
+### [Stop thinking, Just Do](https://www.youtube.com/watch?v=4P2XeCSHSeA&vl=ko)
+
+### [Stay Hungry. Stay Foolish.](https://www.youtube.com/watch?v=7aA17H-3Vig)
+
+타인의 생각에 자신의 목소리를 삼키지 마세요. <br/>
+자신의 영감을 믿고 밀고나살 용기를 가지세요. <br/>
+그리고, 항상 갈망하고, 우직하게 노력하세요. 
+
+
+<br/>
+<hr/>
+
 ## Basic Education
 
 ### 마음가짐
