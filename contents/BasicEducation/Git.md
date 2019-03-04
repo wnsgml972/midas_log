@@ -91,6 +91,28 @@
 
 ### Git Code
 * [Git Scen1](/contents/BasicEducation/GitScen1.md)
+* <https://github.com/wnsgml972/learnGitBranching>
+
+
+
+
+
+<br/><br/>
+
+## Github Project Management
+
+* Github 기반 프로젝트 관리법 정리!
+* <https://github.com/cheese10yun/github-project-management>
+
+Work | Name 
+---------|----------
+ Version Control | [Git](/contents/BasicEducation/Git.md)
+ Communication Tool | [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) : Linked Github 
+ CI/CD | [Travis CI](https://travis-ci.org/), [Coveralls](https://coveralls.io/)
+ Issue Tracking, Planning | [ZenHub](https://www.zenhub.com/)
+ Docs Cooperation | Wiki
+ Static Analysis | [Sonar Qube](https://www.sonarqube.org/)
+ Code Review | Github pull request
 
 
 
@@ -100,6 +122,6 @@
 
 ## 참고
 
-* <https://learngitbranching.js.org/?demo>
-* <https://github.com/wnsgml972/learnGitBranching>
+* <https://learngitbranching.js.org/?demo>\
 * [우아한 형제들 : Git Flow 도입](http://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
+
