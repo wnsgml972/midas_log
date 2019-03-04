@@ -82,6 +82,9 @@
 * `release`에서 발생하는 테스트 후 발생되는 버그는 `hotfix`가 아니라, 한 `Issue`에 대한 fix 사항이라는 것만 구별한다. 굳이 말하자면 `bugfix`?
 
 
+
+
+
 <br/><br/><hr/>
 
 ## Git Scenario1
