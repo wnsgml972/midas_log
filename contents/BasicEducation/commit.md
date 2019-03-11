@@ -62,23 +62,88 @@ resolve #1336
 ref #1476
 ~~~
 
-### 전체 예제
+
+
+<br/><br/>
+
+## Commit Message Convention
+
+커밋 메시지를 작성할 때는 원칙을 정하고 일관성 있게 작성해야 한다.
+
+### Structure
 
 ~~~
-[#noissue] Refactor ASM class
-- abc
-- def
-- ggg
+Type : Title
+
+Body
+
+Footer
 ~~~
 
-~~~
-[#1336] Update Feature Solid
-- abc
-- def
-- ggg
-~~~
+### Commit Type
+* `feat` : 새로운 기능 추가
+* `remove` : 기능 삭제
+* `release` : 제품 출시
+* `fix` : 버그 수정
+* `docs` : 문서 수정
+* `style` : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+* `refactor` : 코드 리펙토링
+* `test` : 테스트 코드, 리펙토링 테스트 코드 추가
+* `chore` : 빌드 업무 수정, 패키지 매니저 수정
+
+### Title
+* 명령문으로 작성한다.
+* 50자를 넘기지 않는다.
 
 ~~~
-[Close #1336]
-- abc
+Refactor subsystem X for readability
+Test company class and its public methods
+Update getting started documentation
+Fix occasionally test failure
+Remove deprecated methods
+Release version 1.0.0
+Merge pull request #123 from user/branch
+~~~
+
+### Body
+* 선택사항이기 때문에 모든 커밋에 본문내용을 작성할 필요는 없다.
+* 부연설명이 필요하거나 커밋의 이유를 설명할 경우 작성해준다.
+* 72자를 넘기지 않고, 제목과 구분되기 위해 한칸을 띄워 작성한다.
+
+### Footer
+* 선택사항이기 때문에 모든 커밋에 꼬리말을 작성할 필요는 없다.
+* issue tracker id를 작성할 때 사용한다.
+
+<br/>
+
+### Example
+
+~~~
+feat: Summarize changes in around 50 characters or less
+
+More detailed explanatory text, if necessary. Wrap it to about 72
+characters or so. In some contexts, the first line is treated as the
+subject of the commit and the rest of the text as the body. The
+blank line separating the summary from the body is critical (unless
+you omit the body entirely); various tools like `log`, `shortlog`
+and `rebase` can get confused if you run the two together.
+
+Explain the problem that this commit is solving. Focus on why you
+are making this change as opposed to how (the code explains that).
+Are there side effects or other unintuitive consequenses of this
+change? Here's the place to explain them.
+
+Further paragraphs come after blank lines.
+
+ - Bullet points are okay, too
+
+ - Typically a hyphen or asterisk is used for the bullet, preceded
+   by a single space, with blank lines in between, but conventions
+   vary here
+
+If you use an issue tracker, put references to them at the bottom,
+like this:
+
+resolve: #123 (or ref #123)
+see also: #456, #789
 ~~~
