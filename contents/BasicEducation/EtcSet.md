@@ -21,7 +21,7 @@
 - Windows Power Shell
 - 바탕화면 달력
 - V3
-
+- [구라제거기](https://teus.me/484)
 
 
 <br/>
