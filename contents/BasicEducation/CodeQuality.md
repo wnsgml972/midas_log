@@ -60,6 +60,54 @@
 * 쓸데 없이 나오는 경고들 `#programa`로 해결
 
 
+<br/>
+
+### .editorconfig file
+
+> 편집기나 IDE에 관계없이 **일관된 코딩 스타일**을 유지할 수 있게 해준다.
+
+#### 지원되는 설정
+* indent_style
+* indent_size
+* tab_width
+* end_of_line
+* 문자 집합
+* trim_trailing_whitespace
+* insert_final_newline
+* 루트
+
+#### 예시
+
+~~~
+# 소스 코드 일관성 편집툴
+# https://docs.microsoft.com/ko-kr/visualstudio/ide/create-portable-custom-editor-options
+#
+
+# 루트 설정 파일
+root = true
+
+# 모든 파일이 대해
+#   줄바꿈 문자 기본값을 \r\n 으로
+#   텍스트 인코딩을 utf-8로
+[*]
+end_of_line: crlf
+
+# 웹 관련 기능들은 utf-8이 기본
+[*.{json,md,js,html,htm}]
+charset = utf-8
+
+# C/C++ 소스 및 헤더파일에 대해
+#   빈 공백문자를 없애기
+#   소스 마지막줄에 빈줄 추가하기
+[*.{cpp,c,h,hpp}]
+#trim_trailing_whitespace = true
+#insert_final_newline = true
+~~~
+
+#### Reference
+* <https://docs.microsoft.com/ko-kr/visualstudio/ide/create-portable-custom-editor-options?view=vs-2017>
+
+
 
 
 
