@@ -54,6 +54,9 @@
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
+### Code Quality
+* [Code Quality](/contents/BasicEducation/CodeQuality.md)
+
 
 <br/>
 
