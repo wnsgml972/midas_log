@@ -742,19 +742,24 @@ int main(void)
 
 #### Smart Pointer to Nomal Pointer
 
-1. `std::shared<int> intPointer; int *ipVal;`
+1. `std::shared<int> intPointer : int *ipVal`
 
 ~~~cpp
-std::shared<int> intPointer;
-int *ipVal = intPointer.get();
+std::shared_ptr<int> intPointer1 = std::make_shared<int>(3);
+int *ipVal = intPointer1.get();
+
+int a = 4;
+int *b = &a;
+// 즉 get() 함수는 주솟 값을 리턴해준다.
 ~~~
 
-2. `std::shared<int> intPointer; int intVal;`
+2. `std::shared<int> intPointer : int iVal`
 
 ~~~cpp
-std::shared<int> intPointer;
-int ipVal = *intPointer;
+std::shared_ptr<int> intPointer2 = std::make_shared<int>(3);
+int iVal = *intPointer1;
 ~~~
+
 
 <br/>
 
