@@ -27,10 +27,10 @@
 <br/>
 
 ## 통합개발환경
-- Eclispe
+- Jet Brains
+    - IntelliJ
 - Visual Studio
 - Visual Studio Code
-- 아나콘다 (파이썬)
 
 
 
@@ -54,6 +54,7 @@
 - 캡쳐도구
 - sticky notes
 - MicroSoft, TO DO
+- 윈도우 다크테마
 - 작업 표시줄
   1. 작업 폴더
   2. 캡쳐 도구
