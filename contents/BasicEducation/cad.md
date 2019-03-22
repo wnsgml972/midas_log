@@ -21,9 +21,9 @@
 
 단일 | 묶음 
 ---------|----------
- Face | Sheet 
- Edge | Wire 
- Vertex | Minimum 
+Face | Sheet 
+Edge | Wire 
+Vertex | Minimum 
 
 * Face, Sheet : “Face 들의 묶음 Sheet(Body)”
 * Edge, Wire : “Edge 들의 묶음 Wire(Body)”
