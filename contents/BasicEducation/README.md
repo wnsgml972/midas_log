@@ -38,6 +38,7 @@
 * C++, MFC 개인 프로젝트 진행
 * 디버깅
 * [Note (VS, OS, C, etc..)](/contents/BasicEducation/Note.md)
+* [Programming Math](/contents/BasicEducation/Math.md)
 * [Book](/contents/BasicEducation/Book.md)
 
 ### Design
