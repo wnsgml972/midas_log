@@ -19,6 +19,7 @@
 * smart pointer
 * 확장할 수 있는 난수 생성기의 추가 : random 헤더 파일
 * Thread, async future
+* boost:: asio, multi_index
 
 <br/><br/>
 <hr/>
@@ -41,11 +42,15 @@
 * <https://www.slideshare.net/jinhwason/ss-69528881>
 * <https://www.slideshare.net/zone0000/c-7522148?next_slideshow=1>
 
+
 <br/><br/>
 
 ### modern c+ framework 분석
 
 * [framework](/contents/BasicEducation/framework.md)
+
+
+
 
 <br/><br/>
 <hr/>
@@ -812,8 +817,7 @@ int main()
 
 ### Thread
 
-너무 많이 해야해...
-
+* 일단 기달...
 
 
 
@@ -821,6 +825,32 @@ int main()
 
 ### async future
 
-일단 기달...
+* 일단 기달...
+* <http://snowdeer.github.io/c++/2017/08/20/cpp11-future-and-async/>
+
+
+
+
+<br/><br/>
+
+### boost:: asio
+
+* 네트웍 프로그래밍
+	* I/O와 같이 시간이 걸리는 처리를 OS의 비동기 기능과 스레드를 사용하여 처리
+* C++20에 들어온다고 하는 얘기가 있음
+* <https://www.slideshare.net/jacking/kgc-2012boostasio>
+
+
+
+
+<br/><br/>
+
+### boost:: multi_index
+
+* 하나의 객체를 여러 키로 적용하여 사용하고 싶을 때
+	* 예를 들어 캐릭터의 ID로 검색하거나, 캐릭터의 이름으로 검색하고 싶을 때
+* <https://www.slideshare.net/OnGameServer/sdc-3rd>
+
+
 
 
