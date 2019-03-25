@@ -30,7 +30,7 @@
 
 Project  |                     Destination
 -------- | ----------------------------------------------------
-`V200R1` | `D:\Midas Install\[PLANT]\MIDAS_PLT_MODS_V200_R1_KR`
+`V200R1` | `D:\Secret`
 
 ### 주의
 
@@ -74,22 +74,22 @@ Project  |                     Destination
 
 |  Program   |                           Destination                           |
 | ---------- | --------------------------------------------------------------- |
-| Plant MODS | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\Plant MODS` |
+| Plant MODS | `\\midasitdev\Secret` |
 
 ### MIDAS Plant
 
 |       Program       |                                       Destination                                       |
 | ------------------- | --------------------------------------------------------------------------------------- |
-| midas Plant (32bit) | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\KR\midas plant\midas Plant (32bit)` |
-| midas Plant (64bit) | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\KR\midas plant\midas Plant (64bit)` |
+| midas Plant (32bit) | `\\midasitdev\Secret (32bit)` |
+| midas Plant (64bit) | `\\midasitdev\Secret (64bit)` |
 
 
 ### MIDAS Foundation
 
 |         Program          |                                            Destination                                            |
 | ------------------------ | ------------------------------------------------------------------------------------------------- |
-| midas Foundation (32bit) | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\KR\midas foundation\midas Foundation (32bit)` |
-| midas Foundation (64bit) | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\KR\midas foundation\midas Foundation (64bit)` |
+| midas Foundation (32bit) | `\\midasitdev\Secret (32bit)` |
+| midas Foundation (64bit) | `\\midasitdev\Secret (64bit)` |
 
 
 ### MIDAS Drawing
@@ -104,7 +104,7 @@ Design+는 특별히 변동사항이 없는 것으로 판단되니, 현재 그�
 
 |    Program    |                            Destination                             |
 | ------------- | ------------------------------------------------------------------ |
-| midas Design+ | `\\midasitdev\100_Dev\Pub\MidasWin\midas Plant\V200\midas Design+` |
+| midas Design+ | `\\midasitdev\Secret` |
 
 
 
@@ -129,8 +129,8 @@ Plant 및 Foundation 은 기획 담당자가 지정해준 폴더에 원본이 �
 
 |     Category      |                                                  Destination                                                   |
 | ----------------- | -------------------------------------------------------------------------------------------------------------- |
-| 인스톨 Ouput 경로 | `D:\Midas Install\[PLANT]\MIDAS_PLT_MODS_V200_R1_KR\MIDAS_PLT_MODS_V200_R1_KR\Media\Release\Disk Images\Disk1` |
-| 업로드 경로       | `\\midasitdev\200_Planmaster\01 Product\30_Plant\200R1`                                                        |
+| 인스톨 Ouput 경로 | `D:\Secret` |
+| 업로드 경로       | `D\\Secret` |
 
 
 
@@ -151,7 +151,7 @@ Plant 및 Foundation 은 기획 담당자가 지정해준 폴더에 원본이 �
 
 #### 업무 내용
 
-![installshield](/media/installshield1.png)
+![installshield](/media/installshield11.png)
 
 위의 그림을 참고하자. 가장 왼쪽 트리의 Organization>Setup Design `(1)`을 선택하면 대화상자 중간의 트리가 표시된다. 그 트리에서 경로를 바꾸고 싶은 항목(폴더에 파일이 겹쳐진 모양의 아이콘)을 선택(예로 32bit_midas Plant, `(2)`한다. 오른편의 General>Link Type 을 보면 , Dynamic [참조경로] 가 표시되어있다`(3)` 이곳을 더블클릭하면 Link Type 대화상자가 나타나며, 경로를 바꿀 수 있다`(4)`.
 
