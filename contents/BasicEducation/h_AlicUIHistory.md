@@ -86,7 +86,7 @@
 
 * nGen 출시쯤 Frame 형태로 GLUI를 개편하는 작업이 진행됨
 
-![image](/uploads/477176a7eef3cb644c1850ab4baecd4a/image.png)
+![image](/media/alice-ui0.png) 
 
 * 당시 개발중인 Alice UI(nGLUI)의 일부 코드와 컨셉을 가져와서 GLUI v1을 개선한 형태 - 현재 nGen에서 사용중
 
