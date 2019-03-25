@@ -120,7 +120,7 @@ Work | Name
 
 ### Phase
 * Confluence 참고 (내가 정리)
-* MIDAS UI FrameWork
+* MIDAS 기반 FrameWork
 
 ### MIDAS DB
 * Confluence 참고 (내가 정리)
