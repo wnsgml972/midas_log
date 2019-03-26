@@ -60,13 +60,13 @@
 * 쓸데 없이 나오는 경고들 `#programa`로 해결
 
 
-<br/>
+<br/><br/>
 
-### .editorconfig file
+## .editorconfig file
 
 > 편집기나 IDE에 관계없이 **일관된 코딩 스타일**을 유지할 수 있게 해준다.
 
-#### 지원되는 설정
+### 지원되는 설정
 * indent_style
 * indent_size
 * tab_width
@@ -76,7 +76,7 @@
 * insert_final_newline
 * 루트
 
-#### 예시
+### 예시
 
 ~~~
 # 소스 코드 일관성 편집툴
@@ -104,7 +104,7 @@ charset = utf-8
 #insert_final_newline = true
 ~~~
 
-#### Reference
+### Reference
 * <https://docs.microsoft.com/ko-kr/visualstudio/ide/create-portable-custom-editor-options?view=vs-2017>
 
 
