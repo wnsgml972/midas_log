@@ -93,7 +93,7 @@
 [![Video Label](http://img.youtube.com/vi/hKJ7TBd7G9E/0.jpg)](https://www.youtube.com/watch?v=hKJ7TBd7G9E)
 
 ### Git Code
-* [Git Scen1](/contents/BasicEducation/h_GitScen1.md)
+* [Git Scen1](/contents/BasicEducation/GitScen1.md)
 * <https://github.com/wnsgml972/learnGitBranching>
 
 
