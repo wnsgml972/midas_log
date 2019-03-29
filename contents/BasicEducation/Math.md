@@ -96,10 +96,22 @@ a-> + pB->
 
 ### 유도 공식!
 
-![installshield](/media/math2.jpg)
+![math2](/media/math2.jpg)
 
 
 
+
+<br/>
+
+## Distance Widget 동작 구현
+
+> 실무 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
+
+![math3](/media/math3.png)
+
+
+### Ref
+* [내적을 이용한 점과 직선 사이의 거리 구하기](https://m.blog.naver.com/PostView.nhn?blogId=yh6613&logNo=221212680685&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
 
 <br/>
