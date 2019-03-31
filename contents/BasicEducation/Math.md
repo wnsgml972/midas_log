@@ -18,9 +18,9 @@ Unit Vector | 단위 벡터 | 크기가 1인 벡터
 Inverse Vector | 역벡터 | 벡터에 대해 크기는 같고 방향은 반대인 벡터
 Dot | 내적, 스칼라곱 | `Vec1·Vec2 = |Vec1|*|Vec2|*cosθ = a1b1+a2b2+a3b3`
 Cross | 외적, 텐서곱 | `|Vec1*Vec2| = |Vec1|*|Vec2|*sinθ`
-+ | + | `Vec1*Vec2 = (a2b3-a3b2), a3b1-a1b3, a1b2-a2b1)`
+== | + | `Vec1*Vec2 = (a2b3-a3b2), a3b1-a1b3, a1b2-a2b1)`
 Normalize | 정규화 | 0과 1이하로 데이터의 범위를 일치시키는 것 
-+ | + | 벡터의 정규화는 벡터의 각 요소를 벡터의 길이로 나눔
+== | + | 벡터의 정규화는 벡터의 각 요소를 벡터의 길이로 나눔
 
 
 
@@ -103,9 +103,9 @@ a-> + pB->
 
 <br/>
 
-## Distance Widget 동작 구현
+## 실무 Distance Widget 동작 구현
 
-> 실무 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
+> 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
 
 ![math3](/media/math3.png)
 
