@@ -16,14 +16,16 @@ Scalar | 스칼라 | 크기만 가진 것
 Normal Vector | 법선 벡터 | 평면에 수직인 벡터
 Unit Vector | 단위 벡터 | 크기가 1인 벡터
 Inverse Vector | 역벡터 | 벡터에 대해 크기는 같고 방향은 반대인 벡터
-Dot | 내적, 스칼라곱 | `Vec1·Vec2 = |Vec1|*|Vec2|*cosθ = a1b1+a2b2+a3b3`
-Cross | 외적, 텐서곱 | `|Vec1*Vec2| = |Vec1|*|Vec2|*sinθ`
-== | + | `Vec1*Vec2 = (a2b3-a3b2), a3b1-a1b3, a1b2-a2b1)`
+Dot | 내적 | 스칼라곱, 주로 점과 직선 사이의 거리를 구하는데 쓰임
+Cross | 외적 | 텐서곱, 주로 법선 벡터를 구하는데 쓰임
 Normalize | 정규화 | 0과 1이하로 데이터의 범위를 일치시키는 것 
-== | + | 벡터의 정규화는 벡터의 각 요소를 벡터의 길이로 나눔
 
-
-
+~~~
+Dot       :  Vec1·Vec2 = |Vec1|*|Vec2|*cosθ
+Cross     :  |Vec1*Vec2| = |Vec1|*|Vec2|*sinθ
+Cross     :  `Vec1*Vec2 = (a2b3-a3b2), a3b1-a1b3, a1b2-a2b1)`
+Normalize :  벡터의 정규화는 벡터의 각 요소를 벡터의 길이로 나눔
+~~~
 <br/>
 
 ## 어파인 공간
