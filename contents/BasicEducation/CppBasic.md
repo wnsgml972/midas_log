@@ -443,6 +443,7 @@ int main()
 {
 	// C++ 17 make tuple variable.
 	std::tuple<int, std::string, bool> myNumber = std::tuple(10, "Even", true);
+	std::tuple<int, std::string, bool> myNumber1 = { 10, "Even", true }; // 엄청 편리!
 
 	// get tuple size.
 	std::cout << "size : " << std::tuple_size<decltype(myNumber)>::value << std::endl;

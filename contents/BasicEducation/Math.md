@@ -86,7 +86,23 @@ a-> + pB->
 
 <br/>
 
-## 실무 MLine2PointDistanceReference 구현
+## 공부할 때 참고한 전체 Reference
+
+* <https://lypicfa.tistory.com/298?category=805276>
+
+
+
+<br/>
+
+# 실무
+
+## CIM 좌표계
+
+![xyz](/media/xyz.png)
+
+<br/>
+
+## Line2PointDistanceReference 구현
 
 > 점과 직선이 있을 때, 해당 점을 지나고 직선의 법선벡터에서 교차점 구하기
 
@@ -105,7 +121,7 @@ a-> + pB->
 
 <br/>
 
-## 실무 Distance Widget 동작 구현
+## Distance Widget 동작 구현
 
 > 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
 
@@ -116,8 +132,12 @@ a-> + pB->
 * [내적을 이용한 점과 직선 사이의 거리 구하기](https://m.blog.naver.com/PostView.nhn?blogId=yh6613&logNo=221212680685&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
 
+
+
+
+
 <br/>
 
-## Reference
+## Angle Widget 동작 구현
 
-* <https://lypicfa.tistory.com/298?category=805276>
+> 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
