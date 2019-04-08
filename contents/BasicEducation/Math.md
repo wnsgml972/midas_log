@@ -132,6 +132,8 @@ a-> + pB->
 * [내적을 이용한 점과 직선 사이의 거리 구하기](https://m.blog.naver.com/PostView.nhn?blogId=yh6613&logNo=221212680685&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
 
+### 구현 
+![math3](/media/distance_widget.gif)
 
 
 
@@ -142,34 +144,42 @@ a-> + pB->
 
 > 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
 
-![angle widget](/media/angle_widget.png)
-
 ### 기본 동작
 
-`Distance Widget`의 공식을 이용하여 구한 거리는 Current Pos와 Center Pos의 방향까지 알 수 있다.
-하지만 위는 직선을 기준으로 하고 있기 때문에 곡선의 경우 Center Pos의 거리와 Current Pos간의 거리는 법선 벡터의 길이로 정의 내릴 수 없다. **그렇기 때문에 점과 점 간의 거리를 구하고 위의 공식을 이용해 위 아래 방향만 정의하여 전체 구하려는 길이를 나타냈다.**
+1. 현재 찍은 좌표의 공간 구하기 (GetSpace)
+2. 정확한 거리 변경을 위한 currentPos와 centerPos의 기준을 중간 디렉션으로 바꿈!
+3. centerPos로 부터의 방향과 여러 조건에 따른 거리 크기 구하기
+4. 드래그 중 공간이 바뀌면 각도 Reverse
+5. GuideDimension 거리 Set
 
-### Current Pos가 두 벡터 사잇값 밖에 존재함을 아는 공식
+<br/>
 
-위의 그림에서 Current Pos가 갈 수 있는 위치는 다음과 같다. Case1, Case2, Case3 알아야할 것은 외적과 내적이다. 
+### GetSpace 공식 설명
 
-#### Case1
+![math3](/media/angle_widget.png)
 
-검은색 두 선을 벡터 V1, V2라고 가정한다.
+* 위의 그림에서 Current Pos가 갈 수 있는 위치는 다음과 같다. `IN_STANDARD`, `OUT_STANDARD_EXTENDED`, `OUT_AGAINST_STANDARD`, `OUT_AGAINST_STANDARD_EXTENDED` 알아야할 것은 외적과 내적이다. 
+* 검은색 두 선을 벡터 `SV`, `EV`라고 가정한다.
+* 밑의 코드가 공식이다.
 
-1. V1과 Case1을 외적하면 Z축 방향의 법선 벡터가 생긴다. 
-1. V2과 Case1을 외적하면 위와 같은 방향의 법선 벡터가 생긴다. 
-3. 두 법선 벡터를 내적하면 양수의 값이 나온다.
-4. 양수의 값은 두 벡터 밖에 존재하는 값이다.
 
-#### Case2
-1. V1과 Case2을 외적하면 Z축 반대 방향의 법선 벡터가 생긴다. 
-1. V2과 Case2을 외적하면 위와 반대 방향의 법선 벡터(Z축 방향)가 생긴다. 
-3. 즉 두 법선 벡터를 내적하면 음수의 값이 나온다.
-4. 음수의 값은 두 벡터 밖에 존재하는 값이다.
+![math3](/media/angle_widget1.png)
 
-#### Case3
+#### IN_STANDARD 예시
+1. SV과 CurrentPos을 외적하면 Z축 방향의 법선 벡터가 생긴다. 
+1. EV과 CurrentPos을 외적하면 위와 반대 방향의 법선 벡터가 생긴다. 
+3. 두 법선 벡터를 내적하면 음수의 값이 나온다.
+4. 이제 SV와 EV와 외적한다. 마찬가지로 SV와 EV를 외적한 벡터와 SV와 Current Pos를 외적한 벡터를 내적하면 역시 음수의 값이 나온다.
 
-Case1과 같다.
 
-위의 방법을 이용하여 현재 클릭한 점이 어느 위치에 찍은 것인지 알 수 있다.
+### 기준 바꿔 거리 구하기 설명
+
+1. 거리를 측정하기 위해 각 Start Angle과 End Angle의 사이의 방향으로 각각 Current Pos와 Center Pos를 구한다. 
+2. 그 이후 거리를 위하면 같은 디렉션 방향에 있으므로 정확한 거리가 나오게 된다. 
+3. 거리를 구할 시 방향을 고려하지 않은 크기만 나오게 되므로 위의 Distance Widget 공식을 이용하여 정확한 방향까지 고려한 크기를 구한다.
+4. 위의 Distance Widget과 마찬가지로 Arc에서도 기준을 바꿨으므로 일정한 거리 d를 구할 수 있다.
+5. 일정한 거리 d와 Old Distance를 더하여 최종 거리를 구한다.
+
+
+### 구현 
+![math3](/media/angle_widget.gif)
