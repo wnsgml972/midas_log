@@ -181,10 +181,10 @@
 ## 2019.04
 :memo:
 * [첫째 주] Phase, Alice UI 분석 및 문서화
-  * 목표 : 분석 및 문서화 완료 | LabelPhase 구현
+  * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] Phase, Alice UI 분석 및 문서화
+  * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
 * [셋째 주]
   * 목표 : 
