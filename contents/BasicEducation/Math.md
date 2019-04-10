@@ -125,6 +125,11 @@ a-> + pB->
 
 > 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
 
+### Length Dimension 정보 정의 그림
+![math3](/media/length-dim.png)
+
+
+### 기본 동작
 ![math3](/media/math3.png)
 
 
@@ -183,3 +188,15 @@ a-> + pB->
 
 ### 구현 
 ![math3](/media/angle_widget.gif)
+
+
+
+
+<br/>
+
+## Diameter Widget 동작 구현
+
+> 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기
+
+### 기본 동작
+1. 기본 모양은 Distance Widget의 Length Dimension과 같음
