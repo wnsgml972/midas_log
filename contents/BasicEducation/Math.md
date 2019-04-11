@@ -118,6 +118,16 @@ a-> + pB->
 
 
 
+<br/>
+
+## Point Widget 동작 구현
+
+> 해당 점으로 부터 나오는 Dir 방향 마우스 클릭에 따라 바꾸기
+
+### Point Widget 정보 정의
+![math3](/media/2019/point_info.png)
+
+
 
 <br/>
 
@@ -125,8 +135,8 @@ a-> + pB->
 
 > 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기
 
-### Length Dimension 정보 정의 그림
-![math3](/media/length-dim.png)
+### Distance Widget 정보 정의
+![math3](/media/2019/distance_info.png)
 
 
 ### 기본 동작
@@ -148,6 +158,9 @@ a-> + pB->
 ## Angle Widget 동작 구현
 
 > 마우스 클릭 시 기존 위치에서 마우스가 움직인 거리로 Widget 움직이기, 위의 Distance Widget에서 응용 + 심화
+
+### Angle Widget 정보 정의
+![math3](/media/2019/angle_info.png)
 
 ### 기본 동작
 
@@ -197,6 +210,9 @@ a-> + pB->
 ## Diameter Widget 동작 구현
 
 > 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기
+
+### Angle Widget 정보 정의
+![math3](/media/2019/diameter_info.png)
 
 ### 기본 동작
 1. 기본 모양은 Distance Widget의 Length Dimension과 같음
