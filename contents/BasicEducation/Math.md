@@ -209,10 +209,28 @@ a-> + pB->
 
 ## Diameter Widget 동작 구현
 
-> 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기
+> 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기 + 원 밖을 벗어나면 Distance Widget 처럼 동작
 
 ### Angle Widget 정보 정의
 ![math3](/media/2019/diameter_info.png)
 
 ### 기본 동작
 1. 기본 모양은 Distance Widget의 Length Dimension과 같음
+2. 측정의 중심은 원의 중심
+3. 원으로 부터 2차원의 판을 그림
+4. 중심과 Current Pos간의 거리를 원 밖을 벗어났을 시 거리로 지정하고
+5. 원 안에 있을 시에는 Current Pos를 원 중심에서 평행한 벡터를 그려야 함
+6. 즉 `Current Pos - Center Pos` 벡터에서 2차원의 판의 Z축 방향의 Normal Vector를 곱하면 중심선으로 부터 평행한 Dir을 구할 수 있음
+
+
+### 구현 
+![math3](/media/diameter_widget1.gif)
+
+
+
+
+<br/>
+
+## Elipse Widget 동작 구현
+
+> 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기 + 원 밖을 벗어나면 Distance Widget 처럼 동작
