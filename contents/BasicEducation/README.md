@@ -38,11 +38,12 @@
 * C++, MFC 개인 프로젝트 진행
 * 디버깅
 * [Note (VS, OS, C, etc..)](/contents/BasicEducation/Note.md)
-* [Programming Math](/contents/BasicEducation/Math.md)
 * [Book](/contents/BasicEducation/Book.md)
 
-### Design
+### Programming Math
+* [Programming Math](/contents/BasicEducation/Math.md)
 
+### Design
 * [Design](/contents/BasicEducation/Design.md)
 
 ### Design Pattern
@@ -57,6 +58,7 @@
 
 ### Code Quality
 * [Code Quality](/contents/BasicEducation/CodeQuality.md)
+
 
 
 <br/>
