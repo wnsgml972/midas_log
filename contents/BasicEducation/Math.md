@@ -211,7 +211,7 @@ a-> + pB->
 
 > 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기 + 원 밖을 벗어나면 Distance Widget 처럼 동작
 
-### Angle Widget 정보 정의
+### Diameter Widget 정보 정의
 ![math3](/media/2019/diameter_info.png)
 
 ### 기본 동작
@@ -231,6 +231,16 @@ a-> + pB->
 
 <br/>
 
-## Elipse Widget 동작 구현
+## Ellipse Diameter Widget 동작 구현
 
-> 마우스 클릭 시 기존 원 안에서 Measure Line 돌리기 + 원 밖을 벗어나면 Distance Widget 처럼 동작
+> Major Diameter, Minor Diameter 당 Length Dimension 표시하기
+
+### 기본 동작
+1. 기본 모양은 Distance Widget의 Length Dimension과 같다.
+2. Major Dir이나 Minor Dir을 현재 Current Dir으로 정하고 Distance Widget과 같은 공식을 취함.
+3. 현재 Currrent 좌표의 위치 공식은 Distance Widget의 내적을 이용한 점과 직선사이의 거리 구하기 공식을 통해 법선 벡터 상의 거리를 비교해 마우스의 좌표를 구하고
+4. 현재 구해야 할 위치를 구했으면 다시 점과 직선사이의 거리 구하기 공식을 통해 거리를 세팅해주면 된다.
+
+### 구현 
+![math3](/media/ellipse_diameter_widget.gif)
+
