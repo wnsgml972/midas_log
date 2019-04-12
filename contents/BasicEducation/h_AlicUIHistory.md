@@ -86,7 +86,7 @@
 
 * nGen 출시쯤 Frame 형태로 GLUI를 개편하는 작업이 진행됨
 
-![image](/media/alice-ui0.png) 
+![image](/media/aui/alice-ui0.png) 
 
 * 당시 개발중인 Alice UI(nGLUI)의 일부 코드와 컨셉을 가져와서 GLUI v1을 개선한 형태 - 현재 nGen에서 사용중
 
@@ -176,4 +176,4 @@
 * v1.0의 Widget 구조적 한계
   * Widget의 생성 구조 특성상 자신의 영역 Boundary를 벗어날 수 없는 문제.<br>
     아래와 같은 Slider Widget에서 슬라이드시 나타나는 Thumb을 표기하기 위해 Thumb를 포함하는 Bounding Box로 Widget이 생성되어야만 함<br>
-    ![image](/media/alice-ui1.png) ![image](/media/alice-ui2.png) 
+    ![image](/media/aui/alice-ui1.png) ![image](/media/aui/alice-ui2.png) 
