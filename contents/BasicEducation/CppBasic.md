@@ -11,6 +11,7 @@
 * default, delete 키워드
 * C++ Casting
 * enum class
+* `emplace_back` vs `push_back`
 * C++11 다양한 초기화 방식
 * C++ Getter, Setter
 * C++11/14 변경 사항
@@ -113,6 +114,34 @@ int main()
     ABC::FileState file1 = ABC::FileState::WRITE;
 }
 ~~~
+
+
+
+<br/>
+
+###  emplace_back vs push_back
+
+#### emplace_back
+* 함수를 생성하지 않고 가변 인자를 받을 수 있다.
+* 받은 인자를 가지고 vector 내에서 객체를 생성한다.
+
+~~~
+vector.emplace_back(1, 2);
+~~~
+
+#### push_back
+* 함수를 생성한 뒤 객체 자체를 인자로 넘겨야 한다.
+* 내부 적으로 생성된 뒤 생성자와 소멸자가 2번 씩 불리기 때문에 비효율적이다.
+
+~~~
+vector.push_back(CPoint(1, 2));
+~~~
+
+#### However
+- push_back으로 하여도 최신 컴파일러 내부적으로 최적화 하기 때문에 emplace_back으로 하는 것과 별차이가 없을 수 있다. **고로 개인 프로젝트가 아니라면 호환성이 더 좋은 push_back 사용이 더 나을 수도 있다.**
+- push_back함수로 할 수 있는 모든 것을 emplace_back으로 할 수 있다.
+
+
 
 
 <br/>
