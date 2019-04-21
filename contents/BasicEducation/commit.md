@@ -147,3 +147,7 @@ like this:
 resolve: #123 (or ref #123)
 see also: #456, #789
 ~~~
+
+### Reference
+
+* <https://github.com/googlesamples/android-architecture/issues/300#issue-213830486>
