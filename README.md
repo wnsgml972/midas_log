@@ -186,14 +186,37 @@
 * [둘째 주] Phase, Alice UI 분석 및 문서화
   * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
-* [셋째 주]
+* [셋째 주] Phase, Alice UI 분석 및 문서화
+  * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
+
+* [넷째 주] Phase, Alice UI 분석 및 문서화
+  * 목표 : 분석 및 문서화 완료 | LabelPhase 이벤트 및 DB 구현
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 04월](/contents/2019.04/04.md)
+
+---
+
+
+
+
+## 2019.05
+:memo:
+* [첫째 주] 
   * 목표 : 
 
-* [넷째 주]
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
   * 목표 : 
 
 
 ## :heavy_check_mark:
-* &nbsp; [2019년 03월](/contents/2019.04/04.md)
+* &nbsp; [2019년 05월](/contents/2019.05/05.md)
 
 ---
