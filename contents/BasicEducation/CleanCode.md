@@ -27,6 +27,10 @@
 
 * 중복 줄이기, 표현력 높이기, 초반부터 간단한 추상화 고려하기
 
+## Cpp Core Guide!
+
+* <https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines>
+
 
 <br/><br/>
 
@@ -59,9 +63,8 @@
 
 #### 변수 명, 헝가리체 혼합 법
 * 클래스 : `m_`
-* 글로벌 : `g_`
 * 일반 포인터 : `p`
-* 수학 : `mat`, `vec`, `pos`
+* 수학 : `mat`, `vec`, `pos(좌표), point(점)`
 * MIterator : `itr`
 * private한 변수 : `_변수_명` (snake 체로 작성, API 개발자로서 private 개발을 구분 짓는 명명법)
 * 제외 헝가리 체 안 쓰고 카멜체로!
