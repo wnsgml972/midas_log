@@ -30,7 +30,6 @@
 - Jet Brains
     - IntelliJ
 - Visual Studio
-- Visual Studio Code
 
 
 
@@ -38,10 +37,11 @@
 
 ## 개발 프로그램
 - Atom
+- Visual Studio Code
 - MySQL
 - Tomcat
 - Source Tree
-- Git Bash
+- Git
 - CMake
 
 
@@ -50,20 +50,13 @@
 
 ## Window 10, 할 것
 - Chrom Setting (로그인, 동기화, 원격데스크톱)
-- G메일 세팅 (Gmail, Naver)
+- 메일 세팅 (Gmail, Naver)
 - 캡쳐도구
 - sticky notes
 - MicroSoft, TO DO
 - 윈도우 다크테마
 - 작업 표시줄
-  1. 작업 폴더
-  2. 캡쳐 도구
-  3. 이메일
-  4. MicroSoft, To Do
-  5. Sticky Notes
-  6. 개발 도구들...
-  7. 인터넷 익스플로러
-  8. 크롬
+
 
 
 <br/><br/>
