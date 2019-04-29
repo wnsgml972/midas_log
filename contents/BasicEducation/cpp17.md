@@ -13,11 +13,12 @@ __Visual Studio 2017 기준에서 C++17 컴파일러를 이용하려면 <br/> C/
 
 
 
-### if-Init
+### if/Switch Vaild
 
-if 문 하나에서 초기화 작업과 검증 과정을 동시에 할 수가 있음!
+if/Switch 문 하나에서 초기화 작업과 검증 과정을 동시에 할 수가 있음!
 
 ~~~cpp
+// if
 #include <iostream>
 #include <vector>
 
@@ -30,6 +31,21 @@ int main()
 	{
 		// Using v
 	}
+}
+
+// switch
+// C++ 17. "res" 변수는 switch 절 scope를 가진다.
+switch (auto res = writePacket(); res.second)
+{
+	case SUCCESS:
+		std::cout << "successfully wrote " << res.first << " bytes\n";
+		break;
+	case DEVICE_FULL:
+		std::cout << "insufficient space on device\n";
+		break;
+	case ABORTED:
+		std::cout << "operation aborted before completion\n";
+		break;
 }
 ~~~
 

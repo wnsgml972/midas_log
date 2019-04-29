@@ -15,6 +15,7 @@
 * C++11 다양한 초기화 방식
 * C++ Getter, Setter
 * C++11/14 변경 사항
+* C++ 14 Digit seperator
 * 익명 함수 문법(Lambda)
 * tuple (pair의 발전형)
 * smart pointer
@@ -276,6 +277,19 @@ int main(void)
 4. 다중 프로그래밍을 위한 스레드의 지원 : thread_local 키워드, automic 헤더 파일
 5. 비동기식 프로그래밍 async future 지원
 6. 임베디드 프로그래밍을 위한 저수준 프로그래밍 지원
+
+
+<br/>
+
+### C++ 14 Digit seperator (수 분리자)
+
+~~~cpp
+// C++14 이전까지는 아래처럼 큰 수를 알아보기가 어려웠다.
+int delay = 1000000;
+ 
+// C++14 이후부터는 다음과 같이 single quote(')를 digit seperator로써 사용할 수 있다.
+int delay = 1'000'000;
+~~~
 
 
 <br/>
