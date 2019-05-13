@@ -29,7 +29,7 @@
 > 해당 점으로 부터 나오는 Dir 방향 마우스 클릭에 따라 바꾸기
 
 ### Point Widget 정보 정의
-![math3](/media/2019/point_info.png)
+![math3](/media/point_widget.gif)
 
 
 
