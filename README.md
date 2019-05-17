@@ -166,7 +166,7 @@
 * [셋째 주] 기반 프레임워크 Phase 분석
   * 목표 : 문서화 완료
 
-* [넷째 주] Phase UI 분석 및 문서화
+* [넷째 주] LabelPhase & GuideWidget
   * 목표 : 문서화 완료
 
 
@@ -180,16 +180,16 @@
 
 ## 2019.04
 :memo:
-* [첫째 주] Phase, Alice UI 분석 및 문서화
+* [첫째 주] LabelPhase & GuideWidget
   * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
-* [둘째 주] Phase, Alice UI 분석 및 문서화
+* [둘째 주] LabelPhase & GuideWidget
   * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
-* [셋째 주] Phase, Alice UI 분석 및 문서화
+* [셋째 주] LabelPhase & GuideWidget
   * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
-* [넷째 주] Phase, Alice UI 분석 및 문서화
+* [넷째 주] LabelPhase & GuideWidget
   * 목표 : 분석 및 문서화 완료 | LabelPhase 이벤트 및 DB 구현
 
 
@@ -203,17 +203,17 @@
 
 ## 2019.05
 :memo:
-* [첫째 주] LabelPhase 이벤트 및 DB 구현
+* [첫째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료
 
-* [둘째 주] LabelPhase 이벤트 및 DB 구현
+* [둘째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료
 
-* [셋째 주] LabelPhase 이벤트 및 DB 구현
+* [셋째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] LabelPhase & GuideWidget
+  * 목표 : 구현 완료
 
 
 ## :heavy_check_mark:
