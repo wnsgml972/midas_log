@@ -38,6 +38,7 @@
 * C++, MFC 개인 프로젝트 진행
 * 디버깅
 * [Note (VS, OS, C, etc..)](/contents/BasicEducation/Note.md)
+* [빌드 속도 개선](/contents/BasicEducation/Build.md)
 * [Book](/contents/BasicEducation/Book.md)
 
 ### Programming Math
@@ -117,19 +118,23 @@ Work | Name
 
 ## MIDAS : 기반 개발 및 응용
 
-### CAD
-* [CAD Note](/contents/BasicEducation/cad.md)
-* `Parasolid` : 다른 회사 3D CAD 엔진
-
-### Phase
-* Confluence 참고 (내가 정리)
-* MIDAS 기반 FrameWork
+### Role
+* [Role](/contents/BasicEducation/Role.md)
 
 ### MIDAS DB
 * Confluence 참고 (내가 정리)
 
-### Build Speed Improvements
-* [빌드 속도 개선](/contents/BasicEducation/Build.md)
+### Phase
+* Confluence 참고 (내가 정리)
+* CIM 기반 FrameWork
+
+### Alice UI
+* Confluence 참고 (내가 정리)
+* CIM 기반 UI 엔진
+
+### CAD
+* [CAD Note](/contents/BasicEducation/cad.md)
+* `Parasolid` : 다른 회사 3D CAD 엔진
 
 ### Test
 * 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
