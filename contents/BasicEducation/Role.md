@@ -8,12 +8,12 @@
 * `[UI]` 창의적 UI/UX 엔진 개발 (GuideWidget)
 * `[DB]` 타 제품 Database 호환 개발 (IFC Import/Export)
 * `[DB]` 데이터베이스 관리 시스템 개발 및 유지보수 (History, Task, Save/Load, DataUtil 등등)
-* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현 (선형대수학)
 
 ## 기능 개발
 * `[기능]` 창의적 UI/UX 기능 개발 (AnalysisLine, LabelPhase)
 * `[CAD]` 3D CAD Modeling 기능 구현 (Solid Modeling)
 * `[알고리즘]` 대용량 데이터 처리 알고리즘 구현 (Mesh : Solid Sew 방식의 알고리즘 개선)
+* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현
 
 
 
@@ -37,12 +37,12 @@
 * `[UI]` 창의적 UI/UX 엔진 개발
 * `[DB]` 타 제품 Database 호환 개발
 * `[DB]` 데이터베이스 관리 시스템 개발 및 유지보수
-* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현
 
 ### 기능 개발
 * `[기능]` 창의적 UI/UX 기능 개발
 * `[CAD]` 3D CAD Modeling 기능 구현
 * `[알고리즘]` 대용량 데이터 처리 알고리즘 구현
+* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현
 
 ## 할 수도..?
 * `[렌더링 엔진]` 대규모 CAD 렌더링 엔진 개발
