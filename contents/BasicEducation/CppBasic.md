@@ -216,6 +216,8 @@ static MyClass mc1;     // {0, '\0'}
 
 ### C++11의 Thread-Safe SingleTon
 
+* friend class와 GetInstance를 private으로 바꾸면 Singleton 클래스를 한곳에서 받을 수 있는 Handler 클래스를 만들 수 있음
+
 #### SingleTon.h
 
 ~~~cpp
