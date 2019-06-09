@@ -13,6 +13,7 @@
 * enum class
 * `emplace_back` vs `push_back`
 * C++11 다양한 초기화 방식
+* C++11의 Thread-Safe SingleTon
 * C++ Getter, Setter
 * C++11/14 변경 사항
 * C++ 14 Digit seperator
@@ -209,6 +210,56 @@ static MyClass mc1;     // {0, '\0'}
 * 생성자의 경우나, 특별한 로직이나 가독성을 봤을 때 심플하지 않을 때, 직접 초기화를 이용한다.
 * 일반 NULL 초기화의 경우 유니폼 초기화를 이용한다.
 * 유니폼 초기화의 경우 auto와 같이 쓰지 않을 것을 유의한다.
+
+
+<br/><br/>
+
+### C++11의 Thread-Safe SingleTon
+
+* friend class와 GetInstance를 private으로 바꾸면 Singleton 클래스를 한곳에서 받을 수 있는 Handler 클래스를 만들 수 있음
+
+#### SingleTon.h
+
+~~~cpp
+// [ Effective Call Once Invocation ] -> GetInstance 부분을 참고하면 std::call_once 사용
+// Thread-Safe Singleton
+class Manager {
+public:
+    static Manager& GetInstance();
+    virtual ~Manager();
+
+private:
+    static std::unique_ptr<Manager> m_instance;
+    static std::once_flag m_onceFlag;
+
+    Manager() = default;
+    Manager(const Manager &) = delete;
+    Manager &operator=(const Manager &) = delete;
+};
+~~~
+
+#### SingleTon.cpp
+
+~~~cpp
+// static initialize
+std::unique_ptr<Manager> Manager::m_instance = {};
+std::once_flag Manager::m_onceFlag = {};
+
+Manager& Manager::GetInstance()
+{
+    std::call_once(Manager::m_onceFlag, []() {
+        m_instance.reset(new Manager);
+        });
+    return *(m_instance.get());
+}
+
+Manager::~Manager()
+{
+
+}
+~~~
+
+
 
 <br/><br/>
 
