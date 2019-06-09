@@ -51,6 +51,7 @@
 - 사용자 전화 (휴대폰 및 Windows)
 - Windows Subsystem for Linux
 - 클립보드 ( 검색기록 저장 켜기, 장치 간 동기화 켜기, 자동 동기화) : 클라우드
+- 링크 공유
 - Chrom Setting (로그인, 동기화, 원격데스크톱)
 - 메일 세팅 (Gmail, Naver)
 - sticky notes
