@@ -5,7 +5,7 @@
 
 ## 기반 개발
 * `[프레임워크]` 응용 소프트웨어 프레임워크 개발 (Phase)
-* `[UI]` 창의적 UI/UX 엔진 개발 (GuideWidget)
+* `[UI]` 창의적 UI/UX 엔진 개발 (Alice UI : GuideWidget)
 * `[DB]` 타 제품 Database 호환 개발 (IFC Import/Export)
 * `[DB]` 데이터베이스 관리 시스템 개발 및 유지보수 (History, Task, Save/Load, DataUtil 등등)
 

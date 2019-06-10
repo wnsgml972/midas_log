@@ -48,6 +48,10 @@
 <br/>
 
 ## Windows 10, 할 것
+- 사용자 전화 (휴대폰 및 Windows)
+- Windows Subsystem for Linux
+- 클립보드 ( 검색기록 저장 켜기, 장치 간 동기화 켜기, 자동 동기화) : 클라우드
+- 링크 공유
 - Chrom Setting (로그인, 동기화, 원격데스크톱)
 - 메일 세팅 (Gmail, Naver)
 - sticky notes
@@ -67,6 +71,8 @@
 # 단축기
 
 ## Windows 10 단축기
+* 이모지 __( ```Win +  .``` )__
+* 클립보드 __( ```Win +  V``` )__
 * 캡처 __( ```Win +  Shift + S``` )__
 * 화면분할기능 __( ```Win + 방향키 ``` )__
 * 가상데스크톱.작업화면보기 __( ```Win + tap``` )__
