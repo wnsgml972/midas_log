@@ -7,7 +7,11 @@
 
 ## 유틸 프로그램
 - Office
-- Virtualbox (ubuntu)
+- 한글
+- Adobe Reader
+- WSL Setting
+- Virtualbox (ubuntu) : ? 이제 WSL 잘되면 안해도 될 듯?
+- 팀뷰어
 - 샤나인코더 (동영상 인코딩 프로그램)
 - 카카오톡
 - NotePad++
@@ -15,9 +19,6 @@
 - 팟플레이어
 - gif캠
 - 알씨
-- 팀뷰어
-- Adobe Reader
-- WSL Setting
 - 바탕화면 달력
 - V3
 - [구라제거기](https://teus.me/484)
@@ -52,6 +53,8 @@
 - Windows Subsystem for Linux
 - 클립보드 ( 검색기록 저장 켜기, 장치 간 동기화 켜기, 자동 동기화) : 클라우드
 - 링크 공유
+- Polarr ( Photo Editor )
+- Studio Plus ( Video Editor )
 - Chrom Setting (로그인, 동기화, 원격데스크톱)
 - 메일 세팅 (Gmail, Naver)
 - sticky notes
