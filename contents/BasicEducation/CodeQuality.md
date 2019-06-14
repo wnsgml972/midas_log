@@ -23,25 +23,29 @@
 
 <br/>
 
-## Visual Stdio Code Quality
+# Visual Stdio Code Quality
 
-### 방법 2가지
+> 일반적으로 디버깅을 잘하는 것은 정말 코드 실력에 도움이 많이된다. 다음과 같은 MicroSoft Docs에 정말 잘 나와있다!<br/>
+<https://docs.microsoft.com/ko-kr/visualstudio/debugger/?view=vs-2019>
 
-#### 컴파일러 경고 강화
+## 1. 컴파일러 경고 강화
 
 * `프로젝트 속성 -> C/C++ -> 일반 -> SDL 검사 (예 체크)`, `(Security Development Lifecyle)`
 
-#### 직접 코드 분석 돌리기
+
+<br/>
+
+## 2 (1). 직접 코드 분석 돌리기
 
 * `분석 -> 코드 분석`을 통해 코드 분석을 실행
 
-#### 빌드시마다 정적 코드 분석하기
+## 2 (2) 빌드시마다 정적 코드 분석하기
 
 * `프로젝트 속성 -> 코드 분석 -> 빌드에 코드 분석 사용 (체크) -> 원하는 코드 분석 규칙 집합 선택`을 이용하면 빌드시에도 코드 분석을 할 수 있다.
 * Cpp Core Check라는 규칙으로도 Ckeck 가능
 * 근데 뭔가 잘 안되는 듯...?  ->  규칙을 한 3가지 넣고 빌드해봤는데, 안 걸렸음 규칙이 부족한 건지, 모두 적합했는지는 확인 안 해봄
 
-#### 코드 분석 시 나온 도움 창
+### 코드 분석 시 나온 도움 창
 
 * 출력 창에 저 부분을 클릭하면
 
@@ -51,33 +55,29 @@
 
 ![help](/media/help2.png)
 
-#### 사용해보고 쓸만한 부분
+### 사용해보고 쓸만한 부분
 
 * 버퍼 오버 플로우, 초기화, null or nullptr 참조  이정도..?
 
-#### 조금 귀찮은 부분과 그에 따른 해결방법?
+### 조금 귀찮은 부분과 그에 따른 해결방법?
 
 * 쓸데 없이 나오는 경고들 `#programa`로 해결
 
 
-<br/><br/>
+<br/>
 
-## 디버거를 사용한 예외 관리
+## 3. 디버거를 사용한 예외 관리
 
 > 시스템 단의 예외도 체크 방식으로 걸리게 만들 수 있다.
 
 ### 사용환경
-
 가끔 프로그램이 갑자기 어떠한 경고창도 없이 출력창에 메시지만 남기고 죽어버리는 경우가 있다. 
 그럴 때 해당 기능을 사용하여 원하는 예외처리 범위를 늘려 예외를 관리한다.<br/>
 
-
 ### Microsoft Docs
-
 * <https://docs.microsoft.com/ko-kr/visualstudio/debugger/managing-exceptions-with-the-debugger?view=vs-2019>
 
 ### Etc
-
 * 그 외에 조사식 사용법이나
     * this
     * 주솟값 넣기
@@ -87,10 +87,25 @@
 같은 것들은 기본적으로 익혀두도록 한다.
 
 
+<br/>
 
-<br/><br/>
+## 4. 디버거 사용자 지정 시각화
 
-## .editorconfig file
+> 일반적으로 모든 정보를 표시하는 디버거를 원하는 모양으로 볼 수 있게 시각화 할 수 있다.
+
+### 사용환경
+일반적으로 나오는 디버그 모드의 자동이나 조사식 등의 정보들이 너무 복잡하게 형성되어 있을 수 있다. 허나 어떤 특정 UI의 Root 같은 경우, 아니면 Java의 Object 같은 객체는 일반적으로 사용자가 보고 싶은 형태로 디버거 변수들을 시각화 할 수 있다.
+
+### Boost 라이브러리를 통한 예제
+* <https://www.kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=5&dbnum=188505&mode=detail&type=techreport>
+
+### Microsoft Docs
+* <https://docs.microsoft.com/ko-kr/visualstudio/debugger/create-custom-views-of-native-objects?view=vs-2019>
+
+
+<br/>
+
+## 5. .editorconfig file
 
 > 편집기나 IDE에 관계없이 **일관된 코딩 스타일**을 유지할 수 있게 해준다.
 
@@ -125,11 +140,14 @@ end_of_line: crlf
 charset = utf-8
 
 # C/C++ 소스 및 헤더파일에 대해
-#   빈 공백문자를 없애기
-#   소스 마지막줄에 빈줄 추가하기
+# 1.  Intent Style은 Space 한 Indent당 Space 4개 : 즉 Tap 누르면 Space 4개로
+# 2.  빈 공백문자를 없애기
+# 3.  소스 마지막줄에 빈줄 추가하기
 [*.{cpp,c,h,hpp}]
-#trim_trailing_whitespace = true
-#insert_final_newline = true
+indent_style = space
+indent_size = 4
+# 2. #trim_trailing_whitespace = true
+# 3. #insert_final_newline = true
 ~~~
 
 ### Reference
