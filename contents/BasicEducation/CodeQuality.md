@@ -62,6 +62,34 @@
 
 <br/><br/>
 
+## 디버거를 사용한 예외 관리
+
+> 시스템 단의 예외도 체크 방식으로 걸리게 만들 수 있다.
+
+### 사용환경
+
+가끔 프로그램이 갑자기 어떠한 경고창도 없이 출력창에 메시지만 남기고 죽어버리는 경우가 있다. 
+그럴 때 해당 기능을 사용하여 원하는 예외처리 범위를 늘려 예외를 관리한다.<br/>
+
+
+### Microsoft Docs
+
+* <https://docs.microsoft.com/ko-kr/visualstudio/debugger/managing-exceptions-with-the-debugger?view=vs-2019>
+
+### Etc
+
+* 그 외에 조사식 사용법이나
+    * this
+    * 주솟값 넣기
+* 조건에 예외 추가하기
+* 주솟값으로 예외 설정하기
+
+같은 것들은 기본적으로 익혀두도록 한다.
+
+
+
+<br/><br/>
+
 ## .editorconfig file
 
 > 편집기나 IDE에 관계없이 **일관된 코딩 스타일**을 유지할 수 있게 해준다.
