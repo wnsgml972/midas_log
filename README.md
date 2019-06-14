@@ -204,16 +204,16 @@
 ## 2019.05
 :memo:
 * [첫째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 * [둘째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 * [셋째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 * [넷째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 
 ## :heavy_check_mark:
@@ -225,17 +225,17 @@
 
 ## 2019.06
 :memo:
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] LabelPhase & GuideWidget
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] LabelPhase & GuideWidget
+  * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] LabelPhase & GuideWidget
+  * 목표 : 구현 완료 | LabelPhase Select 구현
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] LabelPhase & GuideWidget
+  * 목표 : 구현 완료 | LabelPhase Select 구현
 
 
 ## :heavy_check_mark:
