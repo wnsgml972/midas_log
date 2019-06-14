@@ -64,6 +64,7 @@ Normalize :  벡터의 정규화는 벡터의 각 요소를 벡터의 길이로 
 * 그냥 벡터는 해당 Pos 위치에서 위의 설명한 것과 같은 벡터이다.
 
 
+<br/>
 
 ## 직선의 벡터 표현 (1점을 지나는 벡터)
 
@@ -93,13 +94,15 @@ a-> + pB->
 ![삼각 함수](/media/2019/Circle-trig6.svg)
 
 
-
 ### Reference
 
 * [WikiPedia](https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98)
 
 
-<br/>
+
+
+
+<br/><br/>
 
 ## 공부할 때 참고한 전체 Reference
 
