@@ -86,6 +86,21 @@ a-> + pB->
 
 <br/>
 
+## 방향이 존재하지 않고 스칼라 값만 알고있을 때, 삼각함수를 이용하여 값을 구하기!!
+
+* UI 엔진 단에서 개발이 아니라 기능단에서 개발 진행중에 발생한 이슈
+
+![삼각 함수](/media/2019/Circle-trig6.svg)
+
+
+
+### Reference
+
+* [WikiPedia](https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98)
+
+
+<br/>
+
 ## 공부할 때 참고한 전체 Reference
 
 * <https://lypicfa.tistory.com/298?category=805276>
