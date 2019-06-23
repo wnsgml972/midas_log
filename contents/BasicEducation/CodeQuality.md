@@ -77,13 +77,6 @@
 ### Microsoft Docs
 * <https://docs.microsoft.com/ko-kr/visualstudio/debugger/managing-exceptions-with-the-debugger?view=vs-2019>
 
-### Etc
-* 그 외에 조사식 사용법이나
-    * this
-    * 주솟값 넣기
-* 조건에 예외 추가하기
-* 주솟값으로 예외 설정하기
-
 같은 것들은 기본적으로 익혀두도록 한다.
 
 
@@ -101,6 +94,33 @@
 
 ### Microsoft Docs
 * <https://docs.microsoft.com/ko-kr/visualstudio/debugger/create-custom-views-of-native-objects?view=vs-2019>
+
+
+<br/>
+
+## 10. 그 외 여러가지
+
+### 자동
+* 자동 적으로 변수 표시
+* 함수의 반환 값 표시
+
+### 로컬
+* 해당 지역 변수 내 디버깅 가능
+
+### 조사식
+* this
+* 주솟값을 직접 조사식에 입력하여 한 변수 계속 추적
+
+### 여러가지 중단 팁
+* 중단 조건에 예외 추가하기
+* 데이터 중단점으로 주솟값을 이용하여 해당 변수 변경하면 중단하기 설정
+* 데이터 중단점으로 마우스 우클릭하여 -> 해당 값 바뀌면 중단하기 설정
+
+### 호출 스택
+* 호출 스택 시각화 (엔터프라이즈만 되는 듯ㅠ) [link](https://docs.microsoft.com/ko-kr/visualstudio/debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio?view=vs-2019)
+
+
+
 
 
 <br/>
