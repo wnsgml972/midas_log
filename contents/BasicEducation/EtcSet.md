@@ -47,6 +47,9 @@
 
 
 <br/>
+## Samsung Set
+* Samsung Update (각 드라이버 셋팅)
+* 노트북 이름 바꾸기
 
 ## Windows 10, 할 것
 - 사용자 전화 (휴대폰 및 Windows)
