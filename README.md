@@ -232,6 +232,28 @@
   * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 * [셋째 주] LabelPhase & GuideWidget
+  * 목표 : Label 1차 검증
+
+* [넷째 주] LabelPhase & GuideWidget
+  * 목표 : Label 1차 검증
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 06월](/contents/2019.06/06.md)
+
+---
+
+
+
+## 2019.07
+:memo:
+* [첫째 주] LabelPhase & GuideWidget
+  * 목표 : Label 1차 검증
+
+* [둘째 주] LabelPhase & GuideWidget
+  * 목표 : Label 1차 검증
+
+* [셋째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료 | LabelPhase Select 구현
 
 * [넷째 주] LabelPhase & GuideWidget
