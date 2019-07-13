@@ -112,6 +112,8 @@ Work | Name
 ### Modern C++ Framework 구현 분석
 * [Modern C++ Framework 구현 분석](/contents/BasicEducation/framework.md)
 
+### C++ 50 계명!!
+* [C++ 50 계명](/contents/BasicEducation/cpp50.md)
 
 
 <br/>
