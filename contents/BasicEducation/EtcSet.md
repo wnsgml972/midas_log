@@ -41,12 +41,13 @@
 - MySQL
 - Tomcat
 - Source Tree
-- Git
+- Git ([SSH](https://jojoldu.tistory.com/427), Theme Dracula)
 - CMake
 
 
 
 <br/>
+
 ## Samsung Set
 * Samsung Update (각 드라이버 셋팅)
 * 노트북 이름 바꾸기
