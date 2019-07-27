@@ -39,6 +39,7 @@
 * 디버깅
 * [Note (VS, OS, C, etc..)](/contents/BasicEducation/Note.md)
 * [빌드 속도 개선](/contents/BasicEducation/Build.md)
+* [Windows 응용 프로그램 파일 관리](/contents/BasicEducation/application_manage.md)
 * [Book](/contents/BasicEducation/Book.md)
 
 ### Programming Math

@@ -3,13 +3,11 @@
 # GLUI v1 (내용 by. hsjo)
 
 ## GLUI ?
-
 * 화면 상에서 그려지는 OpenGL로 그리는 UI들의 명칭 이었다가 GLUI라는 이름이 되어버림.
 * 원래는 View 상에서 UI를 직접 그려줘서 마우스 동선 최소화, Direct Modeling을 위해 만든 UI. 
 * 최대한 간단한 기능 정보만 보여주는 것이 좋음. 복잡한 기능은 대화상자에 다 밀어 넣는 것으로
 
 ## GLUI의 구성
-
 * `MGLUIHandler` : UI의 생성 삭제 이벤트 관리 등등 잡다한 것을 다 처리하는 매우 복잡한 기능
 * `MGLUI` : GLUI의 기본 베이스 클래스. 여기서 UI의 Data를 다루도록 한다. (Doc 역할)
 * `MViewActor` : GLUI의 베이스 클래스. `MGLUI`와 묶여서 같이 움직이며 주로 View에 대한 이벤트 처리를 함. (View 역할)
@@ -20,7 +18,6 @@
 * `MGLUIBaseDef.h` : 기본적으로 필요한 Define들을 몽땅 담고 있은 곳.
 
 ## View 이벤트와 GLUI 연결 방법
-
 * `MGLUINotifier`를 사용해서 `MGLUIHandler`의 `HandleViewEvents`를 통해 전달이 되도록 설계됨
 * `XGViewBase`에서 `SEND_GLUI_NOTIFY` 매크로를 사용해서 각각의 `GLUIHandler`로 전달함
 * 이벤트를 받아서 처리할 기능이 필요하면 `ViewActor`에서 처리한 후에 Event 내용을 변경 후 반환하는 방식 (NOTIFY_* 로 들어간 후 반환된 파라미터가 NOTIFY_GLUI*로 들어가는 방식)
@@ -30,13 +27,11 @@
 * Thief GLUI는 Focus도 아니고 Hit된 것도 아니지만 마우스 이벤트를 받아야하는 것들. Grip GLUI ? 만 사용하는 중
 
 ## UI와 명령 연결 방법 (`MGLUICommandBase` 사용법)
-
 * 원래는 GLUI가 처리하는 이벤트는 Opn에서 처리하고 있었음 (`OpnView`의 `OnGLUI*` 계열 함수들)
 * 일부 Command만 GLUI에 할당해주면 GLUI가 내부적으로 처리하는 인터페이스
 * 진행하다 말은 상태
 
 ## GLUI Rendering
-
 * MFC와 3D OpenGL 2가지로 나눠져있음
 * 3D 공간상에서 붙어있는 기능은 OpenGL을 사용함 (Widget, Grip, Dimension 등)
 * MFC는 윈도우상에서 제공해야하는 기능들 (`DynCtrl`, `ToolbarCtrl` 등)
@@ -44,11 +39,9 @@
 * 엄청 느려진다면 속도 개선 필요 -> 예) 엄청 많은 Dimension
 
 ## UISet
-
 * 중립모드에서 나타나야하는 UI들로 주로 Grip 에서 사용
 
 ## GLUI 목록
-
 * `DynCtrl` `ToolBarCtrl` : Button, Edit, Combo 등 Mini Toolbar 계열들이 여기에 속함
 * `Widget` : 화살표 등 Move, Rotate에서 사용하는 것들
 * `Legend` : 후처리에서 사용하는 기능
@@ -58,14 +51,12 @@
 * `TextEditor` : 폐기된거라 신경 안쓰면 됨
 
 ## 새 GLUI 만드는 법
-
 1. `MGLUI` `MViewActor`를 상속받아서 새로운 class를 만듦
 2. Renderer 구현
 3. GLUI에 해당 Type을 새로 추가
 4. 각종 이벤트 `ViewActor` `Command`등을 구현하여 사용
 
 ## TODO
-
 * 공통 기능 묶기, Dependency 줄이기
 * `GLUIHelper` 삭제 필요
 * 현재 GLUI의 생성을 Handler에서 Runtime Class를 바탕으로 생성하는데, Factory나 Template 등으로 좀 더 간단한 구조 필요
@@ -76,14 +67,12 @@
 * UI를 드래그하는 상황에서 3D OpenGL로 그린 영역과 MFC로 그린 영역이 쪼개짐. 수정 필요
 
 ## 기타
-
 * 아이콘 리소스 관리 : Texture 관리하는 문제. 데이터 로드 & 그리기 등 문제
 * Handle 기반 -> Object 기반으로 해야할듯
 
 # GLUI v2
 
 ## Intro
-
 * nGen 출시쯤 Frame 형태로 GLUI를 개편하는 작업이 진행됨
 
 ![image](/media/aui/alice-ui0.png) 
@@ -91,13 +80,11 @@
 * 당시 개발중인 Alice UI(nGLUI)의 일부 코드와 컨셉을 가져와서 GLUI v1을 개선한 형태 - 현재 nGen에서 사용중
 
 ## 변경된 사항
-
 * 기존 Opn에서 `GLUIHelper`를 사용해서 개발자가 직접 UI를 생성해주는 방식에서 `FrameUI`라는 모듈형 방식으로 개선됨
 * `FrameUI`에서 UI 형태 구성 & 이벤트 처리 코드를 구현하면 자동으로 개편된 형태의 UI가 나오는 방식
 * 테두리를 렌더링하기 위해 Nine-Patch 렌더링을 구현 -> Predefine된 크기에 대한 이미지만 사용 가능함
 
 ## 주요 기능
-
 * `Frame` : 현 AliceUI의 LinearLayout과 비슷한 개념으로 각종 UI들을 한줄 형태로 누적하는 기능을 가짐. `Frame`에 `Frame`를 중첨해서 사용도 가능함 -> 세로로 배치되는 형태의 UI 구현
 * `FrameHolder` : `Frame`들의 가장 Root가 되는 곳으로 화면상에 특정 위치를 고정시키는 `Anchor` 기능을 제공함
 * `Anchor`는 화면의 '좌상단/상단중심/우상단/좌하단/하단중심/우하단/자유'을 기준으로 고정을 시킬 수 있는 기능. 주로 화면 하단 중심에 고정시키기 위해서 사용됨
@@ -106,7 +93,6 @@
 * `MUISignal` `MUISlot` : 초기 AliceUI에서 사용했던 Signal/Slot 코드. 현재와 달리 Connect/Disconnect를 수동으로 해주지 않으면 Crash가 발생하고 Signal ID값을 통해서 관리됨
 
 ## 해결하지 못한 부분
-
 * `ToolBar` 계열 : `Frame`과 비슷한 컨셉을 사용하였지만 대부분의 코드는 사라지고 1~2개의 Legacy 코드만 남겨져 있어서 남아있는 상태
 * `Grip` 계열 : 1~2개 기능만 남아있는 상태
 
@@ -117,7 +103,6 @@
 ## 기원
 
 ### GLUI v1에 대한 개선 방안 고안
-
 * GLUI v1의 약점인 Canvas Draw 기능에 대한 사전 조사 작업을 진행함
   * OpenGL의 Triangulation을 기반으로한 렌더링은 너무 Low-Level한 기능만 제공하고 있음
   * 실제 2D UI를 렌더링할 때 사용하는 API들을 보면 GDI, Javascript 등이 있는데 이들은 OpenGL보다 High-Level Feature를 제공하고 있음
@@ -144,7 +129,6 @@
   * 객체 단위로 움직일 수 있고, 개발자가 생명주기를 관리할 수 있도록 개선 필요
 
 ### Skia
-
 * Skia Inc. 라는 회사에서 개발하여 2005년 Google이 인수함
 * 주요 기능
   * Open Source 2D Vector Graphics Engine
@@ -168,7 +152,6 @@
 # Alice UI v2.0 (with Mosaic)
 
 ## 개발 동기
-
 * 타겟 사용자의 변화
   * 초기 Alice UI는 개발자가 직접 Widget을 상속받아 구현하는 컨셉이었지만, 현재 CIM에서는 PanelUI에서 자동 생성시키는 모듈로 용도가 변경됨.
   * 지금은 비개발자가 Panel UI에 각종 Constraint와 Style Sheet 정보로 UI를 생성하는 방식으로 사용함.

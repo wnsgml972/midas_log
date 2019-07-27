@@ -94,6 +94,12 @@ if(auto resultPath = readUserSelectedFilePath(); resultPath)
 
 
 
+## Performance 고려 시 생기는 것
+1. 인자 값을 넘길 때는 항상 `const &`를 이용
+2. 결과 값을 넘길 때는 const는 유지하되 값복사 형식으로 유지한다. 대신 값을 받는 쪽에서 `const &`를 이용한다.
+3. 스마트 포인터는 인자 넘길때와 결과 값 둘다 `&`를 이용하지 않는다. (스마트 포인터의 의도한 동작이 이루어지지 않음)
+
+
 
 
 <br/><br/><hr/>
