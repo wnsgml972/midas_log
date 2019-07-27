@@ -261,6 +261,6 @@
 
 
 ## :heavy_check_mark:
-* &nbsp; [2019년 06월](/contents/2019.06/06.md)
+* &nbsp; [2019년 07월](/contents/2019.07/07.md)
 
 ---
