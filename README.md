@@ -251,16 +251,38 @@
   * 목표 : Label 1차 검증
 
 * [둘째 주] LabelPhase & GuideWidget
-  * 목표 : Label 1차 검증
+  * 목표 : Label 1차 검증 완료
 
-* [셋째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료 | LabelPhase Select 구현
+* [셋째 주] LabelPhase 적용
+  * 목표 : QA LabelPhase | Phase 문서화
 
-* [넷째 주] LabelPhase & GuideWidget
-  * 목표 : 구현 완료 | LabelPhase Select 구현
+* [넷째 주] LabelPhase 적용
+  * 목표 : QA LabelPhase | Phase 문서화
 
 
 ## :heavy_check_mark:
-* &nbsp; [2019년 06월](/contents/2019.06/06.md)
+* &nbsp; [2019년 07월](/contents/2019.07/07.md)
+
+---
+
+
+
+## 2019.08
+:memo:
+* [첫째 주] Phase | MIDAS Database
+  * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
+
+* [둘째 주] Phase | MIDAS Database
+  * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
+
+* [셋째 주] Phase | MIDAS Database
+  * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
+
+* [넷째 주] Phase | MIDAS Database
+  * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 08월](/contents/2019.08/08.md)
 
 ---
