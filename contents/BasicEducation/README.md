@@ -2,7 +2,7 @@
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
 
-### [Stop thinking, Just Do](https://www.youtube.com/watch?v=4P2XeCSHSeA&vl=ko)
+### [Stop thinking, Just Do](https://www.youtube.com/watch?v=Xz2zvDug2jM)
 
 ### [Stay Hungry. Stay Foolish.](https://www.youtube.com/watch?v=7aA17H-3Vig)
 
