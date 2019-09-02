@@ -286,3 +286,25 @@
 * &nbsp; [2019년 08월](/contents/2019.08/08.md)
 
 ---
+
+
+
+## 2019.09
+:memo:
+* [첫째 주] Core History | LabelPhase Validation by Wizard(10 Release)
+  * 목표 : Core History 기반 구축 완료 | LabelPhase Wizard 사용 검증 완료
+
+* [둘째 주] Core History | LabelPhase Validation by Wizard(10 Release)
+  * 목표 : 
+
+* [셋째 주] Core History | LabelPhase Validation by Wizard(10 Release)
+  * 목표 : 
+
+* [넷째 주] Core History | LabelPhase Validation by Wizard(10 Release)
+  * 목표 : 
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 09월](/contents/2019.09/09.md)
+
+---
