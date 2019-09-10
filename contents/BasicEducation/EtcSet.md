@@ -63,6 +63,7 @@
 - 메일 세팅 (Gmail, Naver)
 - sticky notes
 - MicroSoft, TO DO
+- Network Speed Test
 - 윈도우 다크테마
 - 작업 표시줄
 - 핸드폰 블루투스 연결 (자동 잠금장치 기능)
