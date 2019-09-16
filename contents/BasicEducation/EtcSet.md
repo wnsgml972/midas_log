@@ -53,17 +53,18 @@
 * 노트북 이름 바꾸기
 
 ## Windows 10, 할 것
-- 사용자 전화 (휴대폰 및 Windows)
 - Windows Subsystem for Linux
-- 클립보드 ( 검색기록 저장 켜기, 장치 간 동기화 켜기, 자동 동기화) : 클라우드
-- 링크 공유
 - Polarr ( Photo Editor )
 - Studio Plus ( Video Editor )
+- MicroSoft, TO DO
+- Network Speed Test
+- [PowerToys](https://github.com/microsoft/PowerToys)
+- 사용자 전화 (휴대폰 및 Windows)
+- 클립보드 ( 검색기록 저장 켜기, 장치 간 동기화 켜기, 자동 동기화) : 클라우드
+- 링크 공유
 - Chrom Setting (로그인, 동기화, 원격데스크톱)
 - 메일 세팅 (Gmail, Naver)
 - sticky notes
-- MicroSoft, TO DO
-- Network Speed Test
 - 윈도우 다크테마
 - 작업 표시줄
 - 핸드폰 블루투스 연결 (자동 잠금장치 기능)
