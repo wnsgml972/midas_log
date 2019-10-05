@@ -12,6 +12,7 @@
 * C++ Casting
 * enum class
 * `emplace_back` vs `push_back`
+* `typedef` vs `using`
 * C++11 다양한 초기화 방식
 * C++11의 Thread-Safe SingleTon
 * C++ Getter, Setter
@@ -144,6 +145,35 @@ vector.push_back(CPoint(1, 2));
 - push_back함수로 할 수 있는 모든 것을 emplace_back으로 할 수 있다.
 
 
+
+
+<br/>
+
+###  typedef vs using
+
+#### typedef
+* typedef 키워드의 문법은 앞의 타입형을 뒤에 있는 이름으로 축소해서 사용하겠다는 것
+
+~~~cpp
+typedef std::shared_ptr<MyClass> my_make_shared(int, std::string);
+~~~
+
+#### using
+* 약간 변수 할당과 비슷한 느낌으로 MyClassPtr에 std::shared_ptr<MyClass>를 대입하는 것
+
+~~~cpp
+using my_make_shared = std::shared_ptr<MyClass>(int, std::string);
+~~~
+
+#### result
+* typedef는 템플릿이 안되지만 using은 된다.
+* 코드 구성 자체도 using이 훨신 직관적이다.
+* **modercpp를 쓴다면 typedef말고 using을 사용하도록 하자**
+
+~~~cpp
+using LabelWithPanel = std::tuple<std::shared_ptr<mit::alice::BaseGuideWidget>, std::shared_ptr<MPanelUILauncher>, std::shared_ptr<AUIWidget>>;
+LabelWithPanel CreateLabelByPointReference(std::shared_ptr<const MPointReference> labelRef);
+~~~
 
 
 <br/>

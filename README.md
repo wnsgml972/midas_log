@@ -308,3 +308,25 @@
 * &nbsp; [2019년 09월](/contents/2019.09/09.md)
 
 ---
+
+
+
+## 2019.10
+:memo:
+* [첫째 주] LabelPhase Performance
+  * 목표 : LabelPhase Performance 개선
+
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
+  * 목표 : 
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 10월](/contents/2019.10/10.md)
+
+---
