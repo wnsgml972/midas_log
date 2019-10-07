@@ -1,26 +1,13 @@
 # 영어 공부
 
 ## Note
-* I'm sorry that I just forced you to see
-* Hello, 니하오, How have you been? (어떻게 지내?)
+* How have you been? (어떻게 지내?)
 * What did you do with your friend?
-* Are you hungry?
 * Why dont you go to the Cafe?
-* your home is Sinchon, right?
-* **Do you work part-time job?**
-* **How do you like Korean food? 한국음식 입에 맞나요?** 
-
-## s
-* How would you like your steak? 스테이크 어떻게 구워 드릴까요? 
+* How do you like Korean food? 한국음식 입에 맞나요?
 * Fasten your seat belt please. 좌석(안전)벨트 매 주십시오. 
 * How about eating out tonight? 오늘밤 외식하는 것이 어때요? 
 * Would you like to drink something? 뭘 좀 마시겠어요?
-* drink one of a cup and my face blushes ..
-* It takes ten minutes to get there
-* It's been (such) a long time. 오래간만이다. 
-* It's up to you. 당신 마음대로 하세요. 
-* To be honest, I had a bit of a crush on you, so it was too bad to never meet and end this way.
-* I don't want to bear the burden and I want to be a good friend
 
 <br/><br/>
 
