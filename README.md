@@ -316,14 +316,14 @@
 * [첫째 주] LabelPhase Performance
   * 목표 : LabelPhase Performance 개선
 
-* [둘째 주] 
-  * 목표 : 
+* [첫째 주] LabelPhase Performance
+  * 목표 : LabelPhase Performance 개선
 
-* [셋째 주] 
-  * 목표 : 
+* [첫째 주] 출시 준비, UI 개발
+  * 목표 : 출시 준비, UI 개발
 
-* [넷째 주] 
-  * 목표 : 
+* [첫째 주] 출시 준비, UI 개발
+  * 목표 : 출시 준비, UI 개발
 
 
 ## :heavy_check_mark:
