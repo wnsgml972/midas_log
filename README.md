@@ -316,17 +316,61 @@
 * [첫째 주] LabelPhase Performance
   * 목표 : LabelPhase Performance 개선
 
-* [첫째 주] LabelPhase Performance
+* [둘째 주] LabelPhase Performance
   * 목표 : LabelPhase Performance 개선
 
-* [첫째 주] 출시 준비, UI 개발
-  * 목표 : 출시 준비, UI 개발
+* [셋째 주] 출시 준비
+  * 목표 : 출시 준비
 
-* [첫째 주] 출시 준비, UI 개발
-  * 목표 : 출시 준비, UI 개발
+* [넷째 주] 출시
+  * 목표 : 출시
 
 
 ## :heavy_check_mark:
 * &nbsp; [2019년 10월](/contents/2019.10/10.md)
+
+---
+
+
+
+## 2019.11
+:memo:
+* [첫째 주] 출시하느라 밀렸던 문서들 작성
+  * 목표 : 문서 작성 완료
+
+* [둘째 주] 문서 작성, DB Core DTO, DAO 연구, 신입사원 교육
+  * 목표 : 문서 작성, Data 정의, 교육 완료
+
+* [셋째 주] 문서 작성, DB Core DTO, DAO 연구, 신입사원 교육
+  * 목표 : 문서 작성, Data 정의, 교육 완료
+
+* [넷째 주] DB Core 대규모 리팩토링, 신입사원 교육
+  * 목표 : 리팩토링 완료, 교육 완료
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 10월](/contents/2019.11/11.md)
+
+---
+
+
+
+## 2019.12
+:memo:
+* [첫째 주] DB Core 대규모 리팩토링
+  * 목표 : 리팩토링 완료
+
+* [둘째 주] DB Core 대규모 리팩토링
+  * 목표 : 리팩토링 완료
+
+* [셋째 주] DB Core 대규모 리팩토링, 출시 준비
+  * 목표 : 리팩토링 완료, 출시 준비 완료
+
+* [넷째 주] 출시 준비
+  * 목표 : 출시 완료
+
+
+## :heavy_check_mark:
+* &nbsp; [2019년 10월](/contents/2019.12/12.md)
 
 ---
