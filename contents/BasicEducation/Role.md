@@ -1,18 +1,20 @@
 
 **내 역할 정리**
 
->  ( ) = 내가 하고있는 것 or 한 것
+## Short
+
+Research and Development of Memory Database(Pluto) and UI Framework(Phase, Alice UI), a dedicated engine within the company
 
 ## 기반 개발
-* `[프레임워크]` 응용 소프트웨어 프레임워크 개발 (Phase : LabelPhase)
-* `[UI]` 창의적 UI/UX 엔진 개발 (Alice UI : Guide Widgets)
-* `[DB]` 타 제품 Database 호환 개발 (IFC Import/Export)
-* `[DB]` 데이터베이스 관리 시스템 개발 및 유지보수 (History, Task, Save/Load, Memory Validation, Public Interface 등등)
+* `[프레임워크]` 응용 소프트웨어 프레임워크 개발 (Phase)
+* `[UI]` 창의적 UI/UX 엔진 개발 (Alice UI)
+* `[DB]` 타 제품 Database 호환 개발 (IFC Import/Export...)
+* `[DB]` 메모리 데이터베이스 관리 시스템 연구 및 개발 (Pluto)
 
 ## 기능 개발
 * `[CAD]` 창의적 UI/UX 기능 개발 (Analysis Line, Solid, IFC)
-* `[알고리즘]` 대용량 데이터 처리 알고리즘 구현 (LabelPhase Update System)
-* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현 (Guide Widgets, LabelPhase Geometry Reference)
+* `[알고리즘]` 대용량 데이터 처리 알고리즘 구현 (Phase, Alice UI, Pluto)
+* `[알고리즘]` 기하연산 데이터 처리 알고리즘 구현 (Alice UI, CAD)
 
 
 
