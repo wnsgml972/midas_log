@@ -3,7 +3,7 @@
 
 ## Short
 
-Research and Development of Memory Database(Pluto) and UI Framework(Phase, Alice UI), a dedicated engine within the company
+Research and Development of In Memory Database(Pluto) and UI Framework(Phase, Alice UI), a dedicated engine within the company
 
 <hr/>
 <br/><br/>
