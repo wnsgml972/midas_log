@@ -2,7 +2,7 @@
 # In Memory Database : Pluto
 
 > Dev Log, 크게 5가지로 구성<br/>
- Core Engine 개발로서 사실 상 어떠한 부분도 작은 영역의 개발은 아님, 조그마한 코드를 변경해도 막대한 책임이 따름, 확실한 검증 방법을 거쳐야만 할 것을 명심할 것
+ Core Engine 개발로서 사실 상 어떠한 부분도 작은 영역의 개발은 아님, 조그마한 코드를 변경해도 막대한 책임이 따름, 확실한 검증 방법을 거쳐야만 할 것을 명심할 것 (__Test에 많은 시간을 쏟아야 함__)
 
 ## 개발한 것
 ### DB Core Code Quality (Code Level Micro Tuning)
