@@ -38,7 +38,7 @@
    5) DB Reflection : Compile Time Human Error Checker
    6) DB Core : Run Time Error Checker
    7) Modernized Example Table & Data Object
-   8) `Regression DB Core ~ing`
+   8) `Implement DB Core Regression Code ~ing`
 
 ### DB Core Usability Enhancement
    1) Provide many convenient APIs
