@@ -110,7 +110,7 @@ https://boycoding.tistory.com/156
 ~~~
    3) Core DB : RegDataPool 순서 오류 시 나타나는 휴먼 에러 잡기
    4) DB Reflection : Compile Time Human Error Checker
-   5) Regression DB Core ~ing
+   5) Implement DB Core Regression Code ~ing
 
 ### DB Core Usability Enhancement
    1) Provide many convenient APIs
