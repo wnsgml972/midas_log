@@ -99,7 +99,11 @@ Export / Import API
 ~~~
 퍼포먼스 향상을 위한  데이터베이스 샤딩 https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6
 ~~~
-
+   7) Visualize DataBase By Class Diagram
+~~~
+개발자 뿐만 아니라, 엔지니어도 DB를 사용하여 설계할 때 퍼포먼스를 생각하며 기능을 완성할 수 있도록 DB를 Visual 하는 기능
+찾아보니까 유니티에는 이런 게 있음
+~~~
 
 ### DB Core Validation
    1) Casing과 DataType이 다르게 매칭됐을 시의 미스매칭 검사
