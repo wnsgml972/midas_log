@@ -5,3 +5,7 @@
 ## Archive
 
 * [90년대생의 퇴사를 막고 싶다면](https://brunch.co.kr/@deblim0928/36?fbclid=IwAR2WLc1hj9z_P42Ekt4YqHXYaXGOwY0_mAGO3yF83_BNdX7y_vtI0jy4W5o)
+
+## Stack Overflow
+
+* [개발자의 성장과 경험 포인트](https://madplay.github.io/post/how-i-use-stackoverflow)
