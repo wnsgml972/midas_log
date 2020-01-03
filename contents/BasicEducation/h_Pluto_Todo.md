@@ -104,6 +104,10 @@ Export / Import API
 개발자 뿐만 아니라, 엔지니어도 DB를 사용하여 설계할 때 퍼포먼스를 생각하며 기능을 완성할 수 있도록 DB를 Visual 하는 기능
 찾아보니까 유니티에는 이런 게 있음
 ~~~
+   8) Process Relation
+~~~
+   https://midasitdev.atlassian.net/wiki/spaces/~313676491/pages/46170117/CIM+DB
+~~~
 
 ### DB Core Validation
    1) Casing과 DataType이 다르게 매칭됐을 시의 미스매칭 검사
