@@ -108,6 +108,10 @@ Export / Import API
 ~~~
    https://midasitdev.atlassian.net/wiki/spaces/~313676491/pages/46170117/CIM+DB
 ~~~
+   9) 위의 이슈와도 비슷하겠지만 DataPool 단순 조회의 관한 것들
+~~~
+enable if, if constxepr, queue 등을 활용하면 단순 조회하며 필요 없는 부분들도 모든 테이블 조회하던 것들에 대한 것을 전체적으로 퍼포먼스를 향상시킬 수 있을 듯?
+~~~
 
 ### DB Core Validation
    1) Casing과 DataType이 다르게 매칭됐을 시의 미스매칭 검사
