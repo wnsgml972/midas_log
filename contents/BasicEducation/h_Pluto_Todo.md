@@ -63,6 +63,10 @@ MDataPool 다 뜯어야 함, MCustomDataPool 만들고 final 다 붙일 것, 그
    3) Delete CString
    4) Bulk Memory
 
+
+
+<br/>
+
 ### Class abstraction, encapsulation and separation of responsibilities
    1) Refactor MHashContainer
 ~~~
@@ -74,6 +78,10 @@ Hash Performance 검증
 ~~~
    2) Mstruct
    3) Util Class Doc Safe
+
+
+
+<br/>
 
 ### Software Architecture (Critical Decision)
    1) MQuery Class (for MIDAS Bash)
@@ -116,6 +124,14 @@ enable if, if constxepr, queue 등을 활용하면 단순 조회하며 필요 �
 ~~~
 https://coding-factory.tistory.com/221
 ~~~
+   11) 내부 알고리즘 병렬 처리 구현, 제일 중요!
+~~~
+알티베이스, 레디스 등 상용 DB 참고할 것
+~~~
+
+
+
+<br/>
 
 ### DB Core Validation
    1) Casing과 DataType이 다르게 매칭됐을 시의 미스매칭 검사
