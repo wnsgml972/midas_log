@@ -116,6 +116,9 @@
 * 데이터 중단점으로 주솟값을 이용하여 해당 변수 변경하면 중단하기 설정
 * 데이터 중단점으로 마우스 우클릭하여 -> 해당 값 바뀌면 중단하기 설정
 
+### 예외 설정에서 전체 예외 그냥 이것저것 다 걸리게 해놓고 돌리기
+* 다시 원상태로 복구하기 버튼 있음!
+
 ### 호출 스택
 * 호출 스택 시각화 (엔터프라이즈만 되는 듯ㅠ) [link](https://docs.microsoft.com/ko-kr/visualstudio/debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio?view=vs-2019)
 
