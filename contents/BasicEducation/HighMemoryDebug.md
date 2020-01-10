@@ -51,10 +51,21 @@
 5. Visual Studio 성능 프로파일러
 ~~~
 
-### WinDBG를 사용하려면 Windows SDK안에 있는 WinDBG를 다운 받아야 함!
-* 참고로 UMDH도 WinDBG 포함
+### WinDBG 사용하기
+> WinDBG를 사용하려면 Windows SDK안에 있는 WinDBG를 다운 받아야 함! 참고로 UMDH도 WinDBG 포함
+
+#### Install WinDBG SDK
 * <https://docs.microsoft.com/ko-kr/windows-hardware/drivers/debugger/debugger-download-tools>
 
+#### Symbol Path Config
+* <https://docs.microsoft.com/ko-kr/windows-hardware/drivers/debugger/using-a-symbol-server>
+* 그냥 여기가서 2개 cmd 창에 복붙, 복붙!
+~~~bash
+set _NT_SYMBOL_PATH = srv*DownstreamStore*SymbolStoreLocation
+set _NT_SYMBOL_PATH=srv*DownstreamStore*https://msdl.microsoft.com/download/symbols
+~~~
+
+### 이제 밑에 명령어를 사용한 비교!
 
 ### UMDH.exe  : 재현이 가능해요!
 1. 동적 할당이 일어나는 콜스택 별로, 할당 횟 수, 해제 횟 수, 할당 크기 수집
@@ -64,9 +75,10 @@
 3. 재현 (스킬 창 열기/닫기 10번 반복)
 4. 재현 후, 콜스택 별 메모리 할당량 기록, 2번과 비교
     * `umdh -pn:Client.exe > log2.txt`
-    * 2번과 비교 (diff checker 사용)
+5. diff check 사용
+    * `umdh.exe E:\log1.txt E:\log2.txt > E:\diff.txt`
 5. 성능에 매우 악 영향을 미치니, 메모리 릭 검증할 때만 사용할 것!
-
+6. 분석 시 참고 : <https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/interpreting-a-log-comparison>
 
 <br/>
 
@@ -89,13 +101,13 @@
 <br/>
 
 ### Process Exploer
-
+* 심후석 수석님 자료 참고
 
 
 <br/>
 
 ### Very Sleepy
-
+* 심후석 수석님 자료 참고
 
 
 
