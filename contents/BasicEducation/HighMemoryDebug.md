@@ -1,7 +1,8 @@
 # Memory Debug
 
 ## 핵심!!
-* 32bit 윈도우를 지원하면 가상 메모리 한계는 2GB고, 64bit는 8테라다.
+![img](/media/2020/user_mode_virtual_address.png)
+* 32bit 윈도우를 지원하면 가상 메모리 한계는 2GB고, 64bit는 `x64` 기준 8테라 바이트이다.
 * 메모리 이슈를 분석할 때에는 더 나은 도구로 Commit Size를 포함한 여러 지표를 확인하자.
 * 재현 가능한 메모리릭은 UMDH등의 툴을 활용하자.
 * 재현 불가능한 메모리릭은 windbg로 풀덤프 Heap 분석을 시도하자.
@@ -47,7 +48,13 @@
 2. WinDBG.exe
 3. Process Exploer
 4. Very Sleepy
+5. Visual Studio 성능 프로파일러
 ~~~
+
+### WinDBG를 사용하려면 Windows SDK안에 있는 WinDBG를 다운 받아야 함!
+* 참고로 UMDH도 WinDBG 포함
+* <https://docs.microsoft.com/ko-kr/windows-hardware/drivers/debugger/debugger-download-tools>
+
 
 ### UMDH.exe  : 재현이 가능해요!
 1. 동적 할당이 일어나는 콜스택 별로, 할당 횟 수, 해제 횟 수, 할당 크기 수집
