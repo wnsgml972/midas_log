@@ -4,6 +4,9 @@
 
 # Commit Message Rule
 
+## 2020.01 유명 오픈소스 Commit Message 분석
+* <https://tagilog.tistory.com/588?fbclid=IwAR09GSaZgFW1vmJjxSJ8OPXVHdVRpfaWlKnzW_NkCG7uzEnFkVieIDQhb3Y>
+
 ## 왜 좋게 작성해야 할까?
 
 * 더 좋은 커밋 로그 가독성
