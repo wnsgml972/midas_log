@@ -14,7 +14,7 @@
    6) Remove Duplicate Code
    7) Delete Output Param, Use Various const, const reference Param
    8) Convert the variable name to a readable variable name
-   9) Struct Packing
+   9) Struct Packing (+ Run Time, Compile Time Checker)
 
 ### Class abstraction, encapsulation and separation of responsibilities
    1) High Risk Function Encapsulation
