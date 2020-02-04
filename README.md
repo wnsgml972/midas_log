@@ -380,20 +380,43 @@
 
 ## 2020.01
 :memo:
-* [첫째 주] 2019 회고록 준비
-  * 목표 : 2019 회고록 완료
+* [첫째 주] 2019 회고록 준비(MIDAS 내에서의)
+  * 목표 : 2019 회고록 완료(MIDAS 내에서의)
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] High Level Memory Debugging, Core Document 밀린 것 작성(Phase, DB Core)
+  * 목표 : Memory Leak 잡기, Document 작성 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] IFC TesslatedConverter 구현 및 검증
+  * 목표 : IFC TesslatedConverter 구현 및 검증 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] DB Core Structure Packing Control API, RT Module Keep Alive Checker 구현
+  * 목표 : 구현 완료
 
 
 ## :heavy_check_mark:
 * &nbsp; [2020년 01월](/contents/2020.01/01.md)
+
+---
+
+
+
+
+## 2020.02
+:memo:
+* [첫째 주] Phase 안정화, Select Object 기반 구현
+  * 목표 : Phase 안정화 및 Select Object 기반 구현 완료
+
+* [둘째 주] Select Object 기반 구현
+  * 목표 : Select Object 기반 구현 완료
+
+* [셋째 주] Select Object 기반 구현
+  * 목표 : Select Object 기반 구현 완료
+
+* [넷째 주] Phase Select, WorksTree Node Select 구현
+  * 목표 : Phase Select, WorksTree Node Select 구현 완료
+
+
+## :heavy_check_mark:
+* &nbsp; [2020년 01월](/contents/2020.02/02.md)
 
 ---
