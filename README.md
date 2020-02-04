@@ -417,6 +417,6 @@
 
 
 ## :heavy_check_mark:
-* &nbsp; [2020년 01월](/contents/2020.02/02.md)
+* &nbsp; [2020년 02월](/contents/2020.02/02.md)
 
 ---
