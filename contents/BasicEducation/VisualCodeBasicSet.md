@@ -36,6 +36,8 @@
 
 ## VS Code Add In
 
+> 블로그에 최신 버젼 있음~
+
 __```ctrl + shift + X``` 로 Extensions에서 검색할 수 있습니다.__
 
 ### [Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#review-details)

@@ -1,5 +1,8 @@
 # DevOps
 
+> 블로그에 최신 버젼 있음~
+
+
 ## Atlassian products
 
 ![Atlassian](/media/atlassian.png)

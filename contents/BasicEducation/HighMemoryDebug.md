@@ -1,5 +1,8 @@
 # Memory Debug
 
+> 블로그에 최신 버젼 있음~
+
+
 ## 핵심!!
 ![img](/media/2020/user_mode_virtual_address.png)
 * 32bit 윈도우를 지원하면 가상 메모리 한계는 2GB고, 64bit는 `x64` 기준 8테라 바이트이다.
