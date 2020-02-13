@@ -1,30 +1,15 @@
 # MIDAS LOG
 
-# 팀 규칙
-
-1. __티타임__ : (매주 한 번씩 오전 9시 전에)
-
-2. __스탠딩 회의__ : (매일 오전 9시 전에 간단히, 끝나고 커피 사다리타기 준비)
-
-3. __mday__ : 한 달에 한 번 마지막 주 수요일에 자신의 성과 5~10분 발표
-
-4. __인사 평가__ : 한 달에 한 번 자기 자신 평가
-
-5. __마라톤__ : 연습도 하는 듯?, 갈아 입을 옷, 운동화 챙기기
-
-6. __연구소장 간담회__ : 파트원+파트장+연구소장+팀장 회의 반기에 2번씩, 예정
-
-7. __주간업무공유__ : 에버노트로 한 주의 목표, 특이사항, 공유사항, 진행사항 등을 적어 팀원들과 공유, 월요일에 목표를 작성하고 금요일에 점검하는 방식으로 사용
-
----
-
 ## Basic Education
-
 * [Basic Education](/contents/BasicEducation/README.md)
 
-## Open Source
+## Archive (Always Keep in Mind)
+* [Archive](/contents/BasicEducation/Archive.md)
 
+## Open Source
 * [Open Source](/contents/BasicEducation/OpenSource.md)
+
+
 
 ---
 
@@ -403,17 +388,17 @@
 
 ## 2020.02
 :memo:
-* [첫째 주] Phase 안정화, Select Object 기반 구현
-  * 목표 : Phase 안정화 및 Select Object 기반 구현 완료
+* [첫째 주] Phase 안정화
+  * 목표 : Phase 안정화
 
-* [둘째 주] Select Object 기반 구현
-  * 목표 : Select Object 기반 구현 완료
+* [둘째 주] Phase 안정화
+  * 목표 : Phase 안정화 및 인터페이스 분리
 
-* [셋째 주] Select Object 기반 구현
-  * 목표 : Select Object 기반 구현 완료
+* [셋째 주] Phase 안정화, Install Shield 프로젝트 설계 및 스크립트 작성
+  * 목표 : Phase 안정화 및 인터페이스 분리, Install Shield
 
-* [넷째 주] Phase Select, WorksTree Node Select 구현
-  * 목표 : Phase Select, WorksTree Node Select 구현 완료
+* [넷째 주] Phase Select, Install Shield 프로젝트 설계 및 스크립트 작성
+  * 목표 : Phase 안정화 및 인터페이스 분리, Install Shield
 
 
 ## :heavy_check_mark:
