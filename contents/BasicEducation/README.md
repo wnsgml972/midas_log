@@ -41,6 +41,7 @@
 * [빌드 속도 개선](/contents/BasicEducation/Build.md)
 * [Windows 응용 프로그램 파일 관리](/contents/BasicEducation/application_manage.md)
 * [Book](/contents/BasicEducation/Book.md)
+* [Archive](/contents/BasicEducation/Archive.md)
 
 ### Programming Math
 * [Programming Math](/contents/BasicEducation/Math.md)
@@ -135,7 +136,7 @@ Work | Name
 * CIM 기반 FrameWork
 
 ### Alice UI
-* Confluence 참고 (내가 정리)
+* Confluence 참고 (기존 자료 참고)
 * CIM 기반 UI 엔진
 
 ### CAD
