@@ -50,6 +50,10 @@
 <br/><br/>
 
 ## 남은 것
+### Study OpenSource Reference (보고 많이 배울 것)
+* [cubrid](http://www.cubrid.com/cubrid) : 설명 진짜 잘 나와 있음!
+* [altibase](http://kr.altibase.com/product/)
+
 ### DB Core Code Quality (Code Level Micro Tuning)
    1) MDataPool
 ~~~
