@@ -397,11 +397,34 @@
 * [셋째 주] Phase 안정화, Install Shield 프로젝트 설계 및 스크립트 작성
   * 목표 : Phase 안정화 및 인터페이스 분리, Install Shield
 
-* [넷째 주] Phase Select, Install Shield 프로젝트 설계 및 스크립트 작성
+* [넷째 주] Phase 안정화, Install Shield 프로젝트 설계 및 스크립트 작성
   * 목표 : Phase 안정화 및 인터페이스 분리, Install Shield
 
 
 ## :heavy_check_mark:
 * &nbsp; [2020년 02월](/contents/2020.02/02.md)
+
+---
+
+
+
+
+## 2020.03
+:memo:
+* [첫째 주] DB Core Type Object, GTest 연구 및 공유
+  * 목표 : DB Core Type Object, GTest 구현
+
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
+  * 목표 : 
+
+
+## :heavy_check_mark:
+* &nbsp; [2020년 03월](/contents/2020.03/03.md)
 
 ---
