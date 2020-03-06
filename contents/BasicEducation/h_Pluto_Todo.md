@@ -4,6 +4,10 @@
 > Dev Log, 크게 5가지로 구성<br/>
  Core Engine 개발로서 사실 상 어떠한 부분도 작은 영역의 개발은 아님, 조그마한 코드를 변경해도 막대한 책임이 따름, 확실한 검증 방법을 거쳐야만 할 것을 명심할 것 (__Test에 많은 시간을 쏟아야 함__)
 
+
+
+> mit_core와 mit_db 2개만 가지고 database를 형성할 수 있도록 확실히 모듈화 해보자
+
 ## 개발한 것
 ### DB Core Code Quality (Code Level Micro Tuning)
    1) Migrate to modern cpp 17
@@ -22,13 +26,17 @@
    3) DB Table IO Util API Class
    4) MIterator Util API Class
    5) Refactor MHashContainer 및 Hash Macro
+   6) MStruct (Base Struct)
+   7) DB Session(Storage) Layering (mit, mdk, cim layer), (interface, base, project, partial) : Child Callback is Used UI in Upper Layer
 
 ### Software Architecture (Critical Decision)
-   1) MQuery Class 기반 (for MIDAS Bash)
+   1) MQueryControler API (for MIDAS Bash 기반)
    2) Inheritance Table
    3) `MHistory Class ~ing`
-   4) `MQuery Class ~ing`
+   4) `MQueryParser ~ing`
    5) `MFile IO API Util Class ~ing`
+   6) `Third-Party DB System Compatibility ~ing`
+   7) MTableTypeObject
 
 ### DB Core Validation
    1) DB Table Type Match
@@ -43,9 +51,13 @@
 ### DB Core Usability Enhancement
    1) Provide many convenient APIs
    2) Documentation (Architecture, `Philosophy`, API Document, Study History)
-   3) Table Type Wrapper class
+   3) Declare Table Type API
    4) Presentation & Education
    5) `MIDAS DB Wizard ~ing`
+   6) DB Session Factory
+   7) DB Session Manager
+   8) DB Session Monitor
+   9) Unit Ctrl Interface API
 
 <br/><br/>
 
@@ -80,8 +92,7 @@ Hash Performance 검증
 3배 이하의 변수 충돌 검증
 2진수 근접 검증
 ~~~
-   2) Mstruct
-   3) Util Class Doc Safe
+   2) Util Class Doc Safe
 
 
 
@@ -92,7 +103,7 @@ Hash Performance 검증
 ~~~
 Transaction 전후 비교 bash 보여주는 함수
 ~~~
-   2) Third-Party DB System Compatibility
+   2) Third-Party DB System Compatibility ~ing
 ~~~
 다른 DB System과 상호작용 하는 모듈 레이어링이 필요(현재는 Parasolid와 결합성 제거가 필요)
 ~~~
@@ -146,7 +157,8 @@ https://boycoding.tistory.com/156
 ~~~
    3) Core DB : RegDataPool 순서 오류 시 나타나는 휴먼 에러 잡기
    4) DB Reflection : Compile Time Human Error Checker
-   5) Implement DB Core Regression Code ~ing
+      - Struct Standard Layout Compile Time Checker
+   5) Implement DB Core Regression Code ~ing   
 
 ### DB Core Usability Enhancement
    1) Provide many convenient APIs
@@ -154,9 +166,8 @@ https://boycoding.tistory.com/156
 ~~~
 DB Reflection 참고할만한 자료 : https://github.com/veselink1/refl-cpp
 ~~~
-   3) Table Type Wrapper class 적용
-   4) Presentation & Education
-   5) `MIDAS DB Wizard ~ing`
+   3) Presentation & Education
+   4) `MIDAS DB Wizard ~ing`
 ~~~
 Def나 DPool 생성 시 자동 소스 생성 (MIDAS DB 마법사)
 ~~~
