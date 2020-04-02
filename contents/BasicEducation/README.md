@@ -60,12 +60,17 @@
 ### Commit Message Rule
 * [Commit Message Rule](/contents/BasicEducation/commit.md)
 
+### QA
+* [QA](/contents/BasicEducation/QA.md)
+
 ### Code Quality
 * [Code Quality](/contents/BasicEducation/CodeQuality.md)
 
 ### Memory / Storage
 * [Memory Debug](/contents/BasicEducation/HighMemoryDebug.md)
 
+### 응용프로그램 관리
+* [Application Manage](/contents/BasicEducation/ApplicationManage.md)
 
 
 <br/>
@@ -142,9 +147,3 @@ Work | Name
 ### CAD
 * [CAD Note](/contents/BasicEducation/cad.md)
 * `Parasolid` : 다른 회사 3D CAD 엔진
-
-### Test
-* 구글의 gtest 사용, 구조가 너무 잘 되있음, 우리는 테스트 코드만 잘 짜면 됨
-* Unit Test도 끊임없는 리팩토링이 필요!
-* **Test Code는 실제 코드만큼 중요하다.**
-
