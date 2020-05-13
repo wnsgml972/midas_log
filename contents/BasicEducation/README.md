@@ -87,14 +87,14 @@
 ### Project Management
 Work | Name 
 ---------|----------
- Version Control | [Git](/contents/BasicEducation/Git.md)
- Communication Tool | [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) : Linked GitLab
- CI/CD | GitLab
- Issue Tracking, Planning | [Jira](/contents/BasicEducation/Jira.md)
- Docs Cooperation | [Confluence](/contents/BasicEducation/Confluence.md)
- Static Analysis | Cpp Check, [Log](/contents/BasicEducation/CodeQuality.md)
- Unit Test | [Google Test](https://github.com/google/googletest)
- Code Review | Gerrit, [Log](/contents/BasicEducation/CodeReview.md)
+Version Control | [Git](/contents/BasicEducation/Git.md)
+Communication Tool | [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) : Linked GitLab
+CI/CD | GitLab
+Issue Tracking, Planning | [Jira](/contents/BasicEducation/Jira.md)
+Docs Cooperation | [Confluence](/contents/BasicEducation/Confluence.md)
+Static Analysis | Cpp Check, [Log](/contents/BasicEducation/CodeQuality.md)
+Unit Test | [Google Test](https://github.com/google/googletest)
+Code Review | Gerrit, [Log](/contents/BasicEducation/CodeReview.md)
 
 
 <br/>
