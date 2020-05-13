@@ -66,6 +66,9 @@
 ### Code Quality
 * [Code Quality](/contents/BasicEducation/CodeQuality.md)
 
+### Code Review
+* [Code Review](/contents/BasicEducation/CodeReview.md)
+
 ### Memory / Storage
 * [Memory Debug](/contents/BasicEducation/HighMemoryDebug.md)
 
