@@ -58,7 +58,7 @@
 * [Naming](/contents/BasicEducation/Naming.md)
 
 ### Commit Message Rule
-* [Commit Message Rule](/contents/BasicEducation/commit.md)
+* [Commit Message Rule](/contents/BasicEducation/commit.md)c
 
 ### QA
 * [QA](/contents/BasicEducation/QA.md)
