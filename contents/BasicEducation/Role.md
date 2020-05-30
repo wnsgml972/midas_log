@@ -1,6 +1,8 @@
 
 # The long and short of it
-Research and Development of In Memory Database(Pluto) and UI Framework(Phase, Alice UI), a dedicated engine within the company
+Research and Development of In Memory Database(Pluto) and Application Framework(Phase), a dedicated engine within the company
+
+사내 전용 엔진 인 In Memory Database (Pluto) 및 Application Framework (Phase) 연구 개발
 
 <hr/>
 
