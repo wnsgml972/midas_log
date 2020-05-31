@@ -96,6 +96,11 @@ Static Analysis | Cpp Check, [Log](/contents/BasicEducation/CodeQuality.md)
 Unit Test | [Google Test](https://github.com/google/googletest)
 Code Review | Gerrit, [Log](/contents/BasicEducation/CodeReview.md)
 
+### 비개발자를 위한 기본적인 소스 관리 툴 사용하기
+* [Markdown](https://wnsgml972.github.io/test/markdown-example/)
+* [VS Code](https://wnsgml972.github.io/setting/2018/11/09/setting_vscodeset/)
+* [Source Tree](https://www.sourcetreeapp.com/)
+* [Git](https://git-scm.com/downloads)
 
 <br/>
 
