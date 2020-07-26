@@ -1,6 +1,6 @@
 {
     "no-inline-html" : {
-        "allowed_elements": ["br", "pre", "code", "p", "img"]
+        "allowed_elements": ["br", "pre", "code", "p", "img", "iframe"]
     },
     "no-multiple-blanks" : false,
     "no-duplicate-header" : {
@@ -8,5 +8,7 @@
     },
     "line-length": false,
     "no-trailing-punctuation": false,
-    "ul-style": false
+    "no-emphasis-as-heading":false, "no-emphasis-as-header":false,
+    "ul-style": false,
+    "single-title": false
 }
