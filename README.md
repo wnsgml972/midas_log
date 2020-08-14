@@ -1,12 +1,15 @@
 # MIDAS LOG
 
 ## Basic Education
+
 * [Basic Education](/contents/BasicEducation/README.md)
 
 ## Archive (Always Keep in Mind)
+
 * [Archive](/contents/BasicEducation/Archive.md)
 
 ## Open Source
+
 * [Open Source](/contents/BasicEducation/OpenSource.md)
 
 
@@ -18,7 +21,9 @@
 # 월 별 기록
 
 ## 2018.09
+
 :memo:
+
 * [첫째 주] 적응, C++ 공부, MFC 공부
   * 목표 : MFC 전화번호부 구현, 마챌 때 했던 것 ( 자바 -> C++ ) 재구현
 
@@ -32,13 +37,16 @@
   * 목표 : 기능 하나 구현해보기
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2018년 09월](/contents/2018.09/09.md)
 
 <br/>
 
 ## 2018.10
+
 :memo:
+
 * [첫째 주] CIM 업무 공부
   * 목표 : 기능 하나 구현해보기
 
@@ -52,13 +60,16 @@
   * 목표 : 보완해야 할 문제 해결
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2018년 10월](/contents/2018.10/10.md)
 
 <br/>
 
 ## 2018.11
+
 :memo:
+
 * [첫째 주] IFC Import 기반 기술 확보, C++ 17 문법 공부
   * 목표 : 자료 정리 완료
 
@@ -72,13 +83,16 @@
   * 목표 : 제품 출시까지 기능 확인, 리팩토링
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2018년 11월](/contents/2018.11/11.md)
 
 ---
 
 ## 2018.12
+
 :memo:
+
 * [첫째 주] IFC Import 2D and Rebar
   * 목표 : 구현 완료
 
@@ -92,13 +106,17 @@
   * 목표 : 사용자 제공까지 검증 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2018년 12월](/contents/2018.12/12.md)
 
 ---
 
+
 ## 2019.01
+
 :memo:
+
 * [첫째 주] Phase 프레임 워크 분석 및 문서화 (조금씩 인계 받기)
   * 목표 : 하나 씩 문서화
 
@@ -112,14 +130,18 @@
   * 목표 : 수료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 01월](/contents/2019.01/01.md)
 
 ---
 
 
+
 ## 2019.02
+
 :memo:
+
 * [첫째 주] 하반기 목표 설정
   * 목표 : 목표 설정 완료
 
@@ -133,7 +155,8 @@
   * 목표 : 프로토타입 구현 
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 02월](/contents/2019.02/02.md)
 
 ---
@@ -141,7 +164,9 @@
 
 
 ## 2019.03
+
 :memo:
+
 * [첫째 주] Analysis Line
   * 목표 : 프로토타입 구현
 
@@ -155,7 +180,8 @@
   * 목표 : 문서화 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 03월](/contents/2019.03/03.md)
 
 ---
@@ -164,7 +190,9 @@
 
 
 ## 2019.04
+
 :memo:
+
 * [첫째 주] LabelPhase & GuideWidget
   * 목표 : 분석 및 문서화 완료 | LabelPhase 위젯 구현 완료
 
@@ -178,7 +206,8 @@
   * 목표 : 분석 및 문서화 완료 | LabelPhase 이벤트 및 DB 구현
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 04월](/contents/2019.04/04.md)
 
 ---
@@ -187,7 +216,9 @@
 
 
 ## 2019.05
+
 :memo:
+
 * [첫째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
@@ -201,7 +232,8 @@
   * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 05월](/contents/2019.05/05.md)
 
 ---
@@ -209,7 +241,9 @@
 
 
 ## 2019.06
+
 :memo:
+
 * [첫째 주] LabelPhase & GuideWidget
   * 목표 : 구현 완료 | LabelPhase 이벤트 및 DB 구현
 
@@ -223,7 +257,8 @@
   * 목표 : Label 1차 검증
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 06월](/contents/2019.06/06.md)
 
 ---
@@ -231,7 +266,9 @@
 
 
 ## 2019.07
+
 :memo:
+
 * [첫째 주] LabelPhase & GuideWidget
   * 목표 : Label 1차 검증
 
@@ -245,7 +282,8 @@
   * 목표 : QA LabelPhase | Phase 문서화
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 07월](/contents/2019.07/07.md)
 
 ---
@@ -253,7 +291,9 @@
 
 
 ## 2019.08
+
 :memo:
+
 * [첫째 주] Phase | MIDAS Database
   * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
 
@@ -267,7 +307,8 @@
   * 목표 : Phase JSon Loader | Phase History | MIDAS Database 문서 추가
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 08월](/contents/2019.08/08.md)
 
 ---
@@ -275,21 +316,24 @@
 
 
 ## 2019.09
+
 :memo:
+
 * [첫째 주] Core History | LabelPhase Validation by Wizard(10 Release)
   * 목표 : Core History 기반 구축 완료 | LabelPhase Wizard 사용 검증 완료
 
 * [둘째 주] Core History | LabelPhase Validation by Wizard(10 Release)
-  * 목표 : 
+  * 목표 : Core History 기반 구축 완료 | LabelPhase Wizard 사용 검증 완료
 
 * [셋째 주] Core History | LabelPhase Validation by Wizard(10 Release)
-  * 목표 : 
+  * 목표 : Core History 기반 구축 완료 | LabelPhase Wizard 사용 검증 완료
 
 * [넷째 주] Core History | LabelPhase Validation by Wizard(10 Release)
-  * 목표 : 
+  * 목표 : Core History 기반 구축 완료 | LabelPhase Wizard 사용 검증 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 09월](/contents/2019.09/09.md)
 
 ---
@@ -297,7 +341,9 @@
 
 
 ## 2019.10
+
 :memo:
+
 * [첫째 주] LabelPhase Performance
   * 목표 : LabelPhase Performance 개선
 
@@ -311,7 +357,8 @@
   * 목표 : 출시
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 10월](/contents/2019.10/10.md)
 
 ---
@@ -319,7 +366,9 @@
 
 
 ## 2019.11
+
 :memo:
+
 * [첫째 주] 출시하느라 밀렸던 문서들 작성
   * 목표 : 문서 작성 완료
 
@@ -333,7 +382,8 @@
   * 목표 : 리팩토링 완료, 교육 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 11월](/contents/2019.11/11.md)
 
 ---
@@ -341,7 +391,9 @@
 
 
 ## 2019.12
+
 :memo:
+
 * [첫째 주] DB Core 대규모 리팩토링
   * 목표 : 리팩토링 완료
 
@@ -355,7 +407,8 @@
   * 목표 : 하반기 회고 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2019년 12월](/contents/2019.12/12.md)
 
 ---
@@ -364,7 +417,9 @@
 
 
 ## 2020.01
+
 :memo:
+
 * [첫째 주] 2019 회고록 준비(MIDAS 내에서의)
   * 목표 : 2019 회고록 완료(MIDAS 내에서의)
 
@@ -378,7 +433,8 @@
   * 목표 : 구현 완료
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2020년 01월](/contents/2020.01/01.md)
 
 ---
@@ -387,7 +443,9 @@
 
 
 ## 2020.02
+
 :memo:
+
 * [첫째 주] Phase 안정화
   * 목표 : Phase 안정화
 
@@ -401,7 +459,8 @@
   * 목표 : Phase 안정화 및 인터페이스 분리, Install Shield
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2020년 02월](/contents/2020.02/02.md)
 
 ---
@@ -410,7 +469,9 @@
 
 
 ## 2020.03
+
 :memo:
+
 * [첫째 주] DB Core Type Object, GTest 연구 및 공유
   * 목표 : DB Core Type Object, GTest 구현
 
@@ -424,7 +485,8 @@
   * 목표 : 
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2020년 03월](/contents/2020.03/03.md)
 
 ---
@@ -433,7 +495,9 @@
 
 
 ## 2020.04
+
 :memo:
+
 * [첫째 주] 
   * 목표 : 
 
@@ -447,7 +511,8 @@
   * 목표 : 
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2020년 04월](/contents/2020.04/04.md)
 
 ---
@@ -456,7 +521,9 @@
 
 
 ## 2020.05
+
 :memo:
+
 * [첫째 주] 
   * 목표 : 
 
@@ -470,7 +537,87 @@
   * 목표 : 
 
 
-## :heavy_check_mark:
+### :heavy_check_mark:
+
 * &nbsp; [2020년 05월](/contents/2020.05/05.md)
 
 ---
+
+
+
+
+## 2020.06
+
+:memo:
+
+* [첫째 주] 
+  * 목표 : 
+
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
+  * 목표 : 
+
+
+### :heavy_check_mark:
+
+* &nbsp; [2020년 06월](/contents/2020.06/06.md)
+
+---
+
+
+
+
+## 2020.07
+
+:memo:
+
+* [첫째 주] 
+  * 목표 : 
+
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
+  * 목표 : 
+
+
+### :heavy_check_mark:
+
+* &nbsp; [2020년 07월](/contents/2020.07/07.md)
+
+---
+
+
+
+
+## 2020.08
+
+:memo:
+
+* [첫째 주] 
+  * 목표 : 
+
+* [둘째 주] 
+  * 목표 : 
+
+* [셋째 주] 
+  * 목표 : 
+
+* [넷째 주] 
+  * 목표 : 
+
+
+### :heavy_check_mark:
+
+* &nbsp; [2020년 08월](/contents/2020.08/08.md)
+
+---
+
