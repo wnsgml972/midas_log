@@ -1,10 +1,13 @@
 ## go home! [:house_with_garden:](https://github.com/wnsgml972/midas_log)
 
-<br/><hr/>
+<br/>
+
+---
 
 # Commit Message Rule
 
 ## 2020.01 유명 오픈소스 Commit Message 분석
+
 * <https://tagilog.tistory.com/588?fbclid=IwAR09GSaZgFW1vmJjxSJ8OPXVHdVRpfaWlKnzW_NkCG7uzEnFkVieIDQhb3Y>
 
 ## 왜 좋게 작성해야 할까?
@@ -35,7 +38,7 @@
 
 `If applied, this commit will {제목}`
 
-~~~
+~~~markdown
 Refactor subsystem X for readability
 Test company class and its public methods
 Update getting started documentation
@@ -51,7 +54,7 @@ Merge pull request #123 from user/branch
 * fix는 hotfix Issue
 * resolve는 문의나 요청 사항에 대한 Issue
 
-~~~
+~~~markdown
 close #1336
 fix #1336
 resolve #1336
@@ -61,7 +64,7 @@ resolve #1336
 
 * ref를 걸어 Issue에 알림을 넣을 수 있다.
 
-~~~
+~~~markdown
 ref #1476
 ~~~
 
@@ -75,7 +78,7 @@ ref #1476
 
 ### Structure
 
-~~~
+~~~markdown
 Type : Title
 
 Body
@@ -84,6 +87,7 @@ Footer
 ~~~
 
 ### Commit Type
+
 * `feat` : 새로운 기능 추가
 * `remove` : 기능 삭제
 * `release` : 제품 출시
@@ -95,10 +99,11 @@ Footer
 * `chore` : 빌드 업무 수정, 패키지 매니저 수정
 
 ### Title
+
 * 명령문으로 작성한다.
 * 50자를 넘기지 않는다.
 
-~~~
+~~~markdown
 Refactor subsystem X for readability
 Test company class and its public methods
 Update getting started documentation
@@ -109,11 +114,13 @@ Merge pull request #123 from user/branch
 ~~~
 
 ### Body
+
 * 선택사항이기 때문에 모든 커밋에 본문내용을 작성할 필요는 없다.
 * 부연설명이 필요하거나 커밋의 이유를 설명할 경우 작성해준다.
 * 72자를 넘기지 않고, 제목과 구분되기 위해 한칸을 띄워 작성한다.
 
 ### Footer
+
 * 선택사항이기 때문에 모든 커밋에 꼬리말을 작성할 필요는 없다.
 * issue tracker id를 작성할 때 사용한다.
 
@@ -121,7 +128,7 @@ Merge pull request #123 from user/branch
 
 ### Example
 
-~~~
+~~~markdown
 feat: Summarize changes in around 50 characters or less
 
 More detailed explanatory text, if necessary. Wrap it to about 72

@@ -5,7 +5,7 @@
 
 ## 정적 코드 분석
 
-정적 코드 분석 과정은 개발자가 눈으로 코드를 따라가면서 코드의 결함을 찾는 것과 유사하다. 다만 코드 분석기는 개발자보다 꼼꼼하고, 휴리스틱하다. 
+정적 코드 분석 과정은 개발자가 눈으로 코드를 따라가면서 코드의 결함을 찾는 것과 유사하다. 다만 코드 분석기는 개발자보다 꼼꼼하고, 휴리스틱하다.
 
 
 ### 소나큐브나, Git Lab 유료 버전을 이용한 코드 정적분석 자동화
@@ -39,9 +39,11 @@
 <br/>
 
 ## 2 (1). 직접 코드 분석 돌리기
+
 * `분석 -> 코드 분석`을 통해 코드 분석을 실행
 
 ## 2 (2) 빌드시마다 정적 코드 분석하기
+
 * `프로젝트 속성 -> 코드 분석 -> 빌드에 코드 분석 사용 (체크) -> 원하는 코드 분석 규칙 집합 선택`을 이용하면 빌드시에도 코드 분석을 할 수 있다.
 * Cpp Core Check라는 규칙으로도 Ckeck 가능
 * 근데 뭔가 잘 안되는 듯...?  ->  규칙을 한 3가지 넣고 빌드해봤는데, 안 걸렸음 규칙이 부족한 건지, 모두 적합했는지는 확인 안 해봄
@@ -72,10 +74,12 @@
 > 시스템 단의 예외도 체크 방식으로 걸리게 만들 수 있다.
 
 ### 사용환경
-가끔 프로그램이 갑자기 어떠한 경고창도 없이 출력창에 메시지만 남기고 죽어버리는 경우가 있다. 
+
+가끔 프로그램이 갑자기 어떠한 경고창도 없이 출력창에 메시지만 남기고 죽어버리는 경우가 있다.
 그럴 때 해당 기능을 사용하여 원하는 예외처리 범위를 늘려 예외를 관리한다.<br/>
 
 ### Microsoft Docs
+
 * <https://docs.microsoft.com/ko-kr/visualstudio/debugger/managing-exceptions-with-the-debugger?view=vs-2019>
 
 같은 것들은 기본적으로 익혀두도록 한다.
@@ -88,12 +92,15 @@
 > 일반적으로 모든 정보를 표시하는 디버거를 원하는 모양으로 볼 수 있게 시각화 할 수 있다.
 
 ### 사용환경
+
 일반적으로 나오는 디버그 모드의 자동이나 조사식 등의 정보들이 너무 복잡하게 형성되어 있을 수 있다. 허나 어떤 특정 UI의 Root 같은 경우, 아니면 Java의 Object 같은 객체는 일반적으로 사용자가 보고 싶은 형태로 디버거 변수들을 시각화 할 수 있다.
 
 ### Boost 라이브러리를 통한 예제
+
 * <https://www.kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=5&dbnum=188505&mode=detail&type=techreport>
 
 ### Microsoft Docs
+
 * <https://docs.microsoft.com/ko-kr/visualstudio/debugger/create-custom-views-of-native-objects?view=vs-2019>
 
 
@@ -102,25 +109,31 @@
 ## 10. 그 외 여러가지
 
 ### 자동
+
 * 자동 적으로 변수 표시
 * 함수의 반환 값 표시
 
 ### 로컬
+
 * 해당 지역 변수 내 디버깅 가능
 
 ### 조사식
+
 * this
 * 주솟값을 직접 조사식에 입력하여 한 변수 계속 추적
 
 ### 여러가지 중단 팁
+
 * 중단 조건에 예외 추가하기
 * 데이터 중단점으로 주솟값을 이용하여 해당 변수 변경하면 중단하기 설정
 * 데이터 중단점으로 마우스 우클릭하여 -> 해당 값 바뀌면 중단하기 설정
 
 ### 예외 설정에서 전체 예외 그냥 이것저것 다 걸리게 해놓고 돌리기
+
 * 다시 원상태로 복구하기 버튼 있음!
 
 ### 호출 스택
+
 * 호출 스택 시각화 (엔터프라이즈만 되는 듯ㅠ) [link](https://docs.microsoft.com/ko-kr/visualstudio/debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio?view=vs-2019)
 
 
@@ -134,6 +147,7 @@
 > 편집기나 IDE에 관계없이 **일관된 코딩 스타일**을 유지할 수 있게 해준다.
 
 ### 지원되는 설정
+
 * indent_style
 * indent_size
 * tab_width
@@ -145,7 +159,7 @@
 
 ### 예시
 
-~~~
+~~~cpp
 # 소스 코드 일관성 편집툴
 # https://docs.microsoft.com/ko-kr/visualstudio/ide/create-portable-custom-editor-options
 #
@@ -175,6 +189,7 @@ indent_size = 4
 ~~~
 
 ### Reference
+
 * <https://docs.microsoft.com/ko-kr/visualstudio/ide/create-portable-custom-editor-options?view=vs-2017>
 
 
