@@ -1,5 +1,22 @@
 # MIDAS LOG
 
+## Total Dev Overview
+
+### Framework
+
+* IFC Interface ( Almost All )
+* DB Core, Interface ( Almost All )
+* Phase Core ( Almost All )
+* Phase Interface ( Simple Maintenance )
+* Alice UI Core ( Sensor Maintenance )
+* Alice UI Interface ( 3 Dimension View UI : Distance, Angle, Ellipse, 2D Face Point + 3D Point, PointDirection )
+
+### ETC
+
+* Product Release ( InstallShield + Hotfix )
+* Supportive Team Player : Code Quality( Unit Test, Code Review, CI/CD ), Document, Presentation, Onboarding
+
+
 ## Basic Education
 
 * [Basic Education](/contents/BasicEducation/README.md)
@@ -11,7 +28,6 @@
 ## Open Source
 
 * [Open Source](/contents/BasicEducation/OpenSource.md)
-
 
 
 ---
@@ -629,11 +645,11 @@
 
 :memo:
 
-* [첫째 주] 인수인계 및 각종 정리할 것 정리
-  * 목표 : 인수인계 및 각종 정리할 것 정리 완료
+* [첫째 주] 인수인계 및 회고록 작성
+  * 목표 : 인수인계 및 회고록 작성 완료
 
-* [둘째 주] 인수인계 및 각종 정리할 것 정리
-  * 목표 : 인수인계 및 각종 정리할 것 정리 완료
+* [둘째 주] 인수인계 및 회고록 작성
+  * 목표 : 인수인계 및 회고록 작성 완료
 
 ### :heavy_check_mark:
 
