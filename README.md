@@ -491,14 +491,14 @@
 * [첫째 주] DB Core Type Object, GTest 연구 및 공유
   * 목표 : DB Core Type Object, GTest 구현
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] DB Core Test Project 구현 (gtest 활용), DB Core 모듈 분리를 위한 리팩토링
+  * 목표 : DB Core Test Project 구현 (gtest 활용), DB Core 리팩토링 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] DB Core Test Project 구현 (gtest 활용), DB Core 모듈 분리를 위한 리팩토링, Phase Framework 총 관리자
+  * 목표 : DB Core Test Project 구현 (gtest 활용), DB Core 리팩토링 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] DB Core Test Project, Refactoring 머지전 공유 자료 만들기
+  * 목표 : 문서화 완료
 
 
 ### :heavy_check_mark:
@@ -514,17 +514,17 @@
 
 :memo:
 
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] DB Core 개편 머지
+  * 목표 : 머지 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] Phase Core 리팩토링 (기본적인 클래스, 코드 스타일, 예외 처리 방식 등 정리)
+  * 목표 : Phase Core 리팩토링 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] Phase Core 리팩토링 (기본적인 클래스, 코드 스타일, 예외 처리 방식 등 정리)
+  * 목표 : Phase Core 리팩토링 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] Phase Core 리팩토링 (기본적인 클래스, 코드 스타일, 예외 처리 방식 등 정리)
+  * 목표 : Phase Core 리팩토링 완료
 
 
 ### :heavy_check_mark:
@@ -540,17 +540,17 @@
 
 :memo:
 
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] Query Tracer 개발 (거의 완료)
+  * 목표 : 개발 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] 소프트웨어 품질 워크샵 진행
+  * 목표 : 자료 준비 & 발표 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] DB Core Container 리팩토링, Phase Bug Fix
+  * 목표 : 리팩토링 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] DB Core GUID 리팩토링, Phase Bug Fix
+  * 목표 : 리팩토링 완료
 
 
 ### :heavy_check_mark:
@@ -566,17 +566,17 @@
 
 :memo:
 
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] Phase, UI Interface Test 커버리지 확대
+  * 목표 : 필수적인 부분은 모두 작성 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] Phase, UI Interface Test 커버리지 확대, 지옥의 `Phase History` 안정화..
+  * 목표 : Phase History 안정화
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] Phase, UI Interface Test 커버리지 확대, 지옥의 `Phase History` 안정화..
+  * 목표 : Phase History 안정화
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] 머지 후 버그 대응
+  * 목표 : 안정화 완료
 
 
 ### :heavy_check_mark:
@@ -592,17 +592,17 @@
 
 :memo:
 
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] DB Core Transaction 관련 안정화 & 출시 대비 인스톨 준비
+  * 목표 : 안정화 및 출시 준비 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] DB Core Transaction 관련 안정화 & 출시 대비 인스톨 준비
+  * 목표 : 안정화 및 출시 준비 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] DB Core Transaction 관련 안정화 & 출시 대비 인스톨 준비
+  * 목표 : 안정화 및 출시 준비 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] DB Core Transaction 관련 안정화 & 출시 대비 인스톨 준비
+  * 목표 : 안정화 및 출시 준비 완료
 
 
 ### :heavy_check_mark:
@@ -618,17 +618,17 @@
 
 :memo:
 
-* [첫째 주] 
-  * 목표 : 
+* [첫째 주] DB Core 최종 모듈 분리 완료(Windows 표준 + Linux Cross Platform 기반)
+  * 목표 : 모듈 분리 완료
 
-* [둘째 주] 
-  * 목표 : 
+* [둘째 주] DB Core / Phase Framework 인수 인계 및 각종 디버깅 대응
+  * 목표 : 인수 인계 완료
 
-* [셋째 주] 
-  * 목표 : 
+* [셋째 주] DB Core / Phase Framework 인수 인계 및 각종 디버깅 대응
+  * 목표 : 인수 인계 완료
 
-* [넷째 주] 
-  * 목표 : 
+* [넷째 주] DB Core / Phase Framework 인수 인계 및 각종 디버깅 대응
+  * 목표 : 인수 인계 완료
 
 
 ### :heavy_check_mark:
